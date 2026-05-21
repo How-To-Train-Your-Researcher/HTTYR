@@ -1,0 +1,90 @@
+---
+title: "Omniscient Reader's Viewpoint (ORV)"
+subtitle: " Advice for reading AI research papers and academic articles"
+author: "Yuriel Ryan"
+date: last-modified
+---
+
+## Introduction
+
+Reading research papers is a skill --- it takes deliberate practice and good
+habits. This guide compiles advice from graduate students and professors on
+how to approach AI research papers and academic articles efficiently and critically.
+
+::: {.callout-note}
+This isn't a page that tells you "how to read a research paper". It's more of a "you can try these tips because it has worked for us" kind of page. Learning *when* to skim and
+*when* to read deeply is part of the skill which you should apply to this page as well!
+:::
+
+---
+
+## Before You Read
+
+- **Know why you are reading.** Are you looking for related work, a specific
+  method, or a broad survey of a field / problem (e.g., AI hallucinations)? Your goal determines how broad or deep you go.
+- **Check the venue.** NeurIPS, ICML, ICLR, CVPR, EMNLP — knowing the conference
+  gives you a sense of the paper's quality and focus area.
+- **Read the abstract twice.** Once to understand the claim; once to identify
+  what you should be looking for in the body.
+
+---
+
+## The Three-Pass Method
+
+To start you off, the "three-pass method" is a well-known technique to become more efficient in your reading (some folks also refer to this as literature review).
+
+### Pass 1 — The Bird's Eye View (5–10 min)
+
+Read: title, abstract, section headings, figures and captions, conclusion.
+
+**Goal:** Decide if the paper is worth a deeper read and form a rough hypothesis
+about what it does.
+
+### Pass 2 — Understanding the Contribution (30–60 min)
+
+Read the body carefully, skipping proofs and implementation details.
+Pay attention to figures, tables, and the experimental section.
+
+**Goal:** Understand *what* the paper claims and *how* it was evaluated.
+
+### Pass 3 — Critical Reconstruction (1–3 hours)
+
+Read everything, including appendices and referenced papers.
+Try to re-derive key results from scratch.
+
+**Goal:** Deeply understand and critically evaluate the work.
+
+---
+
+## Critical Questions to Ask
+
+- What is the core problem being solved?
+- What is the key insight or novelty?
+- What assumptions does the method rely on?
+- How strong is the experimental validation?
+- What are the limitations the authors acknowledge — and those they don't?
+
+---
+
+## Taking Notes
+
+> *(Tips on note-taking strategies — to be added by contributors.)*
+
+---
+
+## Tips from Graduate Students
+
+> *(Contributions welcome — share what has worked for you!)*
+
+---
+
+## Tips from Professors
+
+> *(Contributions welcome.)*
+
+---
+
+## Resources
+
+- [How To Train Your Researcher (HTTYR)](httyr.qmd) — EROP mentorship guide
+- [SSS Class Content Creator (3SC)](sss-content.qmd) — academic writing tips
