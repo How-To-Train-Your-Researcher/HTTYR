@@ -1,0 +1,9 @@
+---
+title: "How To Train Your Researcher"
+---
+
+```{=html}
+<meta http-equiv="refresh" content="0; URL=advice/httyr.html" />
+```
+
+[Click here if you are not redirected automatically.](advice/httyr.html)
