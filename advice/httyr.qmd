@@ -1,0 +1,67 @@
+---
+title: "How To Train Your Researcher (HTTYR)"
+subtitle: "EROP Playbook"
+authors: "EROP Team"
+date: last-modified
+---
+
+## Introduction
+
+This page is specific to the Early Research Opportunity Program (EROP) at SUTD.
+It walks mentors and students through the **"I Do, We Do, You Do"** teaching
+strategy — a scaffolded approach that progressively transfers responsibility from
+mentor to student.
+
+::: {.callout-note}
+These guides are living documents. They are meant to reduce friction, not to be
+treated as the definitive rulebook for doing research.
+:::
+
+---
+
+## The "I Do, We Do, You Do" Framework
+
+The framework breaks mentorship into three phases of decreasing mentor involvement
+and increasing student autonomy.
+
+### I Do — Modelling
+
+The mentor demonstrates the skill or process while thinking aloud.
+Students observe and ask questions.
+
+**Example:**
+> *The mentor reads an AI research paper aloud, narrating the decisions they make
+> as they skim the abstract, identify the key contribution, and assess
+> experimental validity.*
+
+### We Do — Guided Practice
+
+The mentor and student work through a task together.
+The student takes the lead; the mentor provides real-time prompts and feedback.
+
+**Example:**
+> *The student reads a new paper while the mentor asks guiding questions:
+> "What problem is this solving?", "What baseline did they compare against?",
+> "Would this method work in a different domain?"*
+
+### You Do — Independent Practice
+
+The student completes the task independently and presents their work.
+The mentor reviews and gives structured feedback afterward.
+
+**Example:**
+> *The student independently reads and summarises three papers from a reading list,
+> then presents a brief synthesis to the mentor in the next meeting.*
+
+---
+
+## Lesson Objectives
+
+> *(To be filled in by EROP team.)*
+
+---
+
+## Resources
+
+- [Omniscient Reader's Viewpoint (ORV)](orv.qmd) — tips on reading research papers
+- [SSS Class Content Creator (3SC)](sss-content.qmd) — tips on academic writing
