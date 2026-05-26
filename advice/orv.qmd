@@ -91,3 +91,4 @@ Part of my research journey was figuring out which conferences are considered "r
 
 - [How To Train Your Researcher (HTTYR)](httyr.qmd) — EROP mentorship guide
 - [SSS Class Content Creator (3SC)](sss-content.qmd) — academic writing tips
+- Testing an edit
