@@ -19,3 +19,13 @@ Diagramming style heavily depends on the venue that you try to publish at. For e
 4. Do not waste time and space explaining standard components (e.g. softmax, binary cross-entropy). Reviewers are experienced and already know this stuff.
 
 5. Using visual language can be helpful (for example, your can use green to denote positive model behaviour and red for undesirable model behaviour)
+
+# Types of diagrams
+The type of diagram usually is tied to the type of contribution it is representing. Broadly speaking, diagrams usually fall under one of these types
+(is there really a point to this since technically there are as many types of diagrams as there are contributions?)
+1. Dataset creation pipeline
+2. New model architecture
+3. New loss function or training objective diagram
+4. New task formulation diagram
+5. 
+
