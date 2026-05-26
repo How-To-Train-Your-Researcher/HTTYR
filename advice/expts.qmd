@@ -1,0 +1,27 @@
+---
+title: "?"
+subtitle: " Advice for designing useful experiments"
+---
+
+# Introduction
+Experiments are literally the building blocks of research. In each weekly or daily iteration, you will normally run experiments to test whether you idea works, understand why your idea succeeds or fails, or decide what you want to explore next.
+
+Negative experimental results that challenge your hypothesis are not inherently bad, and are not a reflection of your ability as a researcher. A negative result just tells you that your idea does not behave as expected. If your experiment has a good design, you will be able to narrow down what beliefs are true, what beliefs are false, and what you should investigate next.
+
+Every experiment, or set of experiments that you run, should answer a question that you have.
+
+# How to plan a useful experiment
+1. Define what are you trying to do (e.g. hyperparameter tuning, finding out the effect of some new submodule you designed)
+2. Define your baseline/control (configuration you compare with to isolate the effect of your change)
+3. Define what variables you are going to change, and what values are you going to set these variables
+4. Define what metrics or qualitative examples that will help you answer your question. For example: Performance metrics lik F1, qualitative visualisations like Grad-CAM that explain model predictions
+5. Describe the results you expect to see, and what you do not expect to see
+6. After viewing the results of your experiment, figure out the list of facts that you can conclude from the experiment.
+7. Interpret your results to extract some insights, and then you can make an action plan based on your insights
+
+# Experiment Hygiene
+1. Do not change more than one variable at a time. This will make it diffciult for you to isolate the effect of each component you have changed
+2. Keep a clear baseline. Each experiment that you run should have a control setup that you are comparing to
+3. Record the exact configuration of your experiment. There will definitely be points in time where you want to reproduce a result that you got from some experiment and regret not recording said experiment configuration
+4. Failed experiments are important and you should record them too
+5. Facts are not the same as interpreptation. For example, if 
