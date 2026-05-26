@@ -24,4 +24,4 @@ Every experiment, or set of experiments that you run, should answer a question t
 2. Keep a clear baseline. Each experiment that you run should have a control setup that you are comparing to
 3. Record the exact configuration of your experiment. There will definitely be points in time where you want to reproduce a result that you got from some experiment and regret not recording said experiment configuration
 4. Failed experiments are important and you should record them too
-5. Facts are not the same as interpreptation. For example, if
+5. Facts are not the same as interpreptation. For example, you may observe that using component A instead of component B improves F1 score. This observation is a fact from the experiment. The interpretation is your explanation for why that fact may have occurred. For example, component A may help the model learn more generalisable features than component B.
