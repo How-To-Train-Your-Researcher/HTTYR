@@ -11,12 +11,12 @@ Negative experimental results that challenge your hypothesis are not inherently 
 Every experiment, or set of experiments that you run, should answer a question that you have.
 
 # How to plan a useful experiment
-1. Define what are you trying to do (e.g. hyperparameter tuning, finding out the effect of some new submodule you designed)
+1. Define what you are trying to do (e.g. hyperparameter tuning, finding out the effect of some new submodule you designed)
 2. Define your baseline/control (configuration you compare with to isolate the effect of your change)
-3. Define what variables you are going to change, and what values are you going to set these variables
-4. Define what metrics or qualitative examples that will help you answer your question. For example: Performance metrics lik F1, qualitative visualisations like Grad-CAM that explain model predictions
+3. Define what variables you are going to change, and what values are you going to set these variables to
+4. Define what metrics or qualitative examples will help you answer your question. For example: Performance metrics like F1, qualitative visualisations like Grad-CAM that explain model predictions
 5. Describe the results you expect to see, and what you do not expect to see
-6. After viewing the results of your experiment, figure out the list of facts that you can conclude from the experiment.
+6. After viewing the results of your experiment, list the facts that you can conclude from the experiment.
 7. Interpret your results to extract some insights, and then you can make an action plan based on your insights
 
 # Experiment Hygiene
@@ -24,4 +24,4 @@ Every experiment, or set of experiments that you run, should answer a question t
 2. Keep a clear baseline. Each experiment that you run should have a control setup that you are comparing to
 3. Record the exact configuration of your experiment. There will definitely be points in time where you want to reproduce a result that you got from some experiment and regret not recording said experiment configuration
 4. Failed experiments are important and you should record them too
-5. Facts are not the same as interpreptation. For example, if 
+5. Facts are not the same as interpreptation. For example, you observed that using module component A instead of module copmonent B improves F1. The interpretation is your explaination for the fact that you just observed. For example, module component A is able to learn more generalisable features than module component B.
