@@ -1,5 +1,5 @@
 ---
-title: "Omniscient Reader's Viewpoint (ORV)"
+title: "Reading Advice"
 subtitle: " Advice for reading AI research papers and academic articles"
 author: "Yuriel Ryan"
 date: last-modified
@@ -89,6 +89,6 @@ Part of my research journey was figuring out which conferences are considered "r
 
 # Resources
 
-- [How To Train Your Researcher (HTTYR)](httyr.qmd) — EROP mentorship guide
-- [SSS Class Content Creator (3SC)](sss-content.qmd) — academic writing tips
+- [How To Train Your Researcher (HTTYR)](../index.qmd) — EROP mentorship guide
+- [Writing Advice](writing_advice.qmd) — academic writing tips
 - Testing an edit

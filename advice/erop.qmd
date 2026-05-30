@@ -1,0 +1,89 @@
+---
+title: "EROP Playbook"
+authors: "Yuriel Ryan"
+date: last-modified
+---
+# Introduction
+Welcome to SYAI Labs. This page is the official curriculum of the Early Research Opportunity Program (EROP) organized by the [Singapore Youth AI](https://sgyouthai.org/), supported by [AI Singapore](https://aisingapore.org/). 
+
+In this page, we provide examples for the learning objectives in this program (see the provided lesson plan). There will be positive and negative examples, as well as specific instances following the ["I do, We do, You do"](#erop-mentoring-strategy) paradigm. If there are any points/ideas that you are unsure about, do approach your assigned mentors during the program!
+
+---
+
+# Day 1: Introduction
+TBA
+
+### Problem Statements
+TBA
+
+---
+
+# Day 2: Literature Review
+TBA
+
+---
+
+# Day 3: Verify & Evaluate Sources
+TBA
+
+
+---
+
+# Day 4: Proposal
+TBA
+
+
+---
+
+# Day 5: Presentation
+TBA
+
+
+---
+
+# EROP Mentoring Strategy
+
+One key outcome we hope to see from this site is to help budding AI researchers become more independent in their work. While we provide materials (for [writing](writing_advice.qmd) or [reading](reading_advice.qmd) academic papers) to help them get started, we also try to incorporate a form of *knowledge distillation* in the EROP from more experienced researchers (grad students). Much of academia rely on mentorships --- either from more senior PhD students in a research group, or directly from professors (PIs). In documenting the mentoring strategy, we hope that the mentors too could benefit from this program!
+
+## Overview
+
+![Overview of the teaching model. Image from: https://www.structural-learning.com/post/i-do-we-do-you-do](/attachments/overview.png)
+
+
+### I Do — The mentors demonstrate
+
+The mentor demonstrates the skill or process while thinking aloud. Students observe and note down questions that they might have.
+
+**Example:**
+> *The mentor reads an AI research paper aloud, narrating the decisions they make
+> as they skim the abstract, identify the key contribution, and assess
+> experimental validity.*
+
+The main objective here is to elucidate the mentor's thought process in the activity (e.g., reading papers, drawing diagrams, and drafting the proposal). After the initial demonstration, we encourage mentees to ask questions regarding *why* the mentor did xyz in that activity. The goal is to understand the approach, not to imitate.
+
+
+### We Do — Both mentors and mentees practice together
+
+The mentor and student work through a task together.
+The student takes the lead; the mentor provides real-time prompts and feedback.
+
+**Example:**
+> *The student reads a new paper while the mentor asks guiding questions:
+> "What problem is this solving?", "What baseline did they compare against?",
+> "Would this method work in a different domain?"*
+
+### You Do — The mentees practice independently
+
+The student completes the task independently and presents their work.
+The mentor reviews and gives structured feedback afterward.
+
+**Example:**
+> *The student independently reads and summarises three papers from a reading list,
+> then presents a brief synthesis to the mentor in the next meeting.*
+
+---
+
+## Resources
+
+- [Reading Advice](reading_advice.qmd) — advice on reading research papers
+- [Writing Advice](writing_advice.qmd) — advice on academic writing

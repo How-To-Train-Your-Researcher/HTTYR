@@ -8,12 +8,12 @@ website:
   description: "Open-source advice for entering AI research."
   navbar:
     left:
-      - href: advice/httyr.qmd
-        text: HTTYR
-      - href: advice/orv.qmd
-        text: ORV
-      - href: advice/sss-content.qmd
-        text: SSS
+      - href: advice/erop.qmd
+        text: EROP
+      - href: advice/reading_advice.qmd
+        text: Reading Advice
+      - href: advice/writing_advice.qmd
+        text: Writing Advice
   repo-url: https://github.com/How-To-Train-Your-Researcher/HTTYR
   repo-actions: [edit, issue]
 

@@ -1,9 +1,35 @@
 ---
-title: "How To Train Your Researcher"
+title: "How To Train Your Researcher (HTTYR)"
+authors: "Yuriel Ryan"
+date: last-modified
 ---
 
-```{=html}
-<meta http-equiv="refresh" content="0; URL=advice/httyr.html" />
-```
+# Introduction
 
-[Click here if you are not redirected automatically.](advice/httyr.html)
+Hello! This site was created by a group of graduate students and researchers from Singapore to collate practical (and hopefully helpful) advice to do AI/ML research. The intended audience of this "documentation" are high school (pre-university/college) students and first to second-year undergraduates. The goal is simply to reduce the amount of friction a budding researcher might encounter as they start out on this new venture.
+
+This is also the homepage for [SYAI Lab: Early Research Opportunity Program (EROP)](https://sgyouthai.org/programs#Labs) organized by [Singapore Youth AI](https://sgyouthai.org/) and supported by [AI Singapore](https://aisingapore.org/). It walks mentors and students through the **"I Do, We Do, You Do"** teaching (mentoring) strategy --- an approach that progressively help the mentees become independent researchers.
+
+::: {.callout-note}
+This page is maintained on a voluntary basis by a group of researchers. If you would like to contribute or raise an issue, kindly do so [here](https://github.com/How-To-Train-Your-Researcher/HTTYR)!
+:::
+
+---
+
+## Resources
+
+- [Reading Advice](advice/reading_advice.qmd) — advice on reading research papers
+- [Writing Advice](advice/writing_advice.qmd) — advice on academic writing
+- [EROP Playbook](advice/erop.qmd) — the Early Research Opportunity Program curriculum
+
+---
+
+## Contributors
+In no particular order, below lists the humans that that conjured this document into existence:
+
+- [Yuriel Ryan](https://yurielryan.github.io/)
+- [Nicole Oo](https://www.linkedin.com/in/nicole-oo-hy/)
+
+**Advisors**
+In no particular order, below lists the advisors that provided helpful guidance/insights for the aformentioned humans:
+

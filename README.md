@@ -10,11 +10,11 @@ A compilation of advice on how to do AI research (e.g., reading academic papers,
 
 ```
 ├── _quarto.yml               # site configuration (theme, navbar, bibliography)
-├── index.qmd                 # redirects to HTTYR guide
+├── index.qmd                 # HTTYR landing page
 ├── advice/
-│   ├── httyr.qmd             # How To Train Your Researcher — EROP playbook
-│   ├── orv.qmd               # Omniscient Reader's Viewpoint — how to read research papers
-│   └── sss-content.qmd       # SSS Class Content Creator — academic writing techniques
+│   ├── erop.qmd              # EROP Playbook — program curriculum and mentoring strategy
+│   ├── reading_advice.qmd    # Reading Advice — how to read research papers
+│   └── writing_advice.qmd    # Writing Advice — academic writing techniques
 ├── attachments/              # images and screenshots referenced in advice/*
 ├── references.bib            # shared BibTeX bibliography
 └── styles.css                # custom CSS overrides
@@ -40,10 +40,10 @@ Contributions are welcomed! The two advice most open to community inputs are:
 
 | File | What to add |
 |---|---|
-| `advice/orv.qmd` | Tips on reading AI research papers — personal strategies, useful questions to ask, tools you used.  |
-| `advice/sss-content.qmd` | Academic writing techniques — sentence patterns, signposting moves, hedging strategies etc. |
+| `advice/reading_advice.qmd` | Tips on reading AI research papers — personal strategies, useful questions to ask, tools you used.  |
+| `advice/writing_advice.qmd` | Academic writing techniques — sentence patterns, signposting moves, hedging strategies etc. |
 
-The `advice/httyr.qmd` file is maintained primarily by the EROP team.
+The `index.qmd` and `advice/erop.qmd` files are maintained primarily by the EROP team.
 
 ### Step-by-step
 

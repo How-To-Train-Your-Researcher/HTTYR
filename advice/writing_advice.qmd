@@ -1,0 +1,226 @@
+---
+title: "Writing Advice"
+subtitle: "Advice for clearer academic writing"
+authors: "Yuriel Ryan"
+date: last-modified
+---
+
+# Introduction
+
+Academic writing is built from small, repeatable techniques.
+This page is a collection of these techniques (collectively known as **writing advice**) that an aspiring research might find useful. We hope that the contents here would be useful for you (the aspiring researcher) in becoming more aware of these sentence/paragraph-level patterns and to use them effectively for structuring arguments, signal relationships between ideas, and guiding readers through your article.
+
+::: {.callout-note}
+These are techniques, not rules. Learn the pattern first, then develop your own voice around it.
+:::
+
+---
+
+# Writing as Thinking
+
+**TBA**.
+
+---
+
+# Punctuation
+
+Punctuation controls the rhythm and clarity of your sentences — think of it as musical notation for your prose. Each mark signals something different: a pause, a connection, a break, or an aside. Once you get a feel for what each one does, you stop thinking of punctuation as a set of rules and start using it intentionally.
+
+::: {.callout-tip}
+Read your sentence aloud and exaggerate the pauses. For me, I found the following to be quite a useful intuition. A natural full stop = period. A "but wait, there's more" pause = semicolon. A quick breath = comma.
+:::
+
+
+#### Introducing Ideas
+
+A colon signals that what follows fulfils the promise of the sentence before it — use it when you are setting something up.
+
+::: {.callout-note title="My Thought Process"}
+I use a colon when the first part of my sentence "promises" something and the second part delivers it. A useful test: does the sentence before the colon feel a little incomplete without what comes after? If yes, the colon fits. Something like "The results revealed one key finding: the proposed method consistently outperformed the baseline" — the first half sets up the expectation, the second half lands it. If the sentence already feels complete and the colon material feels like a bonus, I reconsider whether a colon is actually needed.
+:::
+
+| Pattern | Example |
+|---|---|
+| `A is B: C.` | "The advantage is clear: the proposed method converges faster." |
+| `A is the following: B, C, and D.` | "The model has three components: an encoder, a decoder, and an attention layer." |
+| `A is B: C is D.` | "The trade-off is familiar: accuracy improves, but runtime increases." |
+
+
+
+#### Combining Ideas
+
+Combining means joining two related ideas into one sentence. The main tools here are conjunctions (for, and, nor, but, or, yet, so — the FANBOYS) and subordinating words like "because," "although," and "while."
+
+::: {.callout-note title="My Thought Process"}
+I first ask: are both parts complete sentences on their own? If yes, I need a comma before the conjunction — "Method A is fast, **but** Method B is more accurate." If one part depends on or explains the other (like "because" or "although"), it usually reads more naturally without a comma — "The model underperforms because the training data is noisy." **The key thing I'm trying to feel is whether the two ideas are equals, or whether one is serving the other**.
+:::
+
+| Pattern | Example |
+|---|---|
+| `A is B, and C is D.` | "The baseline is non-trivial, and it generalises well." |
+| `A is B because C.` | "The model underperforms because the training set is distributionally far." |
+| `A is B, although C.` | "Results are promising, although the sample size is limited." |
+| `A is B and C.` | "The method is fast and interpretable." |
+
+
+#### Separating Ideas
+
+Separating means deciding where one idea ends and another begins — the main choice being between a period and a semicolon.
+
+::: {.callout-note title="My Thought Process"}
+I ask: are these two ideas closely related enough to live in the same breath? If they feel like two distinct thoughts, I use a period and move on. If separating them feels too abrupt — like they really belong together — a semicolon keeps them connected without fusing them. I think of the semicolon as saying "these two ideas are siblings, not strangers." Words like *however*, *thus*, and *nevertheless* can follow the semicolon to make the relationship even more explicit.
+:::
+
+| Pattern | Example |
+|---|---|
+| `A is B. C is D.` | "The baseline performs well. Our method outperforms it." |
+| `A is B; C is D.` | "The baseline performs well; our method outperforms it." |
+| `A is B; however, C is D.` | "The baseline performs well; however, our method outperforms it under noise." |
+
+
+
+#### Interruptions
+
+Interrupting means inserting extra information into the middle of a sentence — a quick aside, a clarification, or an important qualifier.
+
+::: {.callout-note title="My Thought Process"}
+I ask myself: how much weight does this extra bit of information carry? If it's a minor aside the reader can almost skip, I use parentheses. If it's something worth actually pausing for — something the reader should register — I use commas. If I want to signal that the interruption is surprising or emphatic, dashes do the job. In all cases, I check that the main sentence still holds together if I mentally remove the interruption. If removing it breaks the sentence, it's not really an interruption — it belongs in the main clause.
+:::
+
+| Tool | Use when… | Example |
+|---|---|---|
+| Commas | the interruption is worth pausing for | "The method, which relies on attention, outperforms the baseline." |
+| Parentheses | the interruption is a minor aside | "The method (originally proposed by Author et al.) outperforms the baseline." |
+| Dashes | the interruption is emphatic or surprising | "The method — the first of its kind — outperforms every baseline tested." |
+
+---
+
+# Listing Ideas
+
+When presenting multiple points, structuring them into two or three segments usually helps in building momentum and rhythm.
+
+::: {.callout-note title="My Thought Process"}
+I start by asking: are these points contrasting each other, or do they all support the same idea? That distinction shapes the signal words I reach for. Then I think about how many points I have — two points often work well as a contrast, while three give a sense of completeness or progression. Once I have a rough structure, I read the sentence out loud and exaggerate the pauses at each punctuation mark. If it sounds natural, I'm on the right track.
+:::
+
+
+#### Two-Point Structures
+
+Patterns to contrast points:
+
+| Pattern | Example |
+|---|---|
+| `X, while Y` | "Method A is fast, **while** Method B is more accurate." |
+| `X; however, Y` | "The baseline performs well on clean data; **however**, it degrades under noise." |
+| `Both X and Y …` | "Both approaches rely on attention mechanisms, **but** differ in how they apply them." |
+
+Notice the **signals** --- 'while', 'however', and 'but' --- that make it obvious to the reader that there is a separate/contrasting idea. We explore this further in [Signposting](#signposting).
+
+Patterns to unify points:
+
+
+
+#### Three-Point Structures
+
+Three-point lists give arguments a sense of completeness.
+Use one of these scaffolds when you have three parallel claims.
+
+| Pattern | Example |
+|---|---|
+| `First … Second … Finally …` | Sequential or ranked claims. |
+| `X, Y, and Z` | Flat list; order implies nothing. |
+| `Not only X, but also Y — and crucially, Z` | Builds to the most important point last. |
+
+::: {.callout-tip}
+Avoid four-item lists in body paragraphs — they read as a dump, not an argument.
+If you have four points, either cut one or break into two separate ideas.
+:::
+
+---
+
+# Signposting
+
+#### Signposting Disagreement
+Contrast signals tell the reader that something unexpected or opposing is coming.
+Choosing the right one changes the strength of the contrast.
+
+| Signal word / phrase | Strength | Use when… |
+|---|---|---|
+| `however` | medium | the contrast is important but not surprising |
+| `yet` | medium-light | the contrast is slightly unexpected |
+| `nevertheless` / `nonetheless` | strong | the contrast holds despite strong counter-pressure |
+| `in contrast` | medium | comparing two distinct things side by side |
+| `whereas` | medium | pointing out a difference within the same sentence |
+| `despite X, Y` | strong | Y is true even though X argues against it |
+| `although` / `even though` | varies | softening a concession before asserting the main point |
+
+**Example of a weak contrast:**
+> "The model is fast. It is also inaccurate."
+
+**Revised with a contrast signal:**
+> "The model is fast; however, it sacrifices accuracy under distribution shift."
+
+---
+
+#### Signposting Agreement
+
+Use these to build an argument cumulatively.
+
+| Signal | Use when… |
+|---|---|
+| `Furthermore` / `Moreover` | adding a point that strengthens or extends the previous one |
+| `In addition` | adding a related but separate point |
+| `Similarly` | the next point mirrors the structure of the previous one |
+| `Likewise` | same as similarly, slightly more formal |
+| `Indeed` | reinforcing or intensifying the point just made |
+
+---
+
+# Hedging Language
+
+Academic claims are rarely absolute. Hedging signals your confidence level
+and protects you from over-claiming.
+
+| Hedge level | Examples |
+|---|---|
+| Strong claim | "X causes Y." |
+| Moderate | "X appears to cause Y." / "X tends to cause Y." |
+| Weak | "X may contribute to Y." / "There is some evidence that X influences Y." |
+| Attributed | "According to [Author et al., Year], X leads to Y." |
+
+::: {.callout-caution}
+Under-hedging (over-claiming) is one of the most common reasons reviewers
+push back. When in doubt, hedge — but do not hedge so much that your claim
+disappears entirely.
+:::
+
+---
+
+## Topic Sentences
+
+Every paragraph should open with a **topic sentence** that states the
+paragraph's single claim. The rest of the paragraph supports it.
+
+**Weak opening (announces the topic, not a claim):**
+> "This section discusses the limitations of our approach."
+
+**Strong opening (makes a claim):**
+> "Our approach has three limitations that constrain its applicability to
+> low-resource settings."
+
+---
+
+## Acknowledgements
+
+The following people contributed to this page. 
+
+- [Yuriel Ryan](https://yurielryan.github.io/)
+
+
+---
+
+## Resources
+
+- [How To Train Your Researcher (HTTYR)](../index.qmd) -- EROP mentorship guide
+- [Reading Advice](reading_advice.qmd) -- tips on reading papers
+- [Thriving as a Graduate Writer](https://www.bibliovault.org/cgi-bin/DeliverADE2.epl?transid=VxQgA5_ynHkWGI9g) -- great e-book for academic writing! 
