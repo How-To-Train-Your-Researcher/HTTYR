@@ -33,3 +33,5 @@ In no particular order, below lists the humans that that conjured this document 
 **Advisors**
 In no particular order, below lists the advisors that provided helpful guidance/insights for the aformentioned humans:
 
+- [Prof. Roy Lee](https://www.roylee.sg/)
+
