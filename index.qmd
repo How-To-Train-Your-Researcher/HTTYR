@@ -27,12 +27,12 @@ This page is maintained on a voluntary basis by a group of researchers. If you w
 ## Contributors
 In no particular order, below lists the humans that that conjured this document into existence:
 
-- [Yuriel Ryan](https://yurielryan.github.io/)
-- [Nicole Oo](https://www.linkedin.com/in/nicole-oo-hy/)
-- [Zi-Yu Khoo](https://www.linkedin.com/in/zi-yu-khoo/)
+- [Yuriel Ryan](https://yurielryan.github.io/){target="_blank"}
+- [Nicole Oo](https://www.linkedin.com/in/nicole-oo-hy/){target="_blank"}
+- [Zi-Yu Khoo](https://www.linkedin.com/in/zi-yu-khoo/){target="_blank"}
 
 **Advisors**
 In no particular order, below lists the advisors that provided helpful guidance/insights for the aformentioned humans:
 
-- [Prof. Roy Lee](https://www.roylee.sg/)
+- [Prof. Roy Lee](https://www.roylee.sg/){target="_blank"}
 
