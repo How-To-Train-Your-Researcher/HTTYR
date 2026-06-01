@@ -37,8 +37,20 @@ To start you off, the "three-pass method" is a well-known technique to become mo
 
 Read: title, abstract, section headings, figures and captions, conclusion.
 
-**Goal:** Decide if the paper is worth a deeper read and form a rough hypothesis
-about what it does.
+**Goal:** Decide if the paper is worth a deeper read and form a broad impression about it's contributions.
+
+
+One practical tip to build an impression is to **identify the authors and/or their affiliations**. Some institutions, or even specific labs within those institutions, prefer a more empirical approach as opposed to a theoretical one. Others focus on industry impacts over social ones --- for instance, improving token efficiency vs identifying demographic biases. Depending on the focus of your work, the title and the authors could sometimes provide enough information to proceed onto the next [pass](#pass-2-—-understanding-the-contribution). 
+
+::: {.callout-note}
+Overtime, researchers naturally build an internal "bank" of other researchers/labs that they follow. You should build one too to quickly identify which work is worth your (time) investment.
+:::
+
+
+::: {.callout-caution}
+While a case could be made to filter the quality of the work through authors/affiliations, it's important to remember that good work can come from anywhere! Yes, maybe I'm a bit of an idealist, but let's not blind ourselves or discount the work of others simply because they are not affiliated with a prestigious institution.
+:::
+
 
 ### Pass 2 — Understanding the Contribution
 
@@ -46,6 +58,7 @@ Read the body carefully, skipping proofs and implementation details.
 Pay attention to figures, tables, and the experimental section.
 
 **Goal:** Understand *what* the paper claims and *how* it was evaluated.
+
 
 ### Pass 3 — Investment
 
@@ -91,4 +104,5 @@ Part of my research journey was figuring out which conferences are considered "r
 
 - [How To Train Your Researcher (HTTYR)](../index.qmd) — EROP mentorship guide
 - [Writing Advice](writing_advice.qmd) — academic writing tips
-- Testing an edit
+
+
