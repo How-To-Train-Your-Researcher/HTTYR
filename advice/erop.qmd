@@ -1,43 +1,232 @@
 ---
-title: "EROP Playbook"
+title: "EROP 2026 (June)"
 authors: "Yuriel Ryan"
 date: last-modified
 ---
 # Introduction
-Welcome to SYAI Labs. This page is the official curriculum of the Early Research Opportunity Program (EROP) organized by the [Singapore Youth AI](https://sgyouthai.org/), supported by [AI Singapore](https://aisingapore.org/). 
+Welcome to SYAI Labs. This page is the official curriculum of the Early Research Opportunity Program (EROP) organized by the [Singapore Youth AI](https://sgyouthai.org/), supported by [AI Singapore](https://aisingapore.org/).
 
-In this page, we provide examples for the learning objectives in this program (see the provided lesson plan). There will be positive and negative examples, as well as specific instances following the ["I do, We do, You do"](#erop-mentoring-strategy) paradigm. If there are any points/ideas that you are unsure about, do approach your assigned mentors during the program!
-
----
-
-# Day 1: Introduction
-TBA
-
-### Problem Statements
-TBA
+In this page, we provide examples for the learning objectives in this program (see the provided lesson plan). There will be positive and negative examples, as well as specific instances accompanying the ["I do, We do, You do"](#erop-mentoring-strategy) paradigm (for *distill knowledge* from the mentors). If there are any points/ideas that you are unsure about, do approach your assigned mentors during the program! 
 
 ---
 
-# Day 2: Literature Review
+::: {.panel-tabset}
+
+## Research Brief
+
+### Weapons of Mass Disruptions
+
+---
+
+The AI safety challenges facing us today are not about bombs or missiles. They are about something quieter and, in some ways, more difficult to recover from: the systematic disruption of the structures through which we learn, work, own, and choose. Each of these has been changed --- quickly and quietly --- by the mass deployment of generative AI systems. This brief invites research into these disruptions, not to resist AI adoption, but to understand what it is actually doing to us and how we can mitigate these risks.
+
+---
+
+#### How We Learn
+
+Education has always depended on productive struggle --- the formative experience of not knowing, attempting, failing, and revising. This struggle is not a flaw in the learning process; it is the mechanism through which understanding is built. Generative AI, deployed in academic contexts, short-circuits this mechanism with unusual efficiency. For example, a student who prompts a language model to explain a concept, draft an essay, or solve a problem set receives a polished output that superficially resembles mastery. The gap between receiving a correct answer and developing the capacity to produce one is invisible in the final product, but deeply significant in the learner.
+
+The consequences extend beyond beyond learning a skill: assistance from AI also how affects how we maintain our current skills. When AI handles tasks that are easy for us, we risk eroding those very same skills that made the task easy (e.g., writing code). The effects may not surface for years, until a cohort of workers who delegated their formative learning to AI tools is asked to reason, judge, or create without them.
+
+---
+
+#### How We Work
+
+The modern workplace has adopted generative AI at a pace that has outrun the governance infrastructure meant to support it. Workers use AI to draft reports, generate analyses, write code, and synthesize information --- and the result is a measurable increase in throughput alongside a less visible accumulation of risk. The central hazard is automation bias: the well-documented human tendency to accept algorithmic outputs with less scrutiny than we apply to our own work. When AI produces a polished deliverable, the psychological signal that review is necessary is weaker than when a human writes a rough draft. Errors and hallucinations --- confidently stated falsehoods --- pass through review because they arrive pre-formatted and fluent.
+
+When those errors cause harm, accountability is difficult to assign. The worker who submitted the deliverable may not have fully understood it. The organisation that deployed the AI tool may not have anticipated the failure mode. Current professional norms and regulatory frameworks do not resolve this cleanly, leaving a gap between the pace of AI adoption and the scaffolding needed to make it safe.
+
+More egregiously, many of these tools now perform many tasks traditionally assigned to entry-level staff, directly competing with human graduates for entry-level positions. As fresh graduates lose hiring opportunities to AI tools, they miss out on training and development opportunities entry level roles traditionally provide. Either that, or they "10x" themselves to appear more competitive which inflates the qualifications for entry-level jobs.
+
+---
+
+#### What We Own
+
+Generative AI is trained on the accumulated creative and intellectual output of humanity --- books, articles, code, art, music --- and produces outputs that synthesise, resemble, and sometimes reproduce that material. This creates an unresolved tension at the heart of intellectual property. Who owns a piece of writing that AI substantially shaped? What obligation exists when a model's output is indistinguishable from, or directly derived from, a specific human work? When AI absorbs the style and substance of a creator's life work and reproduces it at industrial scale, something has been taken --- but our current frameworks struggle to name what, and from whom.
+
+These are not purely legal questions. They concern the incentive structures that make creative and intellectual effort worthwhile in the first place. If the fruits of sustained human knowledge production can be harvested and reproduced by a model without attribution or compensation, the social contract that sustains original work --- in art, research, journalism, and beyond --- is quietly undermined.
+
+---
+
+#### What We Consume
+
+The information ecosystem has changed more rapidly than any other domain. AI systems now generate text, images, audio, and video at a scale and quality that makes synthetic content difficult to distinguish from content produced by humans. Recommendation algorithms --- themselves AI systems --- shape what reaches audiences, amplifying engaging content regardless of its veracity and narrowing the informational worlds that individuals inhabit. The compounding effect is an environment in which the provenance of information is systematically obscured.
+
+A reader encountering a well-written article, an apparently authentic photograph, or a confident-sounding voice recording has a diminishing ability to determine whether it reflects a human perspective, a synthetic one, or something in between. The problem is not that any single piece of content is false. It is that the baseline assumption of authenticity --- on which trust in information has always depended --- has been quietly destabilised. Once trust erodes, it is very difficult to rebuild.
+
+---
+
+#### Deliverables
+
+Both artefacts are due on **Day 5** of the programme.
+
+**Research Proposal (max 3 pages)**
+
+Each team submits an actionable written proposal identifying a specific AI safety concern arising from one of the disruptions described above. The proposal should include a clear problem statement scoped to a particular domain, a proposed methodology for investigating or addressing it, and a discussion of expected outcomes and limitations. Proposals must engage with prior work.
+
+**Research Poster (91 cm H × 150 cm W)**
+
+Each team presents a poster summarising their research proposal. The poster should communicate the problem, the approach, and the anticipated contribution clearly enough to be understood by a reader who has not read the proposal. Visual clarity and concision are as important as technical depth.
+
+---
+
+## Day 1
+
+### Pre-Survey
+
+Before the program begins, both mentees and mentors complete a short self-assessment to establish a baseline for the end-of-programme evaluation. The link will be shared by the program coordinators on the day.
+
+*What is this for?*: We will be using these self-assessments as a signal to assess how well this program has helped you! Thank you for taking your time to fill up this form 🙇🏻
+
+> **Pre-Programme Self-Assessment Form** *(link to be added by coordinators)*
+
+---
+
+### Research Brief
+
+Each team unpacks the research brief together. The goal is to surface both **explicit constraints** (things the brief directly states) and **implicit constraints** (things the brief implies but does not state).
+
+::: {.callout-note}
+The EROP research brief is in the **Research Brief** tab. Read through it before working through the examples below.
+:::
+
+The worked example below uses a separate illustrative brief on health misinformation --- a different domain, deliberately chosen so you can practice the skill before applying it to your own brief.
+
+::: {.callout-note title="Illustrative Brief --- AI-Assisted Detection of Health Misinformation"}
+**Brief: AI-Assisted Detection of Health Misinformation in Online Communities**
+
+*Background:* Health misinformation spreads rapidly on social media platforms and online forums. Singaporean health authorities are interested in scalable tools that can assist human moderators in identifying potentially misleading health claims in English and Singlish user-generated content.
+
+*Task:* Develop or evaluate an AI-based approach to detect health misinformation in short-form text (e.g., forum posts and social media comments up to 280 characters). The solution must be *explainable* --- moderators must understand why a piece of content was flagged.
+
+*Resources:* The team has access to publicly available English health misinformation datasets. Any approach using local Singapore data must comply with PDPA. The solution must be evaluable within a 5-week research sprint.
+:::
+
+---
+
+#### Identifying Constraints
+
+When I first read a brief, I separate what is *stated* from what is *implied*.
+
+**Step 1 --- Extract explicit constraints**
+
+I go through the brief sentence by sentence and pull out anything that directly limits what we can do.
+
+| Constraint | Source in the brief |
+|---|---|
+| Short-form text only (≤ 280 chars) | "short-form text … up to 280 characters" |
+| Explainability is required | "The solution must be explainable" |
+| English and Singlish text | "English and Singlish user-generated content" |
+| 5-week timeline | "5-week research sprint" |
+| PDPA compliance for any local data | "must comply with PDPA" |
+| Only publicly available datasets (unless PDPA-compliant) | "access to publicly available English … datasets" |
+
+**Step 2 --- Infer implicit constraints**
+
+These take more thought. For each explicit constraint, I ask: *what does this actually mean in practice?*
+
+1. **Singlish adds NLP complexity.** Most pre-trained language models are trained on standard English. Singlish --- a local creole mixing English with Malay, Hokkien, and Tamil --- is underrepresented in standard NLP benchmarks. We cannot assume off-the-shelf models will transfer well.
+
+2. **Health domain implies a high precision bar.** The brief does not say this, but flagging a *correct* health claim as misinformation (a false positive) could erode public trust. We should be conservative about what we flag.
+
+3. **"Evaluable in 5 weeks" rules out training from scratch.** We likely do not have time to collect new data and pre-train a new model. Fine-tuning or prompting an existing model is more realistic given our constraints.
+
+4. **"Assist human moderators" implies human-in-the-loop.** The system is not expected to be fully autonomous --- it is a triage support tool. This relaxes some accuracy requirements, but adds a new question: what information does the moderator actually need to make a decision?
+
+**Step 3 --- Note what to emphasise in a problem statement**
+
+From this exercise, I would flag these points as worth foregrounding:
+
+- The Singlish challenge is distinctive and under-studied --- it is a non-obvious constraint that motivates why existing work may not apply.
+- The explainability requirement creates a genuine research tension (the most accurate models are often the least interpretable).
+- The human-in-the-loop framing should shape how we define "success" --- accuracy alone is not enough.
+
+::: {.callout-caution title="You Do --- Now try it with the EROP brief"}
+Apply these three steps to the actual research brief in the **Research Brief** tab. As a team, produce:
+
+1. A table of explicit constraints with their source in the brief.
+2. A numbered list of implicit constraints, each with a brief justification.
+3. Two or three points you would want to foreground in a problem statement, and why.
+:::
+
+---
+
+### Problem Statement Exploration
+
+#### What is a problem statement in AI research?
+
+A problem statement answers three questions in one or two paragraphs:
+
+1. **What gap exists?** --- the unsolved problem or underexplored area.
+2. **Why does it matter?** --- the real-world or scientific motivation.
+3. **What direction are you taking?** --- a high-level indication of your research approach.
+
+::: {.callout-important}
+A problem statement is **not** a solution statement. It does not say "we will build X." It says "Y is a challenge because of Z, and addressing Z matters because of W."
+:::
+
+---
+
+#### Generating Problem Angles --- I Do
+
+Starting from the research brief above, here are two distinct angles I would generate as a starting point for team discussion.
+
+**Angle 1 --- Singlish-aware misinformation detection**
+
+> Most existing health misinformation classifiers are trained on standard English and may not generalise to Singlish text. The research question becomes: *how well do existing models generalise to Singlish, and can we adapt them within our constraints?*
+
+**Angle 2 --- Explainability for health moderators**
+
+> Even an accurate classifier is unhelpful if a moderator cannot interpret its output. The research question becomes: *what explanation format is most actionable for a moderator reviewing flagged health content?*
+
+These are a starting point, not an exhaustive list. The team should interrogate whether these angles are distinct enough, and whether one is more tractable given the constraints identified earlier.
+
+---
+
+#### Drafting a Problem Statement --- I Do
+
+Here is how I would draft a problem statement for Angle 1. Read through it first, then I will unpack the decisions I made.
+
+::: {.callout-tip title="I Do --- Draft Problem Statement (Angle 1)"}
+Online health misinformation poses a growing public health challenge in Singapore, where online communities frequently mix standard English with Singlish --- a local creole not well-represented in existing NLP benchmarks. Most health misinformation detection models are trained on English-only corpora and may not generalise reliably to this code-mixed context, leaving human moderators without dependable AI support on Singapore-facing platforms. This project investigates the extent to which pre-trained language models can be adapted for Singlish health misinformation detection under constrained data and compute budgets, using cross-lingual transfer and lightweight fine-tuning as candidate approaches.
+:::
+
+A few things to notice about this draft:
+
+- **It names the specific gap.** It does not say "misinformation is a problem" (too broad). It says that existing models do not cover Singlish specifically (concrete).
+- **It does not commit to a solution.** It says "investigates … using X as *candidate* approaches" --- the project may find that those approaches do not work, and that would still be a valid research outcome.
+- **It connects the technical gap to the real-world motivation.** Singlish underrepresentation is a technical fact; "leaving moderators without dependable AI support" is the human consequence. Both belong in a problem statement.
+- **It is specific about scope.** "Constrained data and compute budgets" directly reflects the 5-week timeline constraint we identified earlier.
+
+::: {.callout-caution title="You Do --- Now try it with the EROP brief"}
+Using the constraints you identified from the EROP research brief, generate **two distinct problem angles** as a team. For each angle, write one or two sentences framing the core research question. Then, as a team, select one angle and draft a 100–150 word problem statement following the structure above.
+:::
+
+---
+
+## Day 2
+
 TBA
 
 ---
 
-# Day 3: Verify & Evaluate Sources
-TBA
+## Day 3
 
+TBA
 
 ---
 
-# Day 4: Proposal
-TBA
+## Day 4
 
+TBA
 
 ---
 
-# Day 5: Presentation
+## Day 5
+
 TBA
 
+:::
 
 ---
 
@@ -50,7 +239,7 @@ One key outcome we hope to see from this site is to help budding AI researchers 
 ![Overview of the teaching model. Image from: https://www.structural-learning.com/post/i-do-we-do-you-do](/attachments/overview.png)
 
 
-### I Do — The mentors demonstrate
+### I Do --- The mentors demonstrate
 
 The mentor demonstrates the skill or process while thinking aloud. Students observe and note down questions that they might have.
 
@@ -62,7 +251,7 @@ The mentor demonstrates the skill or process while thinking aloud. Students obse
 The main objective here is to elucidate the mentor's thought process in the activity (e.g., reading papers, drawing diagrams, and drafting the proposal). After the initial demonstration, we encourage mentees to ask questions regarding *why* the mentor did xyz in that activity. The goal is to understand the approach, not to imitate.
 
 
-### We Do — Both mentors and mentees practice together
+### We Do --- Both mentors and mentees practice together
 
 The mentor and student work through a task together.
 The student takes the lead; the mentor provides real-time prompts and feedback.
@@ -72,7 +261,7 @@ The student takes the lead; the mentor provides real-time prompts and feedback.
 > "What problem is this solving?", "What baseline did they compare against?",
 > "Would this method work in a different domain?"*
 
-### You Do — The mentees practice independently
+### You Do --- The mentees practice independently
 
 The student completes the task independently and presents their work.
 The mentor reviews and gives structured feedback afterward.
@@ -85,5 +274,5 @@ The mentor reviews and gives structured feedback afterward.
 
 ## Resources
 
-- [Reading Advice](reading_advice.qmd) — advice on reading research papers
-- [Writing Advice](writing_advice.qmd) — advice on academic writing
+- [Reading Advice](reading_advice.qmd) --- advice on reading research papers
+- [Writing Advice](writing_advice.qmd) --- advice on academic writing
