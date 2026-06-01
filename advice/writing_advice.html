@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-05-30">
+<meta name="dcterms.date" content="2026-06-01">
 
 <title>Writing Advice – How To Train Your Researcher</title>
 <style>
@@ -24,7 +24,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -121,14 +141,30 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#writing-as-thinking" id="toc-writing-as-thinking" class="nav-link" data-scroll-target="#writing-as-thinking">Writing as Thinking</a></li>
-  <li><a href="#punctuation" id="toc-punctuation" class="nav-link" data-scroll-target="#punctuation">Punctuation</a></li>
-  <li><a href="#listing-ideas" id="toc-listing-ideas" class="nav-link" data-scroll-target="#listing-ideas">Listing Ideas</a></li>
-  <li><a href="#signposting" id="toc-signposting" class="nav-link" data-scroll-target="#signposting">Signposting</a></li>
-  <li><a href="#hedging-language" id="toc-hedging-language" class="nav-link" data-scroll-target="#hedging-language">Hedging Language</a>
+  <li><a href="#writing-for-the-reader" id="toc-writing-for-the-reader" class="nav-link" data-scroll-target="#writing-for-the-reader">Writing for the Reader</a>
+  <ul class="collapse">
+  <li><a href="#introducing-ideas" id="toc-introducing-ideas" class="nav-link" data-scroll-target="#introducing-ideas">Introducing Ideas</a></li>
+  <li><a href="#combining-ideas" id="toc-combining-ideas" class="nav-link" data-scroll-target="#combining-ideas">Combining Ideas</a></li>
+  <li><a href="#separating-ideas" id="toc-separating-ideas" class="nav-link" data-scroll-target="#separating-ideas">Separating Ideas</a></li>
+  <li><a href="#interruptions" id="toc-interruptions" class="nav-link" data-scroll-target="#interruptions">Interruptions</a></li>
+  </ul></li>
+  <li><a href="#structures" id="toc-structures" class="nav-link" data-scroll-target="#structures">Structures</a>
+  <ul class="collapse">
+  <li><a href="#paragraph-level-structures" id="toc-paragraph-level-structures" class="nav-link" data-scroll-target="#paragraph-level-structures">Paragraph-Level Structures</a>
   <ul class="collapse">
   <li><a href="#topic-sentences" id="toc-topic-sentences" class="nav-link" data-scroll-target="#topic-sentences">Topic Sentences</a></li>
-  <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link" data-scroll-target="#acknowledgements">Acknowledgements</a></li>
+  <li><a href="#hedging-language" id="toc-hedging-language" class="nav-link" data-scroll-target="#hedging-language">Hedging Language</a></li>
+  </ul></li>
+  <li><a href="#sentence-level-structures" id="toc-sentence-level-structures" class="nav-link" data-scroll-target="#sentence-level-structures">Sentence-Level Structures</a>
+  <ul class="collapse">
+  <li><a href="#two-point-structures" id="toc-two-point-structures" class="nav-link" data-scroll-target="#two-point-structures">Two-Point Structures</a></li>
+  <li><a href="#three-point-structures" id="toc-three-point-structures" class="nav-link" data-scroll-target="#three-point-structures">Three-Point Structures</a></li>
+  <li><a href="#signposting" id="toc-signposting" class="nav-link" data-scroll-target="#signposting">Signposting</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#word-choice" id="toc-word-choice" class="nav-link" data-scroll-target="#word-choice">Word Choice</a>
+  <ul class="collapse">
+  <li><a href="#synonyms-are-not-your-friends" id="toc-synonyms-are-not-your-friends" class="nav-link" data-scroll-target="#synonyms-are-not-your-friends">Synonyms Are Not Your Friends</a></li>
   <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
   </ul></li>
   </ul>
@@ -157,7 +193,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Updated</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 30, 2026</p>
+      <p class="date">June 1, 2026</p>
     </div>
   </div>
   
@@ -187,14 +223,10 @@ Note
 </div>
 <hr>
 </section>
-<section id="writing-as-thinking" class="level1">
-<h1>Writing as Thinking</h1>
-<p><strong>TBA</strong>.</p>
-<hr>
-</section>
-<section id="punctuation" class="level1">
-<h1>Punctuation</h1>
-<p>Punctuation controls the rhythm and clarity of your sentences — think of it as musical notation for your prose. Each mark signals something different: a pause, a connection, a break, or an aside. Once you get a feel for what each one does, you stop thinking of punctuation as a set of rules and start using it intentionally.</p>
+<section id="writing-for-the-reader" class="level1">
+<h1>Writing for the Reader</h1>
+<p><strong>The best writing is one that the reader could easily understand.</strong> This section is therefore dedicated to help (i) improve the clarity of the writing, and (ii) build momentum to encourage the reader to continue.</p>
+<p>I found that a powerful way for better writing is to master punctuations. These tools controls the rhythm and clarity of your sentences. Each mark signals something different: a pause, a connection, a break, or an aside. Once you get a feel for what each one does, you stop thinking of punctuation as a set of rules and start using it intentionally.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -208,9 +240,9 @@ Tip
 <p>Read your sentence aloud and exaggerate the pauses. For me, I found the following to be quite a useful intuition. A natural full stop = period. A “but wait, there’s more” pause = semicolon. A quick breath = comma.</p>
 </div>
 </div>
-<section id="introducing-ideas" class="level4">
-<h4 class="anchored" data-anchor-id="introducing-ideas">Introducing Ideas</h4>
-<p>A colon signals that what follows fulfils the promise of the sentence before it — use it when you are setting something up.</p>
+<section id="introducing-ideas" class="level3">
+<h3 class="anchored" data-anchor-id="introducing-ideas">Introducing Ideas</h3>
+<p>A colon (<strong>:</strong>) signals that what follows fulfils the promise of the sentence before it — use it when you are setting something up.</p>
 <div class="callout callout-style-default callout-note callout-titled" title="My Thought Process">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -221,7 +253,7 @@ Tip
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>I use a colon when the first part of my sentence “promises” something and the second part delivers it. A useful test: does the sentence before the colon feel a little incomplete without what comes after? If yes, the colon fits. Something like “The results revealed one key finding: the proposed method consistently outperformed the baseline” — the first half sets up the expectation, the second half lands it. If the sentence already feels complete and the colon material feels like a bonus, I reconsider whether a colon is actually needed.</p>
+<p>I use a colon when the first part of my sentence “promises” something and the second part delivers it. Something like “The results revealed one key finding: the proposed method consistently outperformed the baseline” — the first half sets up the expectation, the second half lands it. If the sentence already feels complete and the colon material feels like a bonus, I reconsider whether a colon is actually needed.</p>
 </div>
 </div>
 <table class="caption-top table">
@@ -237,23 +269,23 @@ Tip
 </thead>
 <tbody>
 <tr class="odd">
-<td><code>A is B: C.</code></td>
-<td>“The advantage is clear: the proposed method converges faster.”</td>
+<td>As Emphasis — <code>A: B.</code></td>
+<td>“This paper explores one aspect of this trend: representational convergence.” <span class="citation" data-cites="pmlr-v235-huh24a"><a href="#ref-pmlr-v235-huh24a" role="doc-biblioref">[1]</a></span></td>
 </tr>
 <tr class="even">
-<td><code>A is the following: B, C, and D.</code></td>
+<td>As a List — <code>A is the following: B, C, and D.</code></td>
 <td>“The model has three components: an encoder, a decoder, and an attention layer.”</td>
 </tr>
 <tr class="odd">
-<td><code>A is B: C is D.</code></td>
+<td>As a Connection — <code>A is B: C is D.</code></td>
 <td>“The trade-off is familiar: accuracy improves, but runtime increases.”</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="combining-ideas" class="level4">
-<h4 class="anchored" data-anchor-id="combining-ideas">Combining Ideas</h4>
-<p>Combining means joining two related ideas into one sentence. The main tools here are conjunctions (for, and, nor, but, or, yet, so — the FANBOYS) and subordinating words like “because,” “although,” and “while.”</p>
+<section id="combining-ideas" class="level3">
+<h3 class="anchored" data-anchor-id="combining-ideas">Combining Ideas</h3>
+<p>Combining means joining two related ideas into one sentence. The main tools here are pairing commas (<em>,</em>) with conjunctions (for, and, nor, but, or, yet, so — the FANBOYS) and subordinating words like “because,” “although,” and “while.”</p>
 <div class="callout callout-style-default callout-note callout-titled" title="My Thought Process">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -298,9 +330,9 @@ Tip
 </tbody>
 </table>
 </section>
-<section id="separating-ideas" class="level4">
-<h4 class="anchored" data-anchor-id="separating-ideas">Separating Ideas</h4>
-<p>Separating means deciding where one idea ends and another begins — the main choice being between a period and a semicolon.</p>
+<section id="separating-ideas" class="level3">
+<h3 class="anchored" data-anchor-id="separating-ideas">Separating Ideas</h3>
+<p>Separating means deciding where one idea ends and another begins — the main choice being between a period (<em>.</em>) and a semicolon (<em>;</em>).</p>
 <div class="callout callout-style-default callout-note callout-titled" title="My Thought Process">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -341,22 +373,9 @@ Tip
 </tbody>
 </table>
 </section>
-<section id="interruptions" class="level4">
-<h4 class="anchored" data-anchor-id="interruptions">Interruptions</h4>
+<section id="interruptions" class="level3">
+<h3 class="anchored" data-anchor-id="interruptions">Interruptions</h3>
 <p>Interrupting means inserting extra information into the middle of a sentence — a quick aside, a clarification, or an important qualifier.</p>
-<div class="callout callout-style-default callout-note callout-titled" title="My Thought Process">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>My Thought Process
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>I ask myself: how much weight does this extra bit of information carry? If it’s a minor aside the reader can almost skip, I use parentheses. If it’s something worth actually pausing for — something the reader should register — I use commas. If I want to signal that the interruption is surprising or emphatic, dashes do the job. In all cases, I check that the main sentence still holds together if I mentally remove the interruption. If removing it breaks the sentence, it’s not really an interruption — it belongs in the main clause.</p>
-</div>
-</div>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 33%">
@@ -372,27 +391,100 @@ Tip
 </thead>
 <tbody>
 <tr class="odd">
+<td>Parentheses</td>
+<td>the additional information could be helpful, but not significant</td>
+<td>“The method (originally proposed by Author et al.) outperforms the baseline.”</td>
+</tr>
+<tr class="even">
 <td>Commas</td>
 <td>the interruption is worth pausing for</td>
 <td>“The method, which relies on attention, outperforms the baseline.”</td>
 </tr>
-<tr class="even">
-<td>Parentheses</td>
-<td>the interruption is a minor aside</td>
-<td>“The method (originally proposed by Author et al.) outperforms the baseline.”</td>
-</tr>
 <tr class="odd">
-<td>Dashes</td>
-<td>the interruption is emphatic or surprising</td>
+<td>Em Dashes</td>
+<td>the interruption is surprising or warrants attention</td>
 <td>“The method — the first of its kind — outperforms every baseline tested.”</td>
 </tr>
 </tbody>
 </table>
+<p>In the category of dashes, there are Hyphens (-), En Dashes (–), and Em Dashes (—). These have their own specific use cases which can be found <a href="https://www.merriam-webster.com/grammar/em-dash-en-dash-how-to-use">here</a>.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="My Thought Process">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>My Thought Process
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>I ask myself: how much weight does this extra bit of information carry? In order of “significance”, I prefer parenthesis &gt; commas &gt; em dashes . In all cases, I check that the main sentence still holds together if I mentally remove the interruption. If removing it breaks the sentence, it’s not really an interruption — it belongs in the main clause.</p>
+</div>
+</div>
 <hr>
 </section>
 </section>
-<section id="listing-ideas" class="level1">
-<h1>Listing Ideas</h1>
+<section id="structures" class="level1">
+<h1>Structures</h1>
+<section id="paragraph-level-structures" class="level2">
+<h2 class="anchored" data-anchor-id="paragraph-level-structures">Paragraph-Level Structures</h2>
+<section id="topic-sentences" class="level3">
+<h3 class="anchored" data-anchor-id="topic-sentences">Topic Sentences</h3>
+<p>Every paragraph should open with a <strong>topic sentence</strong> that states the paragraph’s single claim. The rest of the paragraph supports it.</p>
+<p><strong>Weak opening (announces the topic, not a claim):</strong> &gt; “This section discusses the limitations of our approach.”</p>
+<p><strong>Strong opening (makes a claim):</strong> &gt; “Our approach has three limitations that constrain its applicability to &gt; low-resource settings.”</p>
+</section>
+<section id="hedging-language" class="level3">
+<h3 class="anchored" data-anchor-id="hedging-language">Hedging Language</h3>
+<p>At the end of the paragraph, we typically want to include some “claim” or statement. However, academic claims are rarely absolute. Hedging signals your confidence level and protects you from over-claiming.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Hedge level</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Strong claim</td>
+<td>“X causes Y.”</td>
+</tr>
+<tr class="even">
+<td>Moderate</td>
+<td>“X appears to cause Y.” / “X tends to cause Y.”</td>
+</tr>
+<tr class="odd">
+<td>Weak</td>
+<td>“X may contribute to Y.” / “There is some evidence that X influences Y.”</td>
+</tr>
+<tr class="even">
+<td>Attributed</td>
+<td>“According to [Author et al., Year], X leads to Y.”</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Caution
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Under-hedging (over-claiming) is one of the most common reasons reviewers push back. When in doubt, hedge — but do not hedge so much that your claim disappears entirely.</p>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="sentence-level-structures" class="level2">
+<h2 class="anchored" data-anchor-id="sentence-level-structures">Sentence-Level Structures</h2>
 <p>When presenting multiple points, structuring them into two or three segments usually helps in building momentum and rhythm.</p>
 <div class="callout callout-style-default callout-note callout-titled" title="My Thought Process">
 <div class="callout-header d-flex align-content-center">
@@ -407,8 +499,8 @@ Tip
 <p>I start by asking: are these points contrasting each other, or do they all support the same idea? That distinction shapes the signal words I reach for. Then I think about how many points I have — two points often work well as a contrast, while three give a sense of completeness or progression. Once I have a rough structure, I read the sentence out loud and exaggerate the pauses at each punctuation mark. If it sounds natural, I’m on the right track.</p>
 </div>
 </div>
-<section id="two-point-structures" class="level4">
-<h4 class="anchored" data-anchor-id="two-point-structures">Two-Point Structures</h4>
+<section id="two-point-structures" class="level3">
+<h3 class="anchored" data-anchor-id="two-point-structures">Two-Point Structures</h3>
 <p>Patterns to contrast points:</p>
 <table class="caption-top table">
 <colgroup>
@@ -439,8 +531,8 @@ Tip
 <p>Notice the <strong>signals</strong> — ‘while’, ‘however’, and ‘but’ — that make it obvious to the reader that there is a separate/contrasting idea. We explore this further in <a href="#signposting">Signposting</a>.</p>
 <p>Patterns to unify points:</p>
 </section>
-<section id="three-point-structures" class="level4">
-<h4 class="anchored" data-anchor-id="three-point-structures">Three-Point Structures</h4>
+<section id="three-point-structures" class="level3">
+<h3 class="anchored" data-anchor-id="three-point-structures">Three-Point Structures</h3>
 <p>Three-point lists give arguments a sense of completeness. Use one of these scaffolds when you have three parallel claims.</p>
 <table class="caption-top table">
 <colgroup>
@@ -478,16 +570,14 @@ Tip
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Avoid four-item lists in body paragraphs — they read as a dump, not an argument. If you have four points, either cut one or break into two separate ideas.</p>
+<p>I usually avoid even numbered points and prefer odd numbered ones (e.g., 1, 3, or 5). I found that it easier to read and/or build momentum with odd numbered points.</p>
 </div>
 </div>
-<hr>
 </section>
-</section>
-<section id="signposting" class="level1">
-<h1>Signposting</h1>
-<section id="signposting-disagreement" class="level4">
-<h4 class="anchored" data-anchor-id="signposting-disagreement">Signposting Disagreement</h4>
+<section id="signposting" class="level3">
+<h3 class="anchored" data-anchor-id="signposting">Signposting</h3>
+<section id="disagreement" class="level4">
+<h4 class="anchored" data-anchor-id="disagreement">Disagreement</h4>
 <p>Contrast signals tell the reader that something unexpected or opposing is coming. Choosing the right one changes the strength of the contrast.</p>
 <table class="caption-top table">
 <colgroup>
@@ -542,10 +632,9 @@ Tip
 </table>
 <p><strong>Example of a weak contrast:</strong> &gt; “The model is fast. It is also inaccurate.”</p>
 <p><strong>Revised with a contrast signal:</strong> &gt; “The model is fast; however, it sacrifices accuracy under distribution shift.”</p>
-<hr>
 </section>
-<section id="signposting-agreement" class="level4">
-<h4 class="anchored" data-anchor-id="signposting-agreement">Signposting Agreement</h4>
+<section id="agreement" class="level4">
+<h4 class="anchored" data-anchor-id="agreement">Agreement</h4>
 <p>Use these to build an argument cumulatively.</p>
 <table class="caption-top table">
 <colgroup>
@@ -584,66 +673,46 @@ Tip
 <hr>
 </section>
 </section>
-<section id="hedging-language" class="level1">
-<h1>Hedging Language</h1>
-<p>Academic claims are rarely absolute. Hedging signals your confidence level and protects you from over-claiming.</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Hedge level</th>
-<th>Examples</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Strong claim</td>
-<td>“X causes Y.”</td>
-</tr>
-<tr class="even">
-<td>Moderate</td>
-<td>“X appears to cause Y.” / “X tends to cause Y.”</td>
-</tr>
-<tr class="odd">
-<td>Weak</td>
-<td>“X may contribute to Y.” / “There is some evidence that X influences Y.”</td>
-</tr>
-<tr class="even">
-<td>Attributed</td>
-<td>“According to [Author et al., Year], X leads to Y.”</td>
-</tr>
-</tbody>
-</table>
-<div class="callout callout-style-default callout-caution callout-titled">
+</section>
+</section>
+<section id="word-choice" class="level1">
+<h1>Word Choice</h1>
+<section id="synonyms-are-not-your-friends" class="level3">
+<h3 class="anchored" data-anchor-id="synonyms-are-not-your-friends">Synonyms Are Not Your Friends</h3>
+<p>In creative writing, varied vocabulary keeps prose engaging. In academic writing, it creates <strong>confusion</strong>. When you use multiple words to refer to the same concept, it can be quite disorienting for the reader. More importantly, specific words, such as <em>robustness</em>, can mean different things in various subfields (e.g., ML vs LLM robustness). Thus, use consistent words/notations or define them clearly to avoid ambiguity.</p>
+<ol type="1">
+<li><strong>Confusion.</strong> Technical readers track concepts by the words attached to them. Swapping terms mid-argument forces them to hold an extra mapping in their head — and they may not realise a mapping is even needed.</li>
+<li><strong>It breaks Ctrl+F.</strong> If a concept appears under three different names, no single search finds all of them.</li>
+</ol>
+<p><strong>Weak (three names for one concept):</strong> &gt; “The PINN is trained to minimize the PDE residual. This <strong>error</strong> is evaluated at collocation points and added to the data loss. The <strong>discrepancy</strong> encourages the model to satisfy the governing equation.”</p>
+<p>Here, <em>residual</em>, <em>error</em>, and <em>discrepancy</em> all refer to the same quantity — but the reader cannot be sure, especially since PINNs have three distinct losses (PDE, data, and boundary). The sentence also says this quantity is “added to the data loss,” which implies the PDE residual and data loss are separate — but with three names across three sentences, the reader cannot easily tell what is what.</p>
+<p><strong>Revised (one name, consistently applied):</strong> &gt; “The PINN minimises three losses: a PDE loss computed at collocation points, a data loss, and a boundary loss. The PDE loss penalises violations of the governing equation.”</p>
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Caution
+Tip
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Under-hedging (over-claiming) is one of the most common reasons reviewers push back. When in doubt, hedge — but do not hedge so much that your claim disappears entirely.</p>
+<p>A fast self-check: pick any technical concept in your draft and Ctrl+F every word you used to describe it. If you find more than one term, standardise on whichever is most precise — then find and replace the rest.</p>
 </div>
 </div>
-<hr>
-<section id="topic-sentences" class="level2">
-<h2 class="anchored" data-anchor-id="topic-sentences">Topic Sentences</h2>
-<p>Every paragraph should open with a <strong>topic sentence</strong> that states the paragraph’s single claim. The rest of the paragraph supports it.</p>
-<p><strong>Weak opening (announces the topic, not a claim):</strong> &gt; “This section discusses the limitations of our approach.”</p>
-<p><strong>Strong opening (makes a claim):</strong> &gt; “Our approach has three limitations that constrain its applicability to &gt; low-resource settings.”</p>
-<hr>
-</section>
-<section id="acknowledgements" class="level2">
-<h2 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
-<p>The following people contributed to this page.</p>
-<ul>
-<li><a href="https://yurielryan.github.io/">Yuriel Ryan</a></li>
-</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Again, this document isn’t a “rule”. There are definitely occassions where synonyms can be your friends (e.g., breaking a monotone segment). But, as a starting point, I would not over-use them to maintain clarity.</p>
+</div>
+</div>
 <hr>
 </section>
 <section id="resources" class="level2">
@@ -655,10 +724,15 @@ Caution
 </ul>
 
 
+
 </section>
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
+<div id="ref-pmlr-v235-huh24a" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] </div><div class="csl-right-inline">M. Huh, B. Cheung, T. Wang, and P. Isola, <span>“Position: The platonic representation hypothesis,”</span> in <em>Proceedings of the 41st international conference on machine learning</em>, R. Salakhutdinov, Z. Kolter, K. Heller, A. Weller, N. Oliver, J. Scarlett, and F. Berkenkamp, Eds., in Proceedings of machine learning research, vol. 235. PMLR, 2024, pp. 20617–20642. Available: <a href="https://proceedings.mlr.press/v235/huh24a.html">https://proceedings.mlr.press/v235/huh24a.html</a></div>
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
