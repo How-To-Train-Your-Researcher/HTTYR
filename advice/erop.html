@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-06-01">
+<meta name="dcterms.date" content="2026-06-02">
 
 <title>EROP 2026 (June) – How To Train Your Researcher</title>
 <style>
@@ -156,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Updated</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 1, 2026</p>
+      <p class="date">June 2, 2026</p>
     </div>
   </div>
   
@@ -264,9 +264,9 @@ Note
 <hr>
 <section id="identifying-constraints" class="level4">
 <h4 class="anchored" data-anchor-id="identifying-constraints">Identifying Constraints</h4>
-<p>When I first read a brief, I separate what is <em>stated</em> from what is <em>implied</em>.</p>
+<p>The first task is to separate what is <em>stated</em> from what is <em>implied</em>.</p>
 <p><strong>Step 1 — Extract explicit constraints</strong></p>
-<p>I go through the brief sentence by sentence and pull out anything that directly limits what we can do.</p>
+<p>Go through the brief sentence by sentence and pull out anything that directly limits what can be done.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 50%">
@@ -306,7 +306,7 @@ Note
 </tbody>
 </table>
 <p><strong>Step 2 — Infer implicit constraints</strong></p>
-<p>These take more thought. For each explicit constraint, I ask: <em>what does this actually mean in practice?</em></p>
+<p>These take more thought. For each explicit constraint, ask: <em>what does this actually mean in practice?</em></p>
 <ol type="1">
 <li><p><strong>Singlish adds NLP complexity.</strong> Most pre-trained language models are trained on standard English. Singlish — a local creole mixing English with Malay, Hokkien, and Tamil — is underrepresented in standard NLP benchmarks. We cannot assume off-the-shelf models will transfer well.</p></li>
 <li><p><strong>Health domain implies a high precision bar.</strong> The brief does not say this, but flagging a <em>correct</em> health claim as misinformation (a false positive) could erode public trust. We should be conservative about what we flag.</p></li>
@@ -314,7 +314,7 @@ Note
 <li><p><strong>“Assist human moderators” implies human-in-the-loop.</strong> The system is not expected to be fully autonomous — it is a triage support tool. This relaxes some accuracy requirements, but adds a new question: what information does the moderator actually need to make a decision?</p></li>
 </ol>
 <p><strong>Step 3 — Note what to emphasise in a problem statement</strong></p>
-<p>From this exercise, I would flag these points as worth foregrounding:</p>
+<p>From this exercise, these points are worth foregrounding:</p>
 <ul>
 <li>The Singlish challenge is distinctive and under-studied — it is a non-obvious constraint that motivates why existing work may not apply.</li>
 <li>The explainability requirement creates a genuine research tension (the most accurate models are often the least interpretable).</li>
@@ -366,9 +366,9 @@ Important
 </div>
 <hr>
 </section>
-<section id="generating-problem-angles-i-do" class="level4">
-<h4 class="anchored" data-anchor-id="generating-problem-angles-i-do">Generating Problem Angles — I Do</h4>
-<p>Starting from the research brief above, here are two distinct angles I would generate as a starting point for team discussion.</p>
+<section id="generating-problem-angles" class="level4">
+<h4 class="anchored" data-anchor-id="generating-problem-angles">Generating Problem Angles</h4>
+<p>Starting from the research brief above, here are two distinct angles that could serve as a starting point for team discussion.</p>
 <p><strong>Angle 1 — Singlish-aware misinformation detection</strong></p>
 <blockquote class="blockquote">
 <p>Most existing health misinformation classifiers are trained on standard English and may not generalise to Singlish text. The research question becomes: <em>how well do existing models generalise to Singlish, and can we adapt them within our constraints?</em></p>
@@ -380,16 +380,16 @@ Important
 <p>These are a starting point, not an exhaustive list. The team should interrogate whether these angles are distinct enough, and whether one is more tractable given the constraints identified earlier.</p>
 <hr>
 </section>
-<section id="drafting-a-problem-statement-i-do" class="level4">
-<h4 class="anchored" data-anchor-id="drafting-a-problem-statement-i-do">Drafting a Problem Statement — I Do</h4>
-<p>Here is how I would draft a problem statement for Angle 1. Read through it first, then I will unpack the decisions I made.</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="I Do --- Draft Problem Statement (Angle 1)">
+<section id="drafting-a-problem-statement" class="level4">
+<h4 class="anchored" data-anchor-id="drafting-a-problem-statement">Drafting a Problem Statement</h4>
+<p>Here is a draft problem statement for Angle 1. Read through it first; the decisions behind it are unpacked below.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Example --- Draft Problem Statement (Angle 1)">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>I Do — Draft Problem Statement (Angle 1)
+<span class="screen-reader-only">Tip</span>Example — Draft Problem Statement (Angle 1)
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -421,8 +421,190 @@ Important
 </section>
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<p>TBA</p>
+<p>The goal of Day 2 is to map the research landscape around your problem statement: what has already been done, what the open problems are, and which papers are worth reading closely. The examples below continue with the illustrative health misinformation brief from Day 1.</p>
+<section id="daily-recap" class="level3">
+<h3 class="anchored" data-anchor-id="daily-recap">Daily Recap</h3>
+<p>Before searching, the team revisits yesterday’s problem statement and splits the literature search across sub-areas. This avoids three people independently finding the same survey paper while an entire sub-area goes unexamined.</p>
+<p>For the Singlish health misinformation angle, a sensible split might be:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sub-area</th>
+<th>Why it matters to the problem</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Misinformation / fake-news detection</td>
+<td>The core task — what methods exist, what they achieve</td>
+</tr>
+<tr class="even">
+<td>Code-mixed and low-resource NLP</td>
+<td>Directly addresses the Singlish constraint</td>
+</tr>
+<tr class="odd">
+<td>Explainability in text classification</td>
+<td>Addresses the explainability requirement from the brief</td>
+</tr>
+</tbody>
+</table>
+<p>Each member takes a sub-area, and the team agrees to bring back a small number of high-quality sources rather than a long undifferentiated list.</p>
 <hr>
+</section>
+<section id="information-gathering-surveying-existing-work" class="level3">
+<h3 class="anchored" data-anchor-id="information-gathering-surveying-existing-work">Information Gathering: Surveying Existing Work</h3>
+<p>Deep Research features (in ChatGPT, Claude, Gemini, and similar tools) can produce a fast first map of a field. They are a <em>starting point</em>, not a substitute for reading. Two failure modes matter most for new researchers:</p>
+<ul>
+<li><strong>Hallucinated or mis-attributed citations.</strong> A tool may invent a plausible-sounding paper, or attribute a real finding to the wrong authors or venue. Every source must be independently verified before it enters your bibliography.</li>
+<li><strong>Confident but shallow synthesis.</strong> The summary may smooth over disagreements in the literature or miss the most important recent work. Treat the output as a set of leads to investigate, not as settled conclusions.</li>
+</ul>
+<section id="writing-a-good-deep-research-prompt" class="level4">
+<h4 class="anchored" data-anchor-id="writing-a-good-deep-research-prompt">Writing a good Deep Research prompt</h4>
+<p>A vague prompt (“tell me about misinformation detection”) returns a vague survey. A good prompt encodes your problem statement, your constraints, and what you want back.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Example --- Deep Research prompt">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Example — Deep Research prompt
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>I am researching the detection of health misinformation in <strong>code-mixed English–Singlish</strong> short text (social media posts). I want to understand the existing research landscape.</p>
+<p>Please find and summarise:</p>
+<ol type="1">
+<li>Key approaches to health misinformation / fake-news detection in short text, with a focus on <strong>explainable</strong> methods.</li>
+<li>Work on code-mixed or low-resource NLP, especially for English mixed with Southeast Asian languages.</li>
+<li>For each work: the venue, the year, the core method, and its main limitation.</li>
+</ol>
+<p>Prioritise peer-reviewed papers from reputable venues (e.g., ACL, EMNLP, NAACL, ICML, ICLR). Include links or DOIs so I can verify each source. Flag where the evidence is thin or where you are uncertain.</p>
+</div>
+</div>
+<p>Notice what the prompt does: it states the problem precisely, names the constraints (code-mixed, explainable, short text), asks for verifiable metadata (venue, year, link), and explicitly invites the tool to flag uncertainty.</p>
+</section>
+<section id="dont-trust-the-models-for-now" class="level4">
+<h4 class="anchored" data-anchor-id="dont-trust-the-models-for-now">Don’t trust the models (for now)</h4>
+<p>Below is an example of a hallucinated reference produced by Deep Research (02/Jun/2026).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../attachments/hallucination.jpg" class="img-fluid figure-img"></p>
+<figcaption>A deep research on Meme Understanding from CVPR within the last two years. The highlighted ExplainHM is a published paper, but <strong>not in CVPR</strong> — it actually went to WWW 2025!</figcaption>
+</figure>
+</div>
+<p>Be very very careful on the listed paper. The model can not only hallucinate a paper that doesn’t exist, but also <strong>where</strong> it is published! In other cases, the paper could simply be on arxiv, but not published yet! To be more confident in our sources, we manually <a href="#triaging-the-output">verify</a> them!</p>
+<hr>
+</section>
+<section id="triaging-the-output" class="level4">
+<h4 class="anchored" data-anchor-id="triaging-the-output">Triaging the output</h4>
+<p>Suppose the tool returns eight sources. The skill is deciding what to read first and what to set aside — and being able to say <em>why</em>. A useful triage runs along these lines:</p>
+<ul>
+<li><strong>Read first</strong> — a paper from a top venue (e.g., ACL/EMNLP), recent (last 2–3 years), directly on code-mixed misinformation. High relevance, high credibility: this is the closest prior work.</li>
+<li><strong>Read soon</strong> — a well-cited survey of explainable text classification. Not specific to your domain, but it frames the explainability landscape and its references are a map to follow.</li>
+<li><strong>Skim / park</strong> — a paper on misinformation detection that is from a strong venue but English-only and not explainable. Useful as a baseline method, but does not address two of your core constraints.</li>
+<li><strong>Filter out</strong> — a source with no identifiable venue, no link, or one you cannot locate when you search for it. If you cannot verify it exists, it does not enter the bibliography.</li>
+</ul>
+<p>The point of articulating the reasoning is that it forces the criteria into the open: relevance to the problem statement, credibility of the venue, recency, and whether the work addresses your specific constraints.</p>
+<div class="callout callout-style-default callout-caution callout-titled" title="You Do --- Survey your own problem">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Caution</span>You Do — Survey your own problem
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Using your EROP problem statement, write a Deep Research prompt following the structure above. Run it, then triage the results into “read first / read soon / skim / filter out.” For each source you flag for the team, write one sentence on <em>why</em> it earned that ranking.</p>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="academic-literature-search" class="level3">
+<h3 class="anchored" data-anchor-id="academic-literature-search">Academic Literature Search</h3>
+<p>Deep Research gives you leads. Google Scholar is where you verify them and follow the citation trail yourself. The first move with any AI-suggested source is always: <em>find the real paper.</em> Search the exact title in <a href="https://scholar.google.com">Google Scholar</a> and confirm the authors, venue, and year match what the tool claimed.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../attachments/cite_by.jpg" class="img-fluid figure-img"></p>
+<figcaption>Example entry in Google Scholar</figcaption>
+</figure>
+</div>
+<section id="practical-tips" class="level4">
+<h4 class="anchored" data-anchor-id="practical-tips">Practical Tips!</h4>
+<ul>
+<li><strong>“Cited by N”</strong> — every result lists how many later papers cite it. Clicking this shows you <em>forward</em> citations: newer work that built on this paper. This is the single most useful way to get from a foundational paper to the current state of the art.</li>
+<li><strong>“Related articles”</strong> — surfaces papers Scholar judges topically similar; good for widening a sub-area. You can also consider using <a href="https://www.connectedpapers.com/">Connected Papers</a> for this!</li>
+<li><strong>Cite → BibTeX</strong> — exports a clean citation for your bibliography (but always sanity-check the venue and year).</li>
+<li><strong>Filter by year</strong> (left sidebar) — restrict to recent work to see where a field is now, or to find the seminal older papers when sorted differently.</li>
+<li><strong>The right-hand link</strong> — often a <code>[PDF]</code> from the publisher, arXiv, or an author’s page, letting you reach the full text.</li>
+</ul>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Caution
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Citation count signals influence but is biased toward older papers — a strong 2024 paper will not yet have many citations. Weigh the venue (is it a recognised peer-reviewed conference or journal?), the recency, and most importantly the fit to your problem. A modestly-cited paper that targets your exact sub-problem can be more valuable than a famous paper that is only loosely related.</p>
+</div>
+</div>
+</section>
+<section id="synthesising-findings" class="level4">
+<h4 class="anchored" data-anchor-id="synthesising-findings">Synthesising findings</h4>
+<p>The output of this session is not a pile of PDFs; it is a small set of synthesised points that connect the literature back to your problem statement. Three useful kinds of point:</p>
+<ol type="1">
+<li><strong>Existing work</strong> — “Approach X is the standard method for short-text misinformation detection, achieving Y on benchmark Z.”</li>
+<li><strong>A limitation or gap</strong> — “These models are trained and evaluated almost entirely on monolingual English; code-mixed performance is largely unstudied.”</li>
+<li><strong>A convention of the subfield</strong> — “Explainability in this area is typically evaluated by attention-weight visualisation or token-attribution methods, which have known reliability caveats.”</li>
+</ol>
+<p>Each point should be traceable to a specific source, so that the claim can be checked.</p>
+</section>
+<section id="annotating-a-source" class="level4">
+<h4 class="anchored" data-anchor-id="annotating-a-source">Annotating a source</h4>
+<p>The day’s artifact is an annotated bibliography. A good annotation is short but captures relevance and judgement, not just a summary:</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Example --- Annotated bibliography entry">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Example — Annotated bibliography entry
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Author(s) (Year). <em>Title.</em> Venue.</strong> [link/DOI]</p>
+<ul>
+<li><strong>What it does:</strong> proposes a transformer-based classifier for short-text misinformation with token-level attribution for explainability.</li>
+<li><strong>Why it’s relevant:</strong> directly addresses two of our constraints (short text + explainability); a strong candidate baseline.</li>
+<li><strong>Limitation for us:</strong> English-only; no evaluation on code-mixed text, which is exactly our gap.</li>
+<li><strong>Follow-ups (via “Cited by”):</strong> two 2024 papers extend this to multilingual settings — worth reading next.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-caution callout-titled" title="You Do --- Locate and annotate">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Caution</span>You Do — Locate and annotate
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Take one source you flagged from your Deep Research survey. Find it on Google Scholar, confirm its venue and year, and click “Cited by” to find one more recent paper that builds on it. Write an annotated bibliography entry for each, following the format above. As a team, consolidate everyone’s entries and identify the three synthesised points most relevant to your problem statement.</p>
+</div>
+</div>
+<hr>
+</section>
+</section>
 </div>
 <div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
 <p>TBA</p>
