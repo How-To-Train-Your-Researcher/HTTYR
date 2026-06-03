@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Yuriel Ryan">
 <meta name="dcterms.date" content="2026-06-03">
 
-<title>Reading Advice – How To Train Your Researcher</title>
+<title>Day 3 — Verify and Evaluate Information – How To Train Your Researcher</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -24,6 +23,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -77,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -95,11 +129,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../EROP/index.html"> 
+    <a class="nav-link active" href="../EROP/index.html" aria-current="page"> 
 <span class="menu-text">EROP</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../advice/reading_advice.html" aria-current="page"> 
+    <a class="nav-link" href="../advice/reading_advice.html"> 
 <span class="menu-text">Reading Advice</span></a>
   </li>  
   <li class="nav-item">
@@ -112,51 +146,115 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../EROP/day-1.html">Daily Plan</a></li><li class="breadcrumb-item"><a href="../EROP/day-3.html">Day 3 — Verify and Evaluate Information</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../EROP/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">EROP 2026 (June)</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../EROP/research-brief.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Research Brief</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Daily Plan</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../EROP/day-1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Day 1 — Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../EROP/day-2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Day 2 — Literature Review</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../EROP/day-3.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Day 3 — Verify and Evaluate Information</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../EROP/day-4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Day 4 — Proposal Drafts</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../EROP/day-5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Day 5 — Presentation</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../EROP/mentoring-strategy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">EROP Mentoring Strategy</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
+  <li><a href="#daily-recap" id="toc-daily-recap" class="nav-link active" data-scroll-target="#daily-recap">Daily Recap</a></li>
+  <li><a href="#verifying-information" id="toc-verifying-information" class="nav-link" data-scroll-target="#verifying-information">Verifying Information</a>
   <ul class="collapse">
-  <li><a href="#before-you-read" id="toc-before-you-read" class="nav-link" data-scroll-target="#before-you-read">Before You Read</a></li>
+  <li><a href="#obtaining-bibtex" id="toc-obtaining-bibtex" class="nav-link" data-scroll-target="#obtaining-bibtex">Obtaining BibTex</a></li>
+  <li><a href="#validating-the-claims" id="toc-validating-the-claims" class="nav-link" data-scroll-target="#validating-the-claims">Validating the claims</a></li>
   </ul></li>
-  <li><a href="#the-three-pass-method" id="toc-the-three-pass-method" class="nav-link" data-scroll-target="#the-three-pass-method">The Three-Pass Method</a>
-  <ul class="collapse">
-  <li><a href="#pass-1-the-birds-eye-view" id="toc-pass-1-the-birds-eye-view" class="nav-link" data-scroll-target="#pass-1-the-birds-eye-view">Pass 1 — The Bird’s Eye View</a></li>
-  <li><a href="#pass-2-understanding-the-contribution" id="toc-pass-2-understanding-the-contribution" class="nav-link" data-scroll-target="#pass-2-understanding-the-contribution">Pass 2 — Understanding the Contribution</a></li>
-  <li><a href="#pass-3-investment" id="toc-pass-3-investment" class="nav-link" data-scroll-target="#pass-3-investment">Pass 3 — Investment</a></li>
-  <li><a href="#critical-questions-to-ask" id="toc-critical-questions-to-ask" class="nav-link" data-scroll-target="#critical-questions-to-ask">Critical Questions to Ask</a></li>
-  <li><a href="#starting-points" id="toc-starting-points" class="nav-link" data-scroll-target="#starting-points">Starting Points</a></li>
-  </ul></li>
-  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  <li><a href="#critical-reading" id="toc-critical-reading" class="nav-link" data-scroll-target="#critical-reading">Critical Reading</a></li>
+  <li><a href="#team-review" id="toc-team-review" class="nav-link" data-scroll-target="#team-review">Team Review</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/How-To-Train-Your-Researcher/HTTYR/edit/main/advice/reading_advice.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/How-To-Train-Your-Researcher/HTTYR/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/How-To-Train-Your-Researcher/HTTYR/edit/main/EROP/day-3.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/How-To-Train-Your-Researcher/HTTYR/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../EROP/day-1.html">Daily Plan</a></li><li class="breadcrumb-item"><a href="../EROP/day-3.html">Day 3 — Verify and Evaluate Information</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Reading Advice</h1>
-<p class="subtitle lead">Advice for reading AI research papers and academic articles</p>
+<h1 class="title">Day 3 — Verify and Evaluate Information</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Authors</div>
-    <div class="quarto-title-meta-contents">
-             <p>Yuriel Ryan </p>
-          </div>
-  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Updated</div>
@@ -173,93 +271,11 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="introduction" class="level1">
-<h1>Introduction</h1>
-<p>Reading research papers is a skill — it takes deliberate practice and good habits. This guide compiles advice from graduate students and professors on how to approach AI research papers and academic articles efficiently and critically.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This isn’t a page that tells you “how to read a research paper”. It’s more of a “you can try these tips because it has worked for us” kind of page. Learning <em>when</em> to skim and <em>when</em> to read deeply is part of the skill which you should apply to this page as well!</p>
-</div>
-</div>
-<hr>
-<section id="before-you-read" class="level2">
-<h2 class="anchored" data-anchor-id="before-you-read">Before You Read</h2>
-<ul>
-<li><strong>Know why you are reading.</strong> Are you looking for related work, a specific method, or a broad survey of a field / problem (e.g., AI hallucinations)? Your goal determines how broad or deep you go.</li>
-<li><strong>Check the venue.</strong> NeurIPS, ICML, ICLR, CVPR, EMNLP — knowing the conference gives you a sense of the paper’s quality and focus area.</li>
-<li><strong>Read the abstract twice.</strong> Once to understand the claim; once to identify what you should be looking for in the body.</li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="the-three-pass-method" class="level1">
-<h1>The Three-Pass Method</h1>
-<p>To start you off, the “three-pass method” is a well-known technique to become more efficient in your reading. “Efficiency” here means quickly identifying if a paper is even relevant to your research. There are many new and exciting stuff happening in the AI space everyday — just look at the the number of papers submitted to <a href="https://huggingface.co/papers/date/">HuggingFace</a>. Your goal here is to learn how to filter out the noise and grab one or two key works to inform your hypotheses/experiments!</p>
-<section id="pass-1-the-birds-eye-view" class="level3">
-<h3 class="anchored" data-anchor-id="pass-1-the-birds-eye-view">Pass 1 — The Bird’s Eye View</h3>
-<p>Read: title, abstract, section headings, figures and captions, conclusion.</p>
-<p><strong>Goal:</strong> Decide if the paper is worth a deeper read and form a broad impression about it’s contributions.</p>
-<p>One practical tip to build an impression is to <strong>identify the authors and/or their affiliations</strong>. Some institutions, or even specific labs within those institutions, prefer a more empirical approach as opposed to a theoretical one. Others focus on industry impacts over social ones — for instance, improving token efficiency vs identifying demographic biases. Depending on the focus of your work, the title and the authors could sometimes provide enough information to proceed onto the next <a href="#pass-2-—-understanding-the-contribution">pass</a>.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Overtime, researchers naturally build an internal “bank” of other researchers/labs that they follow. You should build one too to quickly identify which work is worth your (time) investment.</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-caution callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Caution
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>While a case could be made to filter the quality of the work through authors/affiliations, it’s important to remember that good work can come from anywhere! Yes, maybe I’m a bit of an idealist, but let’s not blind ourselves or discount the work of others simply because they are not affiliated with a prestigious institution.</p>
-</div>
-</div>
-</section>
-<section id="pass-2-understanding-the-contribution" class="level3">
-<h3 class="anchored" data-anchor-id="pass-2-understanding-the-contribution">Pass 2 — Understanding the Contribution</h3>
-<p>Read the body carefully, skipping proofs and implementation details. Pay attention to figures, tables, and the experimental section.</p>
-<p><strong>Goal:</strong> Understand <em>what</em> the paper claims and <em>how</em> it was evaluated.</p>
-</section>
-<section id="pass-3-investment" class="level3">
-<h3 class="anchored" data-anchor-id="pass-3-investment">Pass 3 — Investment</h3>
-<p>Read the remaining sections, including appendices and referenced papers where needed.</p>
-<p>Repeat the experiments on their GitHub (if applicable)! This is the best way to understand what the authors are trying to do. More importantly, you can decide for yourself if this work is truly impactful/useful to your project.</p>
-<p><strong>Goal:</strong> Deeply understand and critically evaluate the work.</p>
-<hr>
-</section>
-<section id="critical-questions-to-ask" class="level2">
-<h2 class="anchored" data-anchor-id="critical-questions-to-ask">Critical Questions to Ask</h2>
-<ul>
-<li>What is the core problem being solved?</li>
-<li>What is the key insight or novelty?</li>
-<li>What assumptions does the method rely on?</li>
-<li>How strong is the experimental validation?</li>
-<li>What are the limitations the authors acknowledge — and those they don’t?</li>
-</ul>
-</section>
-<section id="starting-points" class="level2">
-<h2 class="anchored" data-anchor-id="starting-points">Starting Points</h2>
-<p>Part of my research journey was figuring out which conferences are considered “reputable” and/or “impactful”. While this list is <strong>non-exhaustive</strong>, I listed some of them here to help you (hopefully an aspiring AI researcher) find a starting point.</p>
+<p>Day 3 is where we verify the sources we gathered on Day 2 and read the most important ones closely — separating what’s genuinely supported by the literature from what an AI tool merely asserted. I’ll keep going with the illustrative health misinformation brief.</p>
+<section id="daily-recap" class="level2">
+<h2 class="anchored" data-anchor-id="daily-recap">Daily Recap</h2>
+<p>Not every source from Day 2 deserves the same scrutiny. We decide together which ones warrant real verification and close reading, and I prioritise using two questions: <em>how central is this source to our argument?</em> and <em>how much are we taking its claims on trust?</em> A paper I plan to lean on as a main baseline gets verified and read carefully; a source mentioned once in passing I’ll check more lightly.</p>
+<p>Rough categorization of papers:</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 33%">
@@ -268,76 +284,157 @@ Caution
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Conference</th>
-<th style="text-align: left;">Full Name</th>
-<th style="text-align: left;">Primary Focus &amp; Specializations</th>
+<th>Priority</th>
+<th>Source type</th>
+<th>Action</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><strong>NeurIPS</strong></td>
-<td style="text-align: left;">Neural Information Processing Systems</td>
-<td style="text-align: left;">Machine learning: deep learning architectures; reinforcement learning; theoretical foundations.</td>
+<td>High</td>
+<td>Papers central to the problem / candidate baselines</td>
+<td>Verify <strong>and</strong> read critically today</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>ICML</strong></td>
-<td style="text-align: left;">International Conference on Machine Learning</td>
-<td style="text-align: left;">Algorithmic machine learning: optimization techniques; statistical learning theory; generative modeling.</td>
+<td>Medium</td>
+<td>Supporting evidence for a specific claim</td>
+<td>Verify existence and check the specific claim</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>ICLR</strong></td>
-<td style="text-align: left;">International Conference on Learning Representations</td>
-<td style="text-align: left;">Representation learning: deep neural network optimization; self-supervised learning; geometric structures.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>CVPR</strong></td>
-<td style="text-align: left;">Conference on Computer Vision and Pattern Recognition</td>
-<td style="text-align: left;">Computer vision: image recognition and synthesis; video analysis; multimodal vision-language models.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>ACL</strong></td>
-<td style="text-align: left;">Association for Computational Linguistics</td>
-<td style="text-align: left;">Natural language processing: computational linguistics; large language model alignment; text generation.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>KDD</strong></td>
-<td style="text-align: left;">Knowledge Discovery and Data Mining</td>
-<td style="text-align: left;">Data mining: large-scale knowledge discovery; graph neural networks; industrial applications.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>SIGIR</strong></td>
-<td style="text-align: left;">Special Interest Group on Information Retrieval</td>
-<td style="text-align: left;">Information retrieval: search mechanics; recommendation systems; web text mining.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>AAAI</strong></td>
-<td style="text-align: left;">Association for the Advancement of Artificial Intelligence</td>
-<td style="text-align: left;">General artificial intelligence: knowledge representation; multi-agent systems; heuristic search.</td>
+<td>Low</td>
+<td>Background / context only</td>
+<td>Confirm it exists; park for later</td>
 </tr>
 </tbody>
 </table>
-<div class="callout callout-style-default callout-note callout-titled">
+<p>I also like to set a concrete reading goal before diving in — something like “verify all six shortlisted sources and read the two most central in full.”</p>
+<hr>
+</section>
+<section id="verifying-information" class="level2">
+<h2 class="anchored" data-anchor-id="verifying-information">Verifying Information</h2>
+<p>Before any source informs your proposal, I would confirm two things: that it <strong>exists as described</strong>, and that the <strong>claims attributed to it are actually true</strong>.</p>
+<section id="obtaining-bibtex" class="level3">
+<h3 class="anchored" data-anchor-id="obtaining-bibtex">Obtaining BibTex</h3>
+<p>I search the exact title in <a href="https://scholar.google.com">Google Scholar</a> and check that the authors, venue, and year line up with what the tool told me. If it doesn’t show up, I’ll try a distinctive phrase from the title in quotes. A source I can’t locate doesn’t make it into my bibliography — no exceptions.</p>
+<p>Once I’ve found it, I grab a clean citation via <strong>Cite → BibTeX</strong> and paste it straight into my <code>.bib</code> file in <a href="https://www.overleaf.com/project">Overleaf</a>:</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Example --- BibTeX from Google Scholar">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Note
+<span class="screen-reader-only">Tip</span>Example — BibTeX from Google Scholar
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>AI is often cross disciplinary! If you are working on such projects, please do your homework to find out which other venues — both conferences and journals — are considered <em>strong/impactful</em> for your field.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@inproceedings</span>{<span class="ot">author2023misinfo</span>,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>     = {Explainable Detection of Health Misinformation in Short Text},</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>    = {Author, A. and Author, B.},</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">booktitle</span> = {Proceedings of EMNLP},</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>      = {2023}</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>I always sanity-check the fields before trusting them. Scholar often lists a published paper’s venue as <code>arXiv preprint</code> even after it appeared at a conference — so I’ll fix the <code>booktitle</code>/<code>journal</code> to the <em>published</em> venue and confirm the year. A wrong venue in a bibliography quietly tells the reader you didn’t check.</p>
+</div>
+</div>
+</section>
+<section id="validating-the-claims" class="level3">
+<h3 class="anchored" data-anchor-id="validating-the-claims">Validating the claims</h3>
+<p>Existence isn’t enough — the AI’s <em>summary</em> can be wrong even when the paper is real. The trick that’s most reliable for me: before I re-read the AI’s summary, I jot down what I think the paper says <strong>in my own words</strong> from the abstract and key sections, then compare. The discrepancies are where the hallucinations hide.</p>
+<p>These are the patterns of AI hallucination and misattribution I keep an eye out for:</p>
+<ul>
+<li><strong>Invented papers</strong> — a plausible title paired with real authors who never wrote it.</li>
+<li><strong>Misattribution</strong> — a real finding credited to the wrong paper, or two papers’ results merged into one.</li>
+<li><strong>Overstated claims</strong> — “this method solves X” when the paper reports a modest improvement under specific conditions.</li>
+<li><strong>Dropped caveats</strong> — the dataset, language, or setting a result depends on gets quietly omitted (e.g., an English-only result reported as if it were general).</li>
+<li><strong>Fabricated numbers</strong> — precise-sounding statistics that don’t actually appear in the source.</li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled" title="Example --- catching a misattribution">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Example — catching a misattribution
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>An AI survey claims: <em>“Tan et al.&nbsp;(2022) show that multilingual transformers achieve 92% F1 on code-mixed health misinformation.”</em> When I read the actual paper, Tan et al.&nbsp;evaluate on <strong>monolingual English</strong> misinformation and never touch code-mixed text; the 92% is on a different task entirely. So the claim comes out, and I re-annotate the paper for what it <em>actually</em> shows.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-caution callout-titled" title="You Do --- Verify your shortlist">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Caution</span>You Do — Verify your shortlist
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>For each source on your team’s Day 2 shortlist: (1) find it on Google Scholar and confirm authors/venue/year, (2) export and tidy up its BibTeX entry, and (3) write 2–3 points about it in your own words and compare them against the AI summary. Drop any source you can’t verify, and flag any claim that doesn’t hold up.</p>
 </div>
 </div>
 <hr>
 </section>
 </section>
-<section id="resources" class="level1">
-<h1>Resources</h1>
+<section id="critical-reading" class="level2">
+<h2 class="anchored" data-anchor-id="critical-reading">Critical Reading</h2>
+<p>Verification tells me a source is real and fairly summarised. Critical reading is how I work out whether it actually <em>matters</em> to my work — and I do this part <strong>without</strong> AI, because the whole point is to build my own judgement. We’ll work through one or two key papers together.</p>
+<p>A structured way in is the three-pass method on the <a href="../advice/reading_advice.html">Reading Advice</a> page: a quick bird’s-eye pass, a pass to understand the contribution, and a deep pass only for the papers that earn it. For each key paper, I want to be able to say three things:</p>
 <ul>
-<li><a href="../index.html">How To Train Your Researcher (HTTYR)</a> — EROP mentorship guide</li>
-<li><a href="../advice/writing_advice.html">Writing Advice</a> — academic writing tips</li>
+<li><strong>Contribution</strong> — what the paper actually adds. What can we do now that we couldn’t before?</li>
+<li><strong>Limitations</strong> — where it falls short: assumptions, narrow evaluation, settings it doesn’t cover.</li>
+<li><strong>Gaps</strong> — what it leaves unaddressed. A gap that overlaps my problem is an <em>opening for my own contribution</em>.</li>
 </ul>
+<div class="callout callout-style-default callout-tip callout-titled" title="Example --- contributions, limitations, gaps">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Example — contributions, limitations, gaps
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Reading a paper on explainable misinformation detection:</p>
+<ul>
+<li><strong>Contribution:</strong> a token-attribution method that lets a moderator see which words drove a “misinformation” flag, with a user study showing moderators trust it more than a black-box score.</li>
+<li><strong>Limitations:</strong> evaluated only on English Twitter data; the user study had 12 participants; no code-mixed text.</li>
+<li><strong>Gap (our opening):</strong> nobody has tested whether token attributions stay meaningful for <strong>code-mixed Singlish</strong>, where the model may attend to the “wrong” language’s tokens. <em>That’s exactly where our project can contribute.</em></li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-caution callout-titled" title="You Do --- Read one paper closely">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Caution</span>You Do — Read one paper closely
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>As a team, pick the single most central paper from your verified shortlist and read it without AI assistance. Write down its contribution, its limitations, and at least one gap. Then try phrasing that gap as a one-sentence opening for your own research.</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="team-review" class="level2">
+<h2 class="anchored" data-anchor-id="team-review">Team Review</h2>
+<p>Each team shares its most important or surprising finding with the room, and then we converge on the research idea with the highest potential for impact. The framing I aim for: <em>“Prior work does X but not Y; Y is our opening.”</em></p>
+<div class="callout callout-style-default callout-note callout-titled" title="Artifact --- Verified shortlist">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Artifact — Verified shortlist
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A verified shortlist of sources, each annotated with its <strong>contribution</strong> and <strong>limitations</strong>, and a short note on the <strong>gap</strong> the team intends to address. This carries straight into Day 4’s proposal design.</p>
+</div>
+</div>
 
 
 </section>
@@ -748,4 +845,4 @@ Note
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/How-To-Train-Your-Researcher/HTTYR/edit/main/advice/reading_advice.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/How-To-Train-Your-Researcher/HTTYR/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/How-To-Train-Your-Researcher/HTTYR/edit/main/EROP/day-3.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/How-To-Train-Your-Researcher/HTTYR/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

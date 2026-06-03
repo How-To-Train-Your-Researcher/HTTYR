@@ -1,0 +1,40 @@
+/* css styles */
+
+/* ------------------------------------------------------------------ *
+ * EROP pages have a docked left navigation sidebar. By default Quarto
+ * lets the nav sidebar consume the left flexible gutter while leaving a
+ * large flexible gutter on the right, so the article body hugs the
+ * sidebar and dead space piles up on the right. The override below
+ * rebalances the grid on these pages so the body + right-hand TOC are
+ * centred in the space to the right of the sidebar, matching the look
+ * of the (sidebar-less) advice pages.
+ * Scoped to body.nav-sidebar so the advice pages are untouched.
+ * ------------------------------------------------------------------ */
+@media (min-width: 992px) {
+  body.nav-sidebar.docked .page-columns {
+    grid-template-columns:
+      [screen-start] 1.5em
+      [screen-start-inset] 270px
+      [page-start page-start-inset body-start-outset] 1fr
+      [body-start] 1.5em
+      [body-content-start] minmax(450px, 780px)
+      [body-content-end] 1.5em
+      [body-end] 35px
+      [body-end-outset] minmax(120px, 200px)
+      [page-end-inset] 1fr
+      [page-end] 0
+      [screen-end-inset] 1.5em
+      [screen-end];
+  }
+
+  /* Keep the nav sidebar pinned to its fixed band on the far left
+     (don't let it stretch across the new flexible gutter). */
+  body.nav-sidebar.docked .page-columns .sidebar.sidebar-navigation {
+    grid-column: screen-start / page-start;
+  }
+
+  /* Keep the TOC inside its own column (not spilling into the gutter). */
+  body.nav-sidebar.docked .page-columns .sidebar.margin-sidebar {
+    grid-column: body-end-outset / page-end-inset;
+  }
+}
