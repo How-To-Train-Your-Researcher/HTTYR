@@ -1,0 +1,136 @@
+---
+title: "Day 1 --- Introduction"
+date: last-modified
+---
+
+Day 1 is about getting your bearings: making sense of the research brief and shaping a first problem statement together. The examples below walk through an illustrative brief on health misinformation --- a different domain from your actual EROP brief, on purpose --- so you can see how I'd think through each step before trying it on your own.
+
+## Pre-Survey
+
+Before the program begins, both mentees and mentors fill in a short self-assessment so we have a baseline to look back on at the end. The link will be shared by the program coordinators on the day.
+
+*What is this for?*: We use these self-assessments as a signal for how much the program actually helped you. Thank you for taking the time to fill it up 🙇🏻
+
+> **Pre-Programme Self-Assessment Form** *(link to be added by coordinators)*
+
+---
+
+## Reading the Research Brief
+
+When my team gets a new brief, the first thing we do is read it together and try to pull apart two kinds of constraints: the **explicit** ones the brief states outright, and the **implicit** ones it only hints at.
+
+::: {.callout-note}
+The EROP research brief is on the [Research Brief](research-brief.qmd) page. Read through it before working through the examples below.
+:::
+
+The worked example below uses a separate illustrative brief on health misinformation --- a different domain, chosen on purpose so you can practice the skill before turning to your own brief.
+
+::: {.callout-note title="Illustrative Brief --- AI-Assisted Detection of Health Misinformation"}
+**Brief: AI-Assisted Detection of Health Misinformation in Online Communities**
+
+*Background:* Health misinformation spreads rapidly on social media platforms and online forums. Singaporean health authorities are interested in scalable tools that can assist human moderators in identifying potentially misleading health claims in English and Singlish user-generated content.
+
+*Task:* Develop or evaluate an AI-based approach to detect health misinformation in short-form text (e.g., forum posts and social media comments up to 280 characters). The solution must be *explainable* --- moderators must understand why a piece of content was flagged.
+
+*Resources:* The team has access to publicly available English health misinformation datasets. Any approach using local Singapore data must comply with PDPA. The solution must be evaluable within a 5-week research sprint.
+:::
+
+### Identifying Constraints
+
+::: {.callout-note title="My Thought Process"}
+I not only look for specific details that the research brief is trying to suggest, but also whether the resulting proposal will be **sensible**. For instance, if the brief didn't suggest a budget, I still wouldn't come up with a proposal asking for $1M dollars to finetune one model. It's just not very realistic/sensible to a grant/resource provider.
+:::
+
+
+
+The first thing I do is separate what is *stated* from what is *implied*.
+
+**Step 1 --- Extract explicit constraints**
+
+I go through the brief almost sentence by sentence, pulling out anything that directly limits what I can do.
+
+| Examples | Source in the brief |
+|---|---|
+| Short-form text only (≤ 280 chars) | "short-form text … up to 280 characters" |
+| Explainability is required | "The solution must be explainable" |
+| English and Singlish text | "English and Singlish user-generated content" |
+| 5-week timeline | "5-week research sprint" |
+| PDPA compliance for any local data | "must comply with PDPA" |
+| Only publicly available datasets (unless PDPA-compliant) | "access to publicly available English … datasets" |
+
+**Step 2 --- Infer implicit constraints**
+
+These take more thought. For each explicit constraint, I ask myself: *what does this actually mean in practice?*
+
+1. **Singlish adds NLP complexity.** Most pre-trained language models are trained on standard English. Singlish --- a local creole mixing English with Malay, Hokkien, and Tamil --- is underrepresented in standard NLP benchmarks, so I wouldn't assume an off-the-shelf model transfers well.
+
+2. **The health domain probably needs a high precision bar.** The brief doesn't say this outright, but flagging a *correct* health claim as misinformation (a false positive) could erode public trust --- so I'd want to be conservative about what gets flagged.
+
+3. **"Evaluable in 5 weeks" rules out training from scratch.** There likely isn't time to collect new data and pre-train a model, so fine-tuning or prompting an existing one feels more realistic.
+
+4. **"Assist human moderators" implies a human in the loop.** The system isn't meant to be fully autonomous --- it's a triage support tool. That relaxes some accuracy requirements, but it raises a new question I find more interesting: what does the moderator actually need to make a decision?
+
+**Step 3 --- Note what to emphasise in a problem statement**
+
+Coming out of this, here are the points I'd want to foreground:
+
+- The Singlish challenge is distinctive and under-studied --- it's a non-obvious constraint that motivates *why* existing work might not apply.
+- The explainability requirement creates a genuine research tension (the most accurate models are often the least interpretable).
+- The human-in-the-loop framing should shape how we even define "success" --- accuracy alone isn't the whole story.
+
+::: {.callout-caution title="You Do --- Now try it with the EROP brief"}
+Now it's your turn. Take the actual research brief on the [Research Brief](research-brief.qmd) page and, as a team, see if you can produce:
+
+1. A table of explicit constraints with their source in the brief.
+2. A list of implicit constraints, each with a short justification.
+3. Two or three points you'd want to foreground in a problem statement, and why.
+:::
+
+---
+
+## Problem Statements
+
+### What is a problem statement in AI research?
+
+**The problem statement helps you to justify the why in your research**. The way I think about it, it should ideally answer three questions in a paragraph or two:
+
+1. **What gap exists?** --- the open problem or underexplored area.
+2. **Why does it matter?** --- the real-world or scientific motivation.
+3. **What direction are you taking?** --- a high-level sense of your research approach.
+
+::: {.callout-important}
+A problem statement is **not** a solution statement. It doesn't say "we will build X." It says "Y is a challenge because of Z, and addressing Z matters because of W."
+:::
+
+### What are research questions in AI research?
+
+Research questions (RQ) specifies what you would be experimenting/working on (e.g., modifying objective functions) to address the problem statement. Starting from the brief above, we form two research questions as an example to get the discussion going:
+
+**RQ 1 --- Singlish-aware misinformation detection**
+
+> Health misinformation classifiers are typically fine-tuned on standard-English corpora, so Singlish --- with its code-switching, borrowed lexicon (Malay/Hokkien/Tamil), discourse particles (*lah/leh/sia*), and non-standard orthography --- presents a token-level distribution shift the model never saw in training. *How large is the performance gap (macro-F1, and the false-positive rate in particular) between English and Singlish inputs, and can cross-lingual transfer or parameter-efficient fine-tuning (e.g., LoRA/adapters) close it under a limited labelled-data and single-GPU budget?*
+
+**RQ 2 --- Explainability for health moderators**
+
+> An accurate classifier is unhelpful if a moderator can't tell *why* a post was flagged --- and post-hoc attribution methods (LIME, SHAP, attention weights) are not guaranteed to be faithful to the model's actual decision. *Which explanation format --- token-level highlights, retrieved counter-evidence, or a short natural-language rationale --- most improves a moderator's decision accuracy and review time, and how faithfully does each reflect the classifier's true reasoning?*
+
+Again, these are just examples. I'd encourage the mentees to ask whether the RQs are genuinely distinct, and which one feels more tractable given the constraints we found earlier.
+
+### Drafting a Problem Statement
+
+Here's how I might draft a problem statement for Angle 1. Have a read first, then I'll walk through the choices I made.
+
+::: {.callout-tip title="Example --- Draft Problem Statement (Angle 1)"}
+Online health misinformation poses a growing public health challenge in Singapore, where online communities frequently mix standard English with Singlish --- a local creole not well-represented in existing NLP benchmarks. Most health misinformation detection models are trained on English-only corpora and may not generalise reliably to this code-mixed context, leaving human moderators without dependable AI support on Singapore-facing platforms. This project investigates the extent to which pre-trained language models can be adapted for Singlish health misinformation detection under constrained data and compute budgets, using cross-lingual transfer and lightweight fine-tuning as candidate approaches.
+:::
+
+A few things I was paying attention to as I wrote this:
+
+- **I tried to name a specific gap.** Not "misinformation is a problem" (too broad), but that existing models don't cover Singlish specifically (concrete).
+- **I kept it from committing to a solution.** It "investigates … using X as *candidate* approaches" --- if those approaches turn out not to work, that's still a perfectly valid research outcome.
+- **I connected the technical gap to the human motivation.** Singlish underrepresentation is a technical fact; "leaving moderators without dependable AI support" is the human consequence. To me, both belong in a problem statement.
+- **I kept the scope honest.** "Constrained data and compute budgets" is just the 5-week timeline showing up again.
+
+::: {.callout-caution title="You Do --- Now try it with the EROP brief"}
+Using the constraints you pulled from the EROP brief, generate **two distinct problem angles** as a team. For each, write a sentence or two framing the core research question. Then pick one angle together and draft a 100–150 word problem statement in the spirit of the one above.
+:::

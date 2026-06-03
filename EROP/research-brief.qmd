@@ -1,0 +1,55 @@
+---
+title: "Research Brief"
+subtitle: "EROP Research Brief"
+date: last-modified
+---
+
+The AI safety challenges facing us today are not about bombs or missiles. They are about something quieter and, in some ways, more difficult to recover from: the systematic disruption of the structures through which we learn, work, own, and choose. Each of these has been changed --- quickly and quietly --- by the mass deployment of generative AI systems. This brief invites research into these disruptions, not to resist AI adoption, but to understand what it is actually doing to us and how we can mitigate these risks.
+
+---
+
+## How We Learn
+
+Education has always depended on productive struggle --- the formative experience of not knowing, attempting, failing, and revising. This struggle is not a flaw in the learning process; it is the mechanism through which understanding is built. Generative AI, deployed in academic contexts, short-circuits this mechanism with unusual efficiency. For example, a student who prompts a language model to explain a concept, draft an essay, or solve a problem set receives a polished output that superficially resembles mastery. The gap between receiving a correct answer and developing the capacity to produce one is invisible in the final product, but deeply significant in the learner.
+
+The consequences extend beyond beyond learning a skill: assistance from AI also how affects how we maintain our current skills. When AI handles tasks that are easy for us, we risk eroding those very same skills that made the task easy (e.g., writing code). The effects may not surface for years, until a cohort of workers who delegated their formative learning to AI tools is asked to reason, judge, or create without them.
+
+---
+
+## How We Work
+
+The modern workplace has adopted generative AI at a pace that has outrun the governance infrastructure meant to support it. Workers use AI to draft reports, generate analyses, write code, and synthesize information --- and the result is a measurable increase in throughput alongside a less visible accumulation of risk. The central hazard is automation bias: the well-documented human tendency to accept algorithmic outputs with less scrutiny than we apply to our own work. When AI produces a polished deliverable, the psychological signal that review is necessary is weaker than when a human writes a rough draft. Errors and hallucinations --- confidently stated falsehoods --- pass through review because they arrive pre-formatted and fluent.
+
+When those errors cause harm, accountability is difficult to assign. The worker who submitted the deliverable may not have fully understood it. The organisation that deployed the AI tool may not have anticipated the failure mode. Current professional norms and regulatory frameworks do not resolve this cleanly, leaving a gap between the pace of AI adoption and the scaffolding needed to make it safe.
+
+More egregiously, many of these tools now perform many tasks traditionally assigned to entry-level staff, directly competing with human graduates for entry-level positions. As fresh graduates lose hiring opportunities to AI tools, they miss out on training and development opportunities entry level roles traditionally provide. Either that, or they "10x" themselves to appear more competitive which inflates the qualifications for entry-level jobs.
+
+---
+
+## What We Own
+
+Generative AI is trained on the accumulated creative and intellectual output of humanity --- books, articles, code, art, music --- and produces outputs that synthesise, resemble, and sometimes reproduce that material. This creates an unresolved tension at the heart of intellectual property. Who owns a piece of writing that AI substantially shaped? What obligation exists when a model's output is indistinguishable from, or directly derived from, a specific human work? When AI absorbs the style and substance of a creator's life work and reproduces it at industrial scale, something has been taken --- but our current frameworks struggle to name what, and from whom.
+
+These are not purely legal questions. They concern the incentive structures that make creative and intellectual effort worthwhile in the first place. If the fruits of sustained human knowledge production can be harvested and reproduced by a model without attribution or compensation, the social contract that sustains original work --- in art, research, journalism, and beyond --- is quietly undermined.
+
+---
+
+## What We Consume
+
+The information ecosystem has changed more rapidly than any other domain. AI systems now generate text, images, audio, and video at a scale and quality that makes synthetic content difficult to distinguish from content produced by humans. Recommendation algorithms --- themselves AI systems --- shape what reaches audiences, amplifying engaging content regardless of its veracity and narrowing the informational worlds that individuals inhabit. The compounding effect is an environment in which the provenance of information is systematically obscured.
+
+A reader encountering a well-written article, an apparently authentic photograph, or a confident-sounding voice recording has a diminishing ability to determine whether it reflects a human perspective, a synthetic one, or something in between. The problem is not that any single piece of content is false. It is that the baseline assumption of authenticity --- on which trust in information has always depended --- has been quietly destabilised. Once trust erodes, it is very difficult to rebuild.
+
+---
+
+## Deliverables
+
+Both artefacts are due on **Day 5** of the programme.
+
+**Research Proposal (max 3 pages)**
+
+Each team submits an actionable written proposal identifying a specific AI safety concern arising from one of the disruptions described above. The proposal should include a clear problem statement scoped to a particular domain, a proposed methodology for investigating or addressing it, and a discussion of expected outcomes and limitations. Proposals must engage with prior work.
+
+**Research Poster (91 cm H × 150 cm W)**
+
+Each team presents a poster summarising their research proposal. The poster should communicate the problem, the approach, and the anticipated contribution clearly enough to be understood by a reader who has not read the proposal. Visual clarity and concision are as important as technical depth.

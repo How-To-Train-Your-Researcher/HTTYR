@@ -9,13 +9,17 @@ A compilation of advice on how to do AI research (e.g., reading academic papers,
 ## Repository structure
 
 ```
-├── _quarto.yml               # site configuration (theme, navbar, bibliography)
+├── _quarto.yml               # site configuration (theme, navbar, sidebar, bibliography)
 ├── index.qmd                 # HTTYR landing page
+├── EROP/                     # EROP curriculum (one page per day + brief + mentoring)
+│   ├── index.qmd             # EROP landing page
+│   ├── research-brief.qmd    # the research brief (Weapons of Mass Disruptions)
+│   ├── day-1.qmd … day-5.qmd # daily lesson plans with worked examples
+│   └── mentoring-strategy.qmd # the "I Do, We Do, You Do" mentoring model
 ├── advice/
-│   ├── erop.qmd              # EROP Playbook — program curriculum and mentoring strategy
 │   ├── reading_advice.qmd    # Reading Advice — how to read research papers
 │   └── writing_advice.qmd    # Writing Advice — academic writing techniques
-├── attachments/              # images and screenshots referenced in advice/*
+├── attachments/              # images and screenshots referenced across the site
 ├── references.bib            # shared BibTeX bibliography
 └── styles.css                # custom CSS overrides
 ```
@@ -43,7 +47,7 @@ Contributions are welcomed! The two advice most open to community inputs are:
 | `advice/reading_advice.qmd` | Tips on reading AI research papers — personal strategies, useful questions to ask, tools you used.  |
 | `advice/writing_advice.qmd` | Academic writing techniques — sentence patterns, signposting moves, hedging strategies etc. |
 
-The `index.qmd` and `advice/erop.qmd` files are maintained primarily by the EROP team.
+The `index.qmd` and `EROP/` files are maintained primarily by the EROP team.
 
 ### Step-by-step
 

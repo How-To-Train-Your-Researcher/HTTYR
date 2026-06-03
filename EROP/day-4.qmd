@@ -1,0 +1,74 @@
+---
+title: "Day 4 --- Proposal Drafts"
+date: last-modified
+---
+
+Day 4 is where we turn the verified literature into a concrete research plan: sharper research questions, testable hypotheses, and an experimental design that actually fits the programme's constraints.
+
+## Daily Recap and Potential Pivots
+
+Before we design any experiments, we check whether our original problem statement still holds up after a week of reading. Often it doesn't --- the literature might show the question's already answered, or reading might surface a more interesting gap. I want to say this clearly: **a pivot here is a sign of good research instinct, not failure.** Good researchers update their beliefs as evidence comes in, and getting comfortable doing that is a big part of learning to take risks.
+
+::: {.callout-tip title="Example --- a healthy pivot"}
+We started with "can we detect health misinformation in Singlish?" Day 3's reading turned up several strong detection models that already handle code-mixed text --- but *none* of them report whether their explanations stay faithful when the input is code-mixed. So we pivot from **building a detector** to **evaluating explanation faithfulness on code-mixed input**. Narrower, less crowded, and more clearly a contribution.
+:::
+
+---
+
+## Research Questions and Hypotheses
+
+The way I think about it, a research question (RQ) says what I want to find out; a hypothesis says what I expect the answer to be, in a form I can actually test. The RQs I'm happiest with are **specific**, **grounded in a gap** from the literature, and **answerable within my constraints**.
+
+| | Weak | Strong |
+|---|---|---|
+| RQ | "How can AI detect misinformation?" | "Do token-attribution explanations remain faithful when health-misinformation classifiers are applied to code-mixed English–Singlish text?" |
+| Why | Too broad, not answerable, no gap | Specific, tied to a documented gap, testable in 5 weeks |
+
+Then I pair each RQ with a testable hypothesis:
+
+::: {.callout-tip title="Example --- RQ and hypothesis"}
+**RQ:** Do token-attribution explanations remain faithful for code-mixed Singlish input?
+
+**Hypothesis:** Explanation faithfulness (measured by attribution–accuracy agreement under token deletion) is significantly *lower* for code-mixed inputs than for monolingual English inputs, because the model attends disproportionately to English tokens.
+
+What makes this testable, to me: it names a metric, a comparison, and a directional prediction with a stated mechanism.
+:::
+
+::: {.callout-caution title="You Do --- Formulate your RQs"}
+As a team, draft 1--3 research questions for your (possibly pivoted) problem. For each, write a testable hypothesis that names *what* you'd measure and *what* you expect. Then poke holes in each other's formulations: is it specific? grounded in a gap? answerable in the time you have?
+:::
+
+---
+
+## Experimental Plan and Proposal Outline
+
+A good experimental plan, to me, shows *how* I'd answer each RQ and stays honest about feasibility. In a short sprint, I lean toward plans that reuse existing datasets and models rather than ones that need new data collection or training from scratch.
+
+::: {.callout-tip title="Example --- experimental plan sketch"}
+- **Data:** an existing English health-misinformation dataset + a small set of code-mixed examples (translated/adapted, or sourced from public Singlish corpora within PDPA limits).
+- **Models:** two off-the-shelf pre-trained classifiers with attribution methods (no training from scratch).
+- **Measure:** faithfulness via token-deletion agreement, compared across English vs. code-mixed inputs.
+- **Expected outcome:** a quantified faithfulness gap, plus qualitative examples of where attributions break down.
+- **Limitations:** small code-mixed sample; results indicative rather than definitive.
+:::
+
+My proposals usually end up following the same rough arc:
+
+1. **Problem** --- the gap and why it matters (from Day 1, refined).
+2. **Literature** --- what exists and what it leaves open (from Days 2–3).
+3. **Proposed direction** --- the RQs, hypotheses, and experimental plan.
+4. **Expected outcomes** --- what a meaningful result looks like, and the limitations.
+
+::: {.callout-caution title="You Do --- Outline the proposal"}
+Sketch a one-page experimental plan for your main RQ (data, method, measure, expected outcome, limitations), then arrange your material into the four-part arc above. Keep it skeletal for now --- the full prose is tomorrow's job.
+:::
+
+---
+
+## Team Review
+
+Each team gives a brief walkthrough of its proposal outline and gathers peer feedback to refine before drafting.
+
+::: {.callout-note title="Artifact --- Proposal outline"}
+A proposal outline containing the research question(s), paired hypotheses, and an experimental plan --- structured along the four-part arc. This is the scaffold you'll write up on Day 5.
+:::

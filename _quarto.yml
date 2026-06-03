@@ -8,12 +8,26 @@ website:
   description: "Open-source advice for entering AI research."
   navbar:
     left:
-      - href: advice/erop.qmd
+      - href: EROP/index.qmd
         text: EROP
       - href: advice/reading_advice.qmd
         text: Reading Advice
       - href: advice/writing_advice.qmd
         text: Writing Advice
+  sidebar:
+    - title: "EROP 2026 (June)"
+      style: docked
+      contents:
+        - EROP/index.qmd
+        - EROP/research-brief.qmd
+        - section: "Daily Plan"
+          contents:
+            - EROP/day-1.qmd
+            - EROP/day-2.qmd
+            - EROP/day-3.qmd
+            - EROP/day-4.qmd
+            - EROP/day-5.qmd
+        - EROP/mentoring-strategy.qmd
   repo-url: https://github.com/How-To-Train-Your-Researcher/HTTYR
   repo-actions: [edit, issue]
 
@@ -27,10 +41,11 @@ csl: https://www.zotero.org/styles/ieee
 
 format:
   html:
-    theme: Flatly
+    theme: Cosmo
     toc: true
     toc-depth: 3
     code-copy: true
+    css: styles.css
 
 editor:
   render-on-save: true

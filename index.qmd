@@ -20,7 +20,7 @@ This page is maintained on a voluntary basis by a group of researchers. If you w
 
 - [Reading Advice](advice/reading_advice.qmd) — advice on reading research papers
 - [Writing Advice](advice/writing_advice.qmd) — advice on academic writing
-- [EROP Playbook](advice/erop.qmd) — the Early Research Opportunity Program curriculum
+- [EROP Playbook](EROP/index.qmd) — the Early Research Opportunity Program curriculum
 
 ---
 

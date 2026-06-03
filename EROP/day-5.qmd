@@ -1,0 +1,59 @@
+---
+title: "Day 5 --- Presentation"
+date: last-modified
+---
+
+Day 5 is where it all comes together into the two deliverables: the **3-page research proposal** and the **poster (91 cm H × 150 cm W)**. This is writing and communication under time pressure, and "rough-edged but complete" is exactly the right target.
+
+## Final Day Planning
+
+Before we start writing, we sort out who's doing what: who drafts which section, who builds the poster, who reviews for consistency. Agreeing on what "done" looks like up front has saved me from more than one last-minute scramble.
+
+| Role | Responsibility |
+|---|---|
+| Section leads | Each owns one part of the proposal (problem / literature / direction / outcomes) |
+| Poster lead | Builds the Canva poster from the proposal as sections firm up |
+| Reviewer | Reads for coherence, checks citations against the verified bibliography |
+
+---
+
+## Proposal Drafting
+
+The proposal (max 3 pages) pulls together everything from the week: the brief context, the verified literature, the research questions, and the experimental plan. With only three pages, every paragraph has to earn its place. The rough budget I'd aim for: half a page on problem and motivation, one page on literature and gap, one page on the proposed direction and plan, and half a page on expected outcomes and limitations.
+
+When I'm writing tight under time pressure, the [Writing Advice](../advice/writing_advice.qmd) page is what I lean on --- especially [topic sentences](../advice/writing_advice.qmd) to open each paragraph with its point, and signposting to guide the reader. Two habits that help me most:
+
+- **I lead each paragraph with its claim**, then support it. A reader should be able to follow the argument from just the first sentence of each paragraph.
+- **I only cite from the verified bibliography.** Every claim about prior work should trace back to a source we confirmed on Day 3.
+
+::: {.callout-caution title="You Do --- Draft the proposal"}
+Following your Day 4 outline and the page budget above, draft the full proposal. Have your reviewer check that every literature claim maps to a verified source, and that each paragraph opens with its point.
+:::
+
+---
+
+## Slides and Poster
+
+The poster is the visual pitch. I'd build it in Canva at **91 cm (H) × 150 cm (W)** and lean hard toward narrative clarity over cramming in content --- someone walking past should grasp the problem, the idea, and the contribution in under a minute.
+
+The posters I find clearest usually carry: a one-line problem statement, the gap, the research question, a simple figure of the approach, and the expected contribution. I try hard not to paste in the full proposal text --- the poster is there to support a conversation, not replace the document.
+
+::: {.callout-caution title="You Do --- Build the poster"}
+Draft a poster layout that tells your research story in five blocks: **Problem → Gap → Research Question → Approach (with a figure) → Expected Contribution.** Keep the text minimal and let one central figure carry the method.
+:::
+
+---
+
+## Final Presentation
+
+Each team gives a short presentation of its proposal and poster to the room. The proposal will be evaluated by AI Singapore staff against a provided rubric, and they'll probe how sound it is --- so it's worth being ready to field clarifying questions about your assumptions and plan. A complete, clearly-told story counts for more than polish.
+
+---
+
+## Post-Survey and Closing
+
+To wrap up the programme, mentees and mentors complete the post-programme self-assessment and the mirrored inter-rating surveys --- the counterpart to the Day 1 pre-survey. We use them to reflect on how much you've grown and to support certification decisions.
+
+::: {.callout-note}
+**Post-Programme Self-Assessment & Inter-Rating Survey** *(links to be added by coordinators)*
+:::
