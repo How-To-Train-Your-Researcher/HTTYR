@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-06-03">
+<meta name="dcterms.date" content="2026-06-04">
 
 <title>Day 3 — Verify and Evaluate Information – How To Train Your Researcher</title>
 <style>
@@ -238,7 +238,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#obtaining-bibtex" id="toc-obtaining-bibtex" class="nav-link" data-scroll-target="#obtaining-bibtex">Obtaining BibTex</a></li>
   <li><a href="#validating-the-claims" id="toc-validating-the-claims" class="nav-link" data-scroll-target="#validating-the-claims">Validating the claims</a></li>
   </ul></li>
-  <li><a href="#critical-reading" id="toc-critical-reading" class="nav-link" data-scroll-target="#critical-reading">Critical Reading</a></li>
+  <li><a href="#bringing-it-together" id="toc-bringing-it-together" class="nav-link" data-scroll-target="#bringing-it-together">Bringing it together</a></li>
   <li><a href="#team-review" id="toc-team-review" class="nav-link" data-scroll-target="#team-review">Team Review</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/How-To-Train-Your-Researcher/HTTYR/edit/main/EROP/day-3.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/How-To-Train-Your-Researcher/HTTYR/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -259,7 +259,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Updated</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 3, 2026</p>
+      <p class="date">June 4, 2026</p>
     </div>
   </div>
   
@@ -316,7 +316,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="obtaining-bibtex" class="level3">
 <h3 class="anchored" data-anchor-id="obtaining-bibtex">Obtaining BibTex</h3>
 <p>I search the exact title in <a href="https://scholar.google.com">Google Scholar</a> and check that the authors, venue, and year line up with what the tool told me. If it doesn’t show up, I’ll try a distinctive phrase from the title in quotes. A source I can’t locate doesn’t make it into my bibliography — no exceptions.</p>
-<p>Once I’ve found it, I grab a clean citation via <strong>Cite → BibTeX</strong> and paste it straight into my <code>.bib</code> file in <a href="https://www.overleaf.com/project">Overleaf</a>:</p>
+<p>Once I’ve found it, I grab a clean citation via <strong>Cite → BibTeX</strong> and paste it into my <code>.bib</code> file in <a href="https://www.overleaf.com/project">Overleaf</a>:</p>
 <div class="callout callout-style-default callout-tip callout-titled" title="Example --- BibTeX from Google Scholar">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -333,15 +333,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">booktitle</span> = {Proceedings of EMNLP},</span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>      = {2023}</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>I always sanity-check the fields before trusting them. Scholar often lists a published paper’s venue as <code>arXiv preprint</code> even after it appeared at a conference — so I’ll fix the <code>booktitle</code>/<code>journal</code> to the <em>published</em> venue and confirm the year. A wrong venue in a bibliography quietly tells the reader you didn’t check.</p>
+<p>Scholar often lists a published paper’s venue as <code>arXiv preprint</code> even after it appeared at a conference. However, that best practice is to look for the original source/venue (e.g., ICML) that the article is published at!</p>
 </div>
 </div>
 </section>
 <section id="validating-the-claims" class="level3">
 <h3 class="anchored" data-anchor-id="validating-the-claims">Validating the claims</h3>
-<p>Existence isn’t enough — the AI’s <em>summary</em> can be wrong even when the paper is real. The trick that’s most reliable for me: before I re-read the AI’s summary, I jot down what I think the paper says <strong>in my own words</strong> from the abstract and key sections, then compare. The discrepancies are where the hallucinations hide.</p>
-<p>These are the patterns of AI hallucination and misattribution I keep an eye out for:</p>
+<p>There are many patterns of AI hallucination and misattribution! Below are some oft he few I keep an eye out for:</p>
 <ul>
+<li><strong>Incorrect venues</strong> — these hallucinations happen most frequently when you specify which venue (e.g., ICML) you want the AI to search from .</li>
 <li><strong>Invented papers</strong> — a plausible title paired with real authors who never wrote it.</li>
 <li><strong>Misattribution</strong> — a real finding credited to the wrong paper, or two papers’ results merged into one.</li>
 <li><strong>Overstated claims</strong> — “this method solves X” when the paper reports a modest improvement under specific conditions.</li>
@@ -358,7 +358,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>An AI survey claims: <em>“Tan et al.&nbsp;(2022) show that multilingual transformers achieve 92% F1 on code-mixed health misinformation.”</em> When I read the actual paper, Tan et al.&nbsp;evaluate on <strong>monolingual English</strong> misinformation and never touch code-mixed text; the 92% is on a different task entirely. So the claim comes out, and I re-annotate the paper for what it <em>actually</em> shows.</p>
+<p>An AI survey claims: <em>“Tan et al.&nbsp;(2022) show that multilingual transformers achieve 92% F1 on code-mixed health misinformation.”</em> Upon checking, Tan et al.&nbsp;evaluate on <strong>monolingual English</strong> misinformation and never touch code-mixed text; the 92% is on a different task entirely.</p>
 </div>
 </div>
 <div class="callout callout-style-default callout-caution callout-titled" title="You Do --- Verify your shortlist">
@@ -371,16 +371,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>For each source on your team’s Day 2 shortlist: (1) find it on Google Scholar and confirm authors/venue/year, (2) export and tidy up its BibTeX entry, and (3) write 2–3 points about it in your own words and compare them against the AI summary. Drop any source you can’t verify, and flag any claim that doesn’t hold up.</p>
+<p>For each source on your team’s Day 2 shortlist: (1) find it on Google Scholar and confirm authors/venue/year, (2) export and tidy up its BibTeX entry (or better yet, find the original source), and (3) write 2-3 points about it in your own words and compare them against the AI summary. Drop any source you can’t verify, and flag any claim that doesn’t hold up.</p>
 </div>
 </div>
 <hr>
 </section>
 </section>
-<section id="critical-reading" class="level2">
-<h2 class="anchored" data-anchor-id="critical-reading">Critical Reading</h2>
-<p>Verification tells me a source is real and fairly summarised. Critical reading is how I work out whether it actually <em>matters</em> to my work — and I do this part <strong>without</strong> AI, because the whole point is to build my own judgement. We’ll work through one or two key papers together.</p>
-<p>A structured way in is the three-pass method on the <a href="../advice/reading_advice.html">Reading Advice</a> page: a quick bird’s-eye pass, a pass to understand the contribution, and a deep pass only for the papers that earn it. For each key paper, I want to be able to say three things:</p>
+<section id="bringing-it-together" class="level2">
+<h2 class="anchored" data-anchor-id="bringing-it-together">Bringing it together</h2>
+<p>In the last section, we went through how to verify information. In this one, we’ll work through one or two key papers together to extract relevant information more deeply from more papers. We will be doing this <strong>manually</strong>.</p>
+<p>A structured way in is the three-pass method on the <a href="../advice/reading_advice.html">Reading Advice</a> page: a quick bird’s-eye pass, a pass to understand the contribution, and a deep pass only for the papers that earn it. For each key paper, I want to be able to extract three things:</p>
 <ul>
 <li><strong>Contribution</strong> — what the paper actually adds. What can we do now that we couldn’t before?</li>
 <li><strong>Limitations</strong> — where it falls short: assumptions, narrow evaluation, settings it doesn’t cover.</li>
@@ -398,9 +398,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="callout-body-container callout-body">
 <p>Reading a paper on explainable misinformation detection:</p>
 <ul>
-<li><strong>Contribution:</strong> a token-attribution method that lets a moderator see which words drove a “misinformation” flag, with a user study showing moderators trust it more than a black-box score.</li>
-<li><strong>Limitations:</strong> evaluated only on English Twitter data; the user study had 12 participants; no code-mixed text.</li>
-<li><strong>Gap (our opening):</strong> nobody has tested whether token attributions stay meaningful for <strong>code-mixed Singlish</strong>, where the model may attend to the “wrong” language’s tokens. <em>That’s exactly where our project can contribute.</em></li>
+<li><strong>Contribution:</strong> a token-attribution method that lets a moderator see which words drove a “misinformation” flag, with a user study showing moderators trust it more than a black-box score. This is <strong>often found at the end of the Introduction</strong> section.</li>
+<li><strong>Limitations:</strong> evaluated only on English Twitter data; the user study had 12 participants; no code-mixed text. This is <strong>often found at the Discussion</strong> section.</li>
+<li><strong>Gaps (our opening):</strong> nobody has tested whether token attributions stay meaningful for <strong>code-mixed Singlish</strong>, where the model may attend to the “wrong” language’s tokens. <em>That’s exactly where our project can contribute.</em></li>
 </ul>
 </div>
 </div>
@@ -414,7 +414,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>As a team, pick the single most central paper from your verified shortlist and read it without AI assistance. Write down its contribution, its limitations, and at least one gap. Then try phrasing that gap as a one-sentence opening for your own research.</p>
+<p>As a team, <strong>pick the single most central paper</strong> from your verified shortlist and read it without AI assistance. Write down its contribution, its limitations, and at least one gap. Then try phrasing that gap as a one-sentence opening for your own research.</p>
 </div>
 </div>
 <hr>
@@ -432,7 +432,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>A verified shortlist of sources, each annotated with its <strong>contribution</strong> and <strong>limitations</strong>, and a short note on the <strong>gap</strong> the team intends to address. This carries straight into Day 4’s proposal design.</p>
+<p>A verified shortlist of sources, each annotated with its <strong>contribution</strong> and <strong>limitations</strong>, and a short note on the <strong>gap</strong> the team intends to address. This carries into tomorrow’s (Day 4) proposal design.</p>
 </div>
 </div>
 
