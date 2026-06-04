@@ -3,11 +3,11 @@ title: "Day 4 --- Proposal Drafts"
 date: last-modified
 ---
 
-Day 4 is where we turn the verified literature into a concrete research plan: sharper research questions, testable hypotheses, and an experimental design that actually fits the programme's constraints.
+Day 4 is where we turn the verified literature into a concrete research plan: sharper research questions, testable hypotheses, and an experimental design that fits the programme's constraints.
 
-## Daily Recap and Potential Pivots
+## Daily Recap
 
-Before we design any experiments, we check whether our original problem statement still holds up after a week of reading. Often it doesn't --- the literature might show the question's already answered, or reading might surface a more interesting gap. I want to say this clearly: **a pivot here is a sign of good research instinct, not failure.** Good researchers update their beliefs as evidence comes in, and getting comfortable doing that is a big part of learning to take risks.
+Before we design any experiments, we should check whether our original problem statement still holds up after a week of reading --- the literature might have answered our intial RQs, or present a different direction that could be more exciting! In either case, **thinking about pivoting here is a sign of good research instincts, not failure.** Good researchers update their beliefs as evidence comes in, and getting comfortable doing that is a big part of learning to take risks.
 
 ::: {.callout-tip title="Example --- a healthy pivot"}
 We started with "can we detect health misinformation in Singlish?" Day 3's reading turned up several strong detection models that already handle code-mixed text --- but *none* of them report whether their explanations stay faithful when the input is code-mixed. So we pivot from **building a detector** to **evaluating explanation faithfulness on code-mixed input**. Narrower, less crowded, and more clearly a contribution.
@@ -15,9 +15,14 @@ We started with "can we detect health misinformation in Singlish?" Day 3's readi
 
 ---
 
-## Research Questions and Hypotheses
+## Designing Experiments
 
-The way I think about it, a research question (RQ) says what I want to find out; a hypothesis says what I expect the answer to be, in a form I can actually test. The RQs I'm happiest with are **specific**, **grounded in a gap** from the literature, and **answerable within my constraints**.
+Recall that a research question (RQ) says what I want to find out to address the problem statement; a hypothesis says what I expect the answer to be, in a form I can test empirically. The RQs I'm happiest with are **specific**, **grounded in a gap** from the literature, and **answerable within my constraints**.
+
+::: {.callout-note}
+Again, this is just one way to form RQs/hypothesis. In other domains of work, proving theoretical bounds for instance, the process of forming these RQs could vary! Work together with your mentors/advisors to find the method most suitable for your flavour of research.
+:::
+
 
 | | Weak | Strong |
 |---|---|---|
@@ -40,9 +45,9 @@ As a team, draft 1--3 research questions for your (possibly pivoted) problem. Fo
 
 ---
 
-## Experimental Plan and Proposal Outline
+## Proposal Outlines
 
-A good experimental plan, to me, shows *how* I'd answer each RQ and stays honest about feasibility. In a short sprint, I lean toward plans that reuse existing datasets and models rather than ones that need new data collection or training from scratch.
+A good experimental plan in a proposal, to me, shows *how* I'd answer each RQ and stays honest about feasibility. In a short sprint, I lean toward plans that reuse existing datasets and models rather than ones that need new data collection or training from scratch.
 
 ::: {.callout-tip title="Example --- experimental plan sketch"}
 - **Data:** an existing English health-misinformation dataset + a small set of code-mixed examples (translated/adapted, or sourced from public Singlish corpora within PDPA limits).
@@ -50,12 +55,13 @@ A good experimental plan, to me, shows *how* I'd answer each RQ and stays honest
 - **Measure:** faithfulness via token-deletion agreement, compared across English vs. code-mixed inputs.
 - **Expected outcome:** a quantified faithfulness gap, plus qualitative examples of where attributions break down.
 - **Limitations:** small code-mixed sample; results indicative rather than definitive.
+- **Budget:** last but certainly not the least, would be to keep a rough estimate of the costs for this project (e.g., API costs, GPU hours, compute wall-clock etc.)
 :::
 
-My proposals usually end up following the same rough arc:
+The proposal should minimally contain these points:
 
 1. **Problem** --- the gap and why it matters (from Day 1, refined).
-2. **Literature** --- what exists and what it leaves open (from Days 2–3).
+2. **Literature / Introduction** --- what exists and what it leaves open (from Days 2–3).
 3. **Proposed direction** --- the RQs, hypotheses, and experimental plan.
 4. **Expected outcomes** --- what a meaningful result looks like, and the limitations.
 
