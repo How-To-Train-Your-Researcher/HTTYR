@@ -29,7 +29,7 @@ Before any source informs your proposal, I would confirm two things: that it **e
 
 I search the exact title in [Google Scholar](https://scholar.google.com) and check that the authors, venue, and year line up with what the tool told me. If it doesn't show up, I'll try a distinctive phrase from the title in quotes. A source I can't locate doesn't make it into my bibliography --- no exceptions.
 
-Once I've found it, I grab a clean citation via **Cite → BibTeX** and paste it straight into my `.bib` file in [Overleaf](https://www.overleaf.com/project):
+Once I've found it, I grab a clean citation via **Cite → BibTeX** and paste it into my `.bib` file in [Overleaf](https://www.overleaf.com/project):
 
 ::: {.callout-tip title="Example --- BibTeX from Google Scholar"}
 ```bibtex
@@ -41,36 +41,36 @@ Once I've found it, I grab a clean citation via **Cite → BibTeX** and paste it
 }
 ```
 
-I always sanity-check the fields before trusting them. Scholar often lists a published paper's venue as `arXiv preprint` even after it appeared at a conference --- so I'll fix the `booktitle`/`journal` to the *published* venue and confirm the year. A wrong venue in a bibliography quietly tells the reader you didn't check.
+Scholar often lists a published paper's venue as `arXiv preprint` even after it appeared at a conference. However, that best practice is to look for the original source/venue (e.g., ICML) that the article is published at!
 :::
 
 ### Validating the claims
 
-Existence isn't enough --- the AI's *summary* can be wrong even when the paper is real. The trick that's most reliable for me: before I re-read the AI's summary, I jot down what I think the paper says **in my own words** from the abstract and key sections, then compare. The discrepancies are where the hallucinations hide.
+There are many patterns of AI hallucination and misattribution! Below are some oft he few I keep an eye out for:
 
-These are the patterns of AI hallucination and misattribution I keep an eye out for:
-
+- **Incorrect venues** --- these hallucinations happen most frequently when you specify which venue (e.g., ICML) you want the AI to search from .
 - **Invented papers** --- a plausible title paired with real authors who never wrote it.
 - **Misattribution** --- a real finding credited to the wrong paper, or two papers' results merged into one.
 - **Overstated claims** --- "this method solves X" when the paper reports a modest improvement under specific conditions.
 - **Dropped caveats** --- the dataset, language, or setting a result depends on gets quietly omitted (e.g., an English-only result reported as if it were general).
 - **Fabricated numbers** --- precise-sounding statistics that don't actually appear in the source.
 
+
 ::: {.callout-tip title="Example --- catching a misattribution"}
-An AI survey claims: *"Tan et al. (2022) show that multilingual transformers achieve 92% F1 on code-mixed health misinformation."* When I read the actual paper, Tan et al. evaluate on **monolingual English** misinformation and never touch code-mixed text; the 92% is on a different task entirely. So the claim comes out, and I re-annotate the paper for what it *actually* shows.
+An AI survey claims: *"Tan et al. (2022) show that multilingual transformers achieve 92% F1 on code-mixed health misinformation."* Upon checking, Tan et al. evaluate on **monolingual English** misinformation and never touch code-mixed text; the 92% is on a different task entirely.
 :::
 
 ::: {.callout-caution title="You Do --- Verify your shortlist"}
-For each source on your team's Day 2 shortlist: (1) find it on Google Scholar and confirm authors/venue/year, (2) export and tidy up its BibTeX entry, and (3) write 2--3 points about it in your own words and compare them against the AI summary. Drop any source you can't verify, and flag any claim that doesn't hold up.
+For each source on your team's Day 2 shortlist: (1) find it on Google Scholar and confirm authors/venue/year, (2) export and tidy up its BibTeX entry (or better yet, find the original source), and (3) write 2-3 points about it in your own words and compare them against the AI summary. Drop any source you can't verify, and flag any claim that doesn't hold up.
 :::
 
 ---
 
-## Critical Reading
+## Bringing it together
 
-Verification tells me a source is real and fairly summarised. Critical reading is how I work out whether it actually *matters* to my work --- and I do this part **without** AI, because the whole point is to build my own judgement. We'll work through one or two key papers together.
+In the last section, we went through how to verify information. In this one, we'll work through one or two key papers together to extract relevant information more deeply from more papers. We will be doing this **manually**.
 
-A structured way in is the three-pass method on the [Reading Advice](../advice/reading_advice.qmd) page: a quick bird's-eye pass, a pass to understand the contribution, and a deep pass only for the papers that earn it. For each key paper, I want to be able to say three things:
+A structured way in is the three-pass method on the [Reading Advice](../advice/reading_advice.qmd) page: a quick bird's-eye pass, a pass to understand the contribution, and a deep pass only for the papers that earn it. For each key paper, I want to be able to extract three things:
 
 - **Contribution** --- what the paper actually adds. What can we do now that we couldn't before?
 - **Limitations** --- where it falls short: assumptions, narrow evaluation, settings it doesn't cover.
@@ -79,13 +79,13 @@ A structured way in is the three-pass method on the [Reading Advice](../advice/r
 ::: {.callout-tip title="Example --- contributions, limitations, gaps"}
 Reading a paper on explainable misinformation detection:
 
-- **Contribution:** a token-attribution method that lets a moderator see which words drove a "misinformation" flag, with a user study showing moderators trust it more than a black-box score.
-- **Limitations:** evaluated only on English Twitter data; the user study had 12 participants; no code-mixed text.
-- **Gap (our opening):** nobody has tested whether token attributions stay meaningful for **code-mixed Singlish**, where the model may attend to the "wrong" language's tokens. *That's exactly where our project can contribute.*
+- **Contribution:** a token-attribution method that lets a moderator see which words drove a "misinformation" flag, with a user study showing moderators trust it more than a black-box score. This is **often found at the end of the Introduction** section.
+- **Limitations:** evaluated only on English Twitter data; the user study had 12 participants; no code-mixed text. This is **often found at the Discussion** section.
+- **Gaps (our opening):** nobody has tested whether token attributions stay meaningful for **code-mixed Singlish**, where the model may attend to the "wrong" language's tokens. *That's exactly where our project can contribute.*
 :::
 
 ::: {.callout-caution title="You Do --- Read one paper closely"}
-As a team, pick the single most central paper from your verified shortlist and read it without AI assistance. Write down its contribution, its limitations, and at least one gap. Then try phrasing that gap as a one-sentence opening for your own research.
+As a team, **pick the single most central paper** from your verified shortlist and read it without AI assistance. Write down its contribution, its limitations, and at least one gap. Then try phrasing that gap as a one-sentence opening for your own research.
 :::
 
 ---
@@ -95,5 +95,5 @@ As a team, pick the single most central paper from your verified shortlist and r
 Each team shares its most important or surprising finding with the room, and then we converge on the research idea with the highest potential for impact. The framing I aim for: *"Prior work does X but not Y; Y is our opening."*
 
 ::: {.callout-note title="Artifact --- Verified shortlist"}
-A verified shortlist of sources, each annotated with its **contribution** and **limitations**, and a short note on the **gap** the team intends to address. This carries straight into Day 4's proposal design.
+A verified shortlist of sources, each annotated with its **contribution** and **limitations**, and a short note on the **gap** the team intends to address. This carries into tomorrow's (Day 4) proposal design.
 :::
