@@ -174,7 +174,7 @@
     "href": "EROP/day-4.html",
     "title": "Day 4 — Proposal Drafts",
     "section": "",
-    "text": "Day 4 is where we turn the verified literature into a concrete research plan: sharper research questions, testable hypotheses, and an experimental design that actually fits the programme’s constraints.",
+    "text": "Day 4 is where we turn the verified literature into a concrete research plan: sharper research questions, testable hypotheses, and an experimental design that fits the programme’s constraints.",
     "crumbs": [
       "EROP",
       "Daily Plan",
@@ -182,11 +182,11 @@
     ]
   },
   {
-    "objectID": "EROP/day-4.html#daily-recap-and-potential-pivots",
-    "href": "EROP/day-4.html#daily-recap-and-potential-pivots",
+    "objectID": "EROP/day-4.html#daily-recap",
+    "href": "EROP/day-4.html#daily-recap",
     "title": "Day 4 — Proposal Drafts",
-    "section": "Daily Recap and Potential Pivots",
-    "text": "Daily Recap and Potential Pivots\nBefore we design any experiments, we check whether our original problem statement still holds up after a week of reading. Often it doesn’t — the literature might show the question’s already answered, or reading might surface a more interesting gap. I want to say this clearly: a pivot here is a sign of good research instinct, not failure. Good researchers update their beliefs as evidence comes in, and getting comfortable doing that is a big part of learning to take risks.\n\n\n\n\n\n\nTipExample — a healthy pivot\n\n\n\nWe started with “can we detect health misinformation in Singlish?” Day 3’s reading turned up several strong detection models that already handle code-mixed text — but none of them report whether their explanations stay faithful when the input is code-mixed. So we pivot from building a detector to evaluating explanation faithfulness on code-mixed input. Narrower, less crowded, and more clearly a contribution.",
+    "section": "Daily Recap",
+    "text": "Daily Recap\nBefore we design any experiments, we should check whether our original problem statement still holds up after a week of reading — the literature might have answered our intial RQs, or present a different direction that could be more exciting! In either case, thinking about pivoting here is a sign of good research instincts, not failure. Good researchers update their beliefs as evidence comes in, and getting comfortable doing that is a big part of learning to take risks.\n\n\n\n\n\n\nTipExample — a healthy pivot\n\n\n\nWe started with “can we detect health misinformation in Singlish?” Day 3’s reading turned up several strong detection models that already handle code-mixed text — but none of them report whether their explanations stay faithful when the input is code-mixed. So we pivot from building a detector to evaluating explanation faithfulness on code-mixed input. Narrower, less crowded, and more clearly a contribution.",
     "crumbs": [
       "EROP",
       "Daily Plan",
@@ -194,11 +194,11 @@
     ]
   },
   {
-    "objectID": "EROP/day-4.html#research-questions-and-hypotheses",
-    "href": "EROP/day-4.html#research-questions-and-hypotheses",
+    "objectID": "EROP/day-4.html#designing-experiments",
+    "href": "EROP/day-4.html#designing-experiments",
     "title": "Day 4 — Proposal Drafts",
-    "section": "Research Questions and Hypotheses",
-    "text": "Research Questions and Hypotheses\nThe way I think about it, a research question (RQ) says what I want to find out; a hypothesis says what I expect the answer to be, in a form I can actually test. The RQs I’m happiest with are specific, grounded in a gap from the literature, and answerable within my constraints.\n\n\n\n\n\n\n\n\n\nWeak\nStrong\n\n\n\n\nRQ\n“How can AI detect misinformation?”\n“Do token-attribution explanations remain faithful when health-misinformation classifiers are applied to code-mixed English–Singlish text?”\n\n\nWhy\nToo broad, not answerable, no gap\nSpecific, tied to a documented gap, testable in 5 weeks\n\n\n\nThen I pair each RQ with a testable hypothesis:\n\n\n\n\n\n\nTipExample — RQ and hypothesis\n\n\n\nRQ: Do token-attribution explanations remain faithful for code-mixed Singlish input?\nHypothesis: Explanation faithfulness (measured by attribution–accuracy agreement under token deletion) is significantly lower for code-mixed inputs than for monolingual English inputs, because the model attends disproportionately to English tokens.\nWhat makes this testable, to me: it names a metric, a comparison, and a directional prediction with a stated mechanism.\n\n\n\n\n\n\n\n\nCautionYou Do — Formulate your RQs\n\n\n\nAs a team, draft 1–3 research questions for your (possibly pivoted) problem. For each, write a testable hypothesis that names what you’d measure and what you expect. Then poke holes in each other’s formulations: is it specific? grounded in a gap? answerable in the time you have?",
+    "section": "Designing Experiments",
+    "text": "Designing Experiments\nRecall that a research question (RQ) says what I want to find out to address the problem statement; a hypothesis says what I expect the answer to be, in a form I can test empirically. The RQs I’m happiest with are specific, grounded in a gap from the literature, and answerable within my constraints.\n\n\n\n\n\n\nNote\n\n\n\nAgain, this is just one way to form RQs/hypothesis. In other domains of work, proving theoretical bounds for instance, the process of forming these RQs could vary! Work together with your mentors/advisors to find the method most suitable for your flavour of research.\n\n\n\n\n\n\n\n\n\n\n\nWeak\nStrong\n\n\n\n\nRQ\n“How can AI detect misinformation?”\n“Do token-attribution explanations remain faithful when health-misinformation classifiers are applied to code-mixed English–Singlish text?”\n\n\nWhy\nToo broad, not answerable, no gap\nSpecific, tied to a documented gap, testable in 5 weeks\n\n\n\nThen I pair each RQ with a testable hypothesis:\n\n\n\n\n\n\nTipExample — RQ and hypothesis\n\n\n\nRQ: Do token-attribution explanations remain faithful for code-mixed Singlish input?\nHypothesis: Explanation faithfulness (measured by attribution–accuracy agreement under token deletion) is significantly lower for code-mixed inputs than for monolingual English inputs, because the model attends disproportionately to English tokens.\nWhat makes this testable, to me: it names a metric, a comparison, and a directional prediction with a stated mechanism.\n\n\n\n\n\n\n\n\nCautionYou Do — Formulate your RQs\n\n\n\nAs a team, draft 1–3 research questions for your (possibly pivoted) problem. For each, write a testable hypothesis that names what you’d measure and what you expect. Then poke holes in each other’s formulations: is it specific? grounded in a gap? answerable in the time you have?",
     "crumbs": [
       "EROP",
       "Daily Plan",
@@ -206,11 +206,11 @@
     ]
   },
   {
-    "objectID": "EROP/day-4.html#experimental-plan-and-proposal-outline",
-    "href": "EROP/day-4.html#experimental-plan-and-proposal-outline",
+    "objectID": "EROP/day-4.html#proposal-outlines",
+    "href": "EROP/day-4.html#proposal-outlines",
     "title": "Day 4 — Proposal Drafts",
-    "section": "Experimental Plan and Proposal Outline",
-    "text": "Experimental Plan and Proposal Outline\nA good experimental plan, to me, shows how I’d answer each RQ and stays honest about feasibility. In a short sprint, I lean toward plans that reuse existing datasets and models rather than ones that need new data collection or training from scratch.\n\n\n\n\n\n\nTipExample — experimental plan sketch\n\n\n\n\nData: an existing English health-misinformation dataset + a small set of code-mixed examples (translated/adapted, or sourced from public Singlish corpora within PDPA limits).\nModels: two off-the-shelf pre-trained classifiers with attribution methods (no training from scratch).\nMeasure: faithfulness via token-deletion agreement, compared across English vs. code-mixed inputs.\nExpected outcome: a quantified faithfulness gap, plus qualitative examples of where attributions break down.\nLimitations: small code-mixed sample; results indicative rather than definitive.\n\n\n\nMy proposals usually end up following the same rough arc:\n\nProblem — the gap and why it matters (from Day 1, refined).\nLiterature — what exists and what it leaves open (from Days 2–3).\nProposed direction — the RQs, hypotheses, and experimental plan.\nExpected outcomes — what a meaningful result looks like, and the limitations.\n\n\n\n\n\n\n\nCautionYou Do — Outline the proposal\n\n\n\nSketch a one-page experimental plan for your main RQ (data, method, measure, expected outcome, limitations), then arrange your material into the four-part arc above. Keep it skeletal for now — the full prose is tomorrow’s job.",
+    "section": "Proposal Outlines",
+    "text": "Proposal Outlines\nA good experimental plan in a proposal, to me, shows how I’d answer each RQ and stays honest about feasibility. In a short sprint, I lean toward plans that reuse existing datasets and models rather than ones that need new data collection or training from scratch.\n\n\n\n\n\n\nTipExample — experimental plan sketch\n\n\n\n\nData: an existing English health-misinformation dataset + a small set of code-mixed examples (translated/adapted, or sourced from public Singlish corpora within PDPA limits).\nModels: two off-the-shelf pre-trained classifiers with attribution methods (no training from scratch).\nMeasure: faithfulness via token-deletion agreement, compared across English vs. code-mixed inputs.\nExpected outcome: a quantified faithfulness gap, plus qualitative examples of where attributions break down.\nLimitations: small code-mixed sample; results indicative rather than definitive.\nBudget: last but certainly not the least, would be to keep a rough estimate of the costs for this project (e.g., API costs, GPU hours, compute wall-clock etc.)\n\n\n\nThe proposal should minimally contain these points:\n\nProblem — the gap and why it matters (from Day 1, refined).\nLiterature / Introduction — what exists and what it leaves open (from Days 2–3).\nProposed direction — the RQs, hypotheses, and experimental plan.\nExpected outcomes — what a meaningful result looks like, and the limitations.\n\n\n\n\n\n\n\nCautionYou Do — Outline the proposal\n\n\n\nSketch a one-page experimental plan for your main RQ (data, method, measure, expected outcome, limitations), then arrange your material into the four-part arc above. Keep it skeletal for now — the full prose is tomorrow’s job.",
     "crumbs": [
       "EROP",
       "Daily Plan",
