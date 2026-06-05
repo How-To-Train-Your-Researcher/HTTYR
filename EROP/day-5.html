@@ -24,7 +24,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -267,12 +287,8 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="proposal-drafting" class="level2">
 <h2 class="anchored" data-anchor-id="proposal-drafting">Proposal Drafting</h2>
-<p>The proposal (max 3 pages) pulls together everything from the week: the brief context, the verified literature, the research questions, and the experimental plan. With only three pages, every paragraph has to earn its place. The rough budget I’d aim for: half a page on problem and motivation, one page on literature and gap, one page on the proposed direction and plan, and half a page on expected outcomes and limitations.</p>
-<p>When I’m writing tight under time pressure, the <a href="../advice/writing_advice.html">Writing Advice</a> page is what I lean on — especially <a href="../advice/writing_advice.html">topic sentences</a> to open each paragraph with its point, and signposting to guide the reader. Two habits that help me most:</p>
-<ul>
-<li><strong>I lead each paragraph with its claim</strong>, then support it. A reader should be able to follow the argument from just the first sentence of each paragraph.</li>
-<li><strong>I only cite from the verified bibliography.</strong> Every claim about prior work should trace back to a source we confirmed on Day 3.</li>
-</ul>
+<p>The proposal (max 3 pages) pulls together everything from the week: the brief context, the verified literature, the research questions, and the experimental plan. With only three pages, every paragraph or diagram should have some value to the proposal. The rough budget I’d aim for: half a page on problem and motivation, half-one page on literature and gap, half-one page on the proposed direction and plan, and half-one page on expected outcomes and constraints.</p>
+<p>We compiled a bunch of advice on <a href="../advice/writing_advice.html">this</a> page. If you need some references or help, do check it out.</p>
 <div class="callout callout-style-default callout-caution callout-titled" title="You Do --- Draft the proposal">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -290,8 +306,8 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="slides-and-poster" class="level2">
 <h2 class="anchored" data-anchor-id="slides-and-poster">Slides and Poster</h2>
-<p>The poster is the visual pitch. I’d build it in Canva at <strong>91 cm (H) × 150 cm (W)</strong> and lean hard toward narrative clarity over cramming in content — someone walking past should grasp the problem, the idea, and the contribution in under a minute.</p>
-<p>The posters I find clearest usually carry: a one-line problem statement, the gap, the research question, a simple figure of the approach, and the expected contribution. I try hard not to paste in the full proposal text — the poster is there to support a conversation, not replace the document.</p>
+<p>The poster is the visual pitch. We will build it in Canva at <strong>91 cm (H) × 150 cm (W)</strong> and lean hard toward narrative clarity over cramming in content — someone walking past should grasp the problem, the idea, and the contribution in under a minute.</p>
+<p>Try to include: a one-line problem statement, the gap, the research question, a simple figure of the approach, and the expected contribution. It’s usually not a good idea to copy and paste the entire proposal in the poster — it is there to support a conversation (like a notecard), not the entire one.</p>
 <div class="callout callout-style-default callout-caution callout-titled" title="You Do --- Build the poster">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -304,6 +320,20 @@ ul.task-list li input[type="checkbox"] {
 <div class="callout-body-container callout-body">
 <p>Draft a poster layout that tells your research story in five blocks: <strong>Problem → Gap → Research Question → Approach (with a figure) → Expected Contribution.</strong> Keep the text minimal and let one central figure carry the method.</p>
 </div>
+</div>
+<p>There are a few good resources to look at. here are a couple: from <a href="https://guides.nyu.edu/posters">NYU</a> and this really nice <a href="https://colinpurrington.com/tips/poster-design/">blog</a>.</p>
+<p>I have two examples to show you below:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../attachments/poster.png" class="img-fluid figure-img"></p>
+<figcaption>This is the poster designed for this program. It carries a similar structure to academic posters with the central column being the widest and the most important!</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../attachments/Interaction_Tuning_Poster.png" class="img-fluid figure-img"></p>
+<figcaption>This is the poster from my own research work <span class="citation" data-cites="ryan2026selfcaptioningmultimodalinteractiontuning"><a href="#ref-ryan2026selfcaptioningmultimodalinteractiontuning" role="doc-biblioref">[1]</a></span>.</figcaption>
+</figure>
 </div>
 <hr>
 </section>
@@ -330,9 +360,14 @@ Note
 </div>
 
 
+
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
+<div id="ref-ryan2026selfcaptioningmultimodalinteractiontuning" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] </div><div class="csl-right-inline">Y. Ryan, H. M. Ip, A. Kuek, P. P. Liang, and R. K.-W. Lee, <span>“Self-captioning multimodal interaction tuning: Amplifying exploitable redundancies for robust vision language models.”</span> 2026. Available: <a href="https://arxiv.org/abs/2605.08145">https://arxiv.org/abs/2605.08145</a></div>
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
