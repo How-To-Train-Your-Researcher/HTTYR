@@ -19,12 +19,9 @@ Before we start writing, we sort out who's doing what: who drafts which section,
 
 ## Proposal Drafting
 
-The proposal (max 3 pages) pulls together everything from the week: the brief context, the verified literature, the research questions, and the experimental plan. With only three pages, every paragraph has to earn its place. The rough budget I'd aim for: half a page on problem and motivation, one page on literature and gap, one page on the proposed direction and plan, and half a page on expected outcomes and limitations.
+The proposal (max 3 pages) pulls together everything from the week: the brief context, the verified literature, the research questions, and the experimental plan. With only three pages, every paragraph or diagram should have some value to the proposal. The rough budget I'd aim for: half a page on problem and motivation, half-one page on literature and gap, half-one page on the proposed direction and plan, and half-one page on expected outcomes and constraints.
 
-When I'm writing tight under time pressure, the [Writing Advice](../advice/writing_advice.qmd) page is what I lean on --- especially [topic sentences](../advice/writing_advice.qmd) to open each paragraph with its point, and signposting to guide the reader. Two habits that help me most:
-
-- **I lead each paragraph with its claim**, then support it. A reader should be able to follow the argument from just the first sentence of each paragraph.
-- **I only cite from the verified bibliography.** Every claim about prior work should trace back to a source we confirmed on Day 3.
+We compiled a bunch of advice on [this](../advice/writing_advice.qmd) page. If you need some references or help, do check it out.
 
 ::: {.callout-caution title="You Do --- Draft the proposal"}
 Following your Day 4 outline and the page budget above, draft the full proposal. Have your reviewer check that every literature claim maps to a verified source, and that each paragraph opens with its point.
@@ -34,13 +31,21 @@ Following your Day 4 outline and the page budget above, draft the full proposal.
 
 ## Slides and Poster
 
-The poster is the visual pitch. I'd build it in Canva at **91 cm (H) × 150 cm (W)** and lean hard toward narrative clarity over cramming in content --- someone walking past should grasp the problem, the idea, and the contribution in under a minute.
+The poster is the visual pitch. We will build it in Canva at **91 cm (H) × 150 cm (W)** and lean hard toward narrative clarity over cramming in content --- someone walking past should grasp the problem, the idea, and the contribution in under a minute.
 
-The posters I find clearest usually carry: a one-line problem statement, the gap, the research question, a simple figure of the approach, and the expected contribution. I try hard not to paste in the full proposal text --- the poster is there to support a conversation, not replace the document.
+Try to include: a one-line problem statement, the gap, the research question, a simple figure of the approach, and the expected contribution. It's usually not a good idea to copy and paste the entire proposal in the poster --- it is there to support a conversation (like a notecard), not the entire one.
 
 ::: {.callout-caution title="You Do --- Build the poster"}
 Draft a poster layout that tells your research story in five blocks: **Problem → Gap → Research Question → Approach (with a figure) → Expected Contribution.** Keep the text minimal and let one central figure carry the method.
 :::
+
+There are a few good resources to look at. here are a couple: from [NYU](https://guides.nyu.edu/posters) and this really nice [blog](https://colinpurrington.com/tips/poster-design/).
+
+I have two examples to show you below:
+
+![This is the poster designed for this program. It carries a similar structure to academic posters with the central column being the widest and the most important!](/attachments/poster.png)
+
+![This is the poster from my own research work [@ryan2026selfcaptioningmultimodalinteractiontuning].](/attachments/Interaction_Tuning_Poster.png)
 
 ---
 

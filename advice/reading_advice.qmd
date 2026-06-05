@@ -20,12 +20,16 @@ This isn't a page that tells you "how to read a research paper". It's more of a 
 
 ## Before You Read
 
-- **Know why you are reading.** Are you looking for related work, a specific
-  method, or a broad survey of a field / problem (e.g., AI hallucinations)? Your goal determines how broad or deep you go.
-- **Check the venue.** NeurIPS, ICML, ICLR, CVPR, EMNLP — knowing the conference
-  gives you a sense of the paper's quality and focus area.
-- **Read the abstract twice.** Once to understand the claim; once to identify
-  what you should be looking for in the body.
+Everybody does research a little bit differently, here are some pointers to take note of before we even start
+
+- **Know why you are reading.** Are you looking for related work, a specific method, or a broad survey of a field / problem (e.g., AI hallucinations)? Your goal determines how broad or deep you go.
+- **Check the venue.** NeurIPS, ICML, ICLR, CVPR, EMNLP — knowing the conference gives you a sense of the paper's quality and focus area.
+- **Read the abstract twice.** Once to understand the claim; once to identify what you should be looking for in the body.
+
+A great practical tip is to read to understand how to **position your work/proposal**! Researchers are in many ways content creators amongst a sea of other content creators. The main thing to consider is to find out where your work distinguishes itself among all the content (research) that is available out there.
+
+This means trying to work on something **surprising**. For example, a method that is unusually simple but effective; a novel approach that no one has tried before; or, a solution that resolve a significant/difficult problem in the existing body of work. There are many more ways to position your work (e.g., proposing a new problem) but hopefully, you get the idea!
+
 
 ---
 
