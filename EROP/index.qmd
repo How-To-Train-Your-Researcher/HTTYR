@@ -14,9 +14,10 @@ Across these pages, we provide examples for the learning objectives in this prog
 Use the sidebar on the left to navigate. The program runs over five days; each day has its own page, and the worked examples build on one another from Day 1 through Day 5.
 :::
 
+
 ---
 
-## What's here
+# What's here
 
 - [Research Brief --- Weapons of Mass Disruptions](research-brief.qmd) --- the open problem your team will work on.
 - [Day 1 --- Kickoff and Problem Framing](day-1.qmd)
@@ -25,3 +26,9 @@ Use the sidebar on the left to navigate. The program runs over five days; each d
 - [Day 4 --- Proposal Design](day-4.qmd)
 - [Day 5 --- Proposal Write-ups and Presentation](day-5.qmd)
 - [EROP Mentoring Strategy](mentoring-strategy.qmd) --- the "I Do, We Do, You Do" model for mentors.
+
+---
+
+# Future Iterations
+
+![If you would like to join future iterations, kindly register your interest here!](/attachments/poster.png)
