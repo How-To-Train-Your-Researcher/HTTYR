@@ -1,1 +1,63 @@
+---
+title: "The Lone Ranger"
+subtitle: " Advice for when you are the only subject matter expert"
+author: "Tan Kai Min, Russell"
+date: last-modified
+---
 
+## Introduction
+
+Research can feel as if you are a lonely cowboy in the vast dry dessert. You have nothing but what you know to survive. There is a particular kind of loneliness that comes with research. It is not simply the loneliness of being physically alone, sitting at a desk with papers, notes, and half-written proofs. It is the loneliness of carrying a question that no one else seems to care about yet.
+This loneliness is especially sharp when the topic does not fit neatly into an existing box. If the work lies between game theory, optimisation, probability, algorithms, or some other mixture of fields, it may be hard to find someone who immediately understands the whole picture. One person understands the modelling but not the proof. Another understands the proof technique but not the motivation. Another likes the application but not the abstraction. The researcher begins to feel that the project exists only in their own mind.
+
+## When the topic has no home
+
+This loneliness is sharper when the topic does not fit neatly into an existing field. If the work lies between game theory, optimisation, probability, algorithms, or another mixture of areas, it may be hard to find someone who understands the whole picture.
+
+One person understands the modelling but not the proof. Another understands the proof technique but not the motivation. Another likes the application but not the abstraction. Slowly, the researcher may begin to feel that the project exists only in their own mind.
+
+But this is not necessarily a sign that the topic is bad. It may only mean that the topic is still pre-language. Before a research idea becomes clear to others, it is often unclear even to the person studying it.
+
+## The Need for Partial Witnesses
+
+A common mistake is to think that you need one perfect person who understands everything. Usually, you do not.
+
+What you need is a collection of partial witnesses.
+
+One person can help check whether the model makes sense. Another can listen to a toy example. Another can challenge a proof. Another can recommend a paper. Another can simply ask, “Why does this matter?”
+
+These fragments of conversation may not feel like a full research community, but together they reduce the burden of thinking alone. Research does not always become less lonely because one person fully understands you. Sometimes it becomes less lonely because several people understand small pieces.
+
+## Turn Fog into Artifacts
+
+Private confusion is hard to share. A vague research direction is difficult for others to engage with. But a small artifact gives people something to hold.
+
+A one-page note, a diagram, a lemma, a counterexample, or a simple toy model can make the topic easier to discuss. Instead of saying, “I am working on a complicated problem,” it is often better to say, “Here is a small version of the question. Does this formulation make sense?”
+
+This is one of the practical ways to fight research loneliness: turn the fog in your head into objects that can be seen, questioned, and improved.
+
+## Writing as a Companionship
+
+A research log, even one no one reads, can serve as an imaginary collaborator. Write down what you tried, why it failed, what changed, and what still feels unclear. This prevents the project from becoming a shapeless mass of anxiety.
+
+It also records progress that memory tends to erase. Many research days feel unproductive because no theorem was proved. But a log may reveal that definitions became sharper, examples became cleaner, and false paths were eliminated. That is progress too.
+
+## Find Adjacent Communities
+
+The person who helps you may not work on your exact problem. They may come from stochastic control, economics, algorithms, operations research, topology, or statistics. They may only understand one layer of the project.
+
+That is still valuable.
+
+Many research topics grow by borrowing language from nearby areas before they become their own thing. Instead of searching only for people who already understand the entire project, look for people who understand neighbouring pieces.
+
+Sometimes the right community is not found fully formed. It is assembled gradually.
+
+## A Quiet Skill
+
+The loneliness of research does not disappear completely. In some sense, every original question has a lonely beginning. Before others can believe in the topic, someone has to sit with it while it is still vague and fragile.
+
+But the goal is not to avoid loneliness entirely. The goal is to make it livable.
+
+Be alone with the problem, but not alone as a person.
+
+That may be one of the quiet skills of becoming a researcher: learning how to protect the small flame of an idea before it has a community, while still allowing enough people near it that you do not burn out carrying it by yourself.
