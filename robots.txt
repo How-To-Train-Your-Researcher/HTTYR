@@ -1,1 +1,1 @@
-Sitemap: https://how-to-train-your-researcher.github.io/HTTYR/sitemap.xml
+Sitemap: https://httyr.com/sitemap.xml
