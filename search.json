@@ -4,21 +4,21 @@
     "href": "index.html",
     "title": "How To Train Your Researcher (HTTYR)",
     "section": "",
-    "text": "Hello! This site was created by a group of graduate students and researchers from Singapore to collate practical (and hopefully helpful) advice to do AI/ML research. The intended audience of this “documentation” are high school (pre-university/college) students and first to second-year undergraduates. The goal is simply to reduce the amount of friction a budding researcher might encounter as they start out on this new venture.\nThis is also the homepage for SYAI Lab: Early Research Opportunity Program (EROP) organized by Singapore Youth AI and supported by AI Singapore. It walks mentors and students through the “I Do, We Do, You Do” teaching (mentoring) strategy — an approach that progressively help the mentees become independent researchers.\n\n\n\n\n\n\nNote\n\n\n\nThis page is maintained on a voluntary basis by a group of researchers. If you would like to contribute or raise an issue, kindly do so here!\n\n\n\n\n\n\nReading Advice — advice on reading research papers\nWriting Advice — advice on academic writing\nEROP Playbook — the Early Research Opportunity Program curriculum\n\n\n\n\n\nIn no particular order, below lists the humans that that conjured this document into existence:\n\nYuriel Ryan\nNicole Oo\nZi-Yu Khoo\n\nAdvisors In no particular order, below lists the advisors that provided helpful guidance/insights for the aformentioned humans:\n\nProf. Roy Lee"
+    "text": "Hello! This site was created by a group of graduate students and researchers from Singapore to collate practical (and hopefully helpful) advice to do AI/ML research. The intended audience of this “documentation” are high school (pre-university/college) students and first to second-year undergraduates. The goal is simply to reduce the amount of friction a budding researcher might encounter as they start out on this new venture.\nThis is also the homepage for SYAI Lab: Early Research Opportunity Program (EROP) organized by Singapore Youth AI and supported by AI Singapore. It walks mentors and students through the “I Do, We Do, You Do” teaching (mentoring) strategy — an approach that progressively help the mentees become independent researchers.\n\n\n\n\n\n\nNote\n\n\n\nThis page is maintained on a voluntary basis by a group of researchers. If you would like to contribute or raise an issue, kindly do so here!\n\n\n\n\n\n\nReading Advice — advice on reading research papers\nWriting Advice — advice on academic writing\nThe Lone Ranger — advice for when you are the only subject matter expert\nEROP Playbook — the Early Research Opportunity Program curriculum\n\n\n\n\n\nIn no particular order, below lists the humans that that conjured this document into existence:\n\nYuriel Ryan\nNicole Oo\nClyde Lhui\nRussel Tan\nZi-Yu Khoo\n\nAdvisors In no particular order, below lists the advisors that provided helpful guidance/insights for the aformentioned humans:\n\nProf. Roy Lee"
   },
   {
     "objectID": "index.html#resources",
     "href": "index.html#resources",
     "title": "How To Train Your Researcher (HTTYR)",
     "section": "",
-    "text": "Reading Advice — advice on reading research papers\nWriting Advice — advice on academic writing\nEROP Playbook — the Early Research Opportunity Program curriculum"
+    "text": "Reading Advice — advice on reading research papers\nWriting Advice — advice on academic writing\nThe Lone Ranger — advice for when you are the only subject matter expert\nEROP Playbook — the Early Research Opportunity Program curriculum"
   },
   {
     "objectID": "index.html#contributors",
     "href": "index.html#contributors",
     "title": "How To Train Your Researcher (HTTYR)",
     "section": "",
-    "text": "In no particular order, below lists the humans that that conjured this document into existence:\n\nYuriel Ryan\nNicole Oo\nZi-Yu Khoo\n\nAdvisors In no particular order, below lists the advisors that provided helpful guidance/insights for the aformentioned humans:\n\nProf. Roy Lee"
+    "text": "In no particular order, below lists the humans that that conjured this document into existence:\n\nYuriel Ryan\nNicole Oo\nClyde Lhui\nRussel Tan\nZi-Yu Khoo\n\nAdvisors In no particular order, below lists the advisors that provided helpful guidance/insights for the aformentioned humans:\n\nProf. Roy Lee"
   },
   {
     "objectID": "advice/reading_advice.html",
@@ -451,14 +451,14 @@
     "href": "advice/lone_ranger.html",
     "title": "The Lone Ranger",
     "section": "",
-    "text": "Research can feel as if you are a lonely cowboy in the vast dry dessert. You have nothing but what you know to survive. There is a particular kind of loneliness that comes with research. It is not simply the loneliness of being physically alone, sitting at a desk with papers, notes, and half-written proofs. It is the loneliness of carrying a question that no one else seems to care about yet. This loneliness is especially sharp when the topic does not fit neatly into an existing box. If the work lies between game theory, optimisation, probability, algorithms, or some other mixture of fields, it may be hard to find someone who immediately understands the whole picture. One person understands the modelling but not the proof. Another understands the proof technique but not the motivation. Another likes the application but not the abstraction. The researcher begins to feel that the project exists only in their own mind."
+    "text": "Research can feel as if you are a lonely cowboy in the vast dry desert. You have nothing but what you know to survive. There is a particular kind of loneliness that comes with research. It is not simply the loneliness of being physically alone, sitting at a desk with papers, notes, and half-written proofs. It is the loneliness of carrying a question that no one else seems to care about yet."
   },
   {
     "objectID": "advice/lone_ranger.html#introduction",
     "href": "advice/lone_ranger.html#introduction",
     "title": "The Lone Ranger",
     "section": "",
-    "text": "Research can feel as if you are a lonely cowboy in the vast dry dessert. You have nothing but what you know to survive. There is a particular kind of loneliness that comes with research. It is not simply the loneliness of being physically alone, sitting at a desk with papers, notes, and half-written proofs. It is the loneliness of carrying a question that no one else seems to care about yet. This loneliness is especially sharp when the topic does not fit neatly into an existing box. If the work lies between game theory, optimisation, probability, algorithms, or some other mixture of fields, it may be hard to find someone who immediately understands the whole picture. One person understands the modelling but not the proof. Another understands the proof technique but not the motivation. Another likes the application but not the abstraction. The researcher begins to feel that the project exists only in their own mind."
+    "text": "Research can feel as if you are a lonely cowboy in the vast dry desert. You have nothing but what you know to survive. There is a particular kind of loneliness that comes with research. It is not simply the loneliness of being physically alone, sitting at a desk with papers, notes, and half-written proofs. It is the loneliness of carrying a question that no one else seems to care about yet."
   },
   {
     "objectID": "advice/lone_ranger.html#when-the-topic-has-no-home",
