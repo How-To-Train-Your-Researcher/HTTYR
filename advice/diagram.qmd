@@ -1,0 +1,23 @@
+---
+title: "?"
+subtitle: " Advice for diagramming"
+---
+
+# Introduction
+
+Diagrams are really important. A good diagram quickly conveys the high-level idea of your approach to readers before they dig deep into the methodology of the paper. When people read your paper, they will usually look at your abstract, introduction, tables, and your main diagram before they dig deeper into the details of your methodology.
+
+Diagramming style heavily depends on the venue that you try to publish at. For example, in clinical venues, the diagram should emphasise how the model architecture design is tailored for domain-specific reasoning. You should always look at the diagrams of previous successful papers published at your target venue to understand aspects like how detailed your diagram should be, what visual style reviewers like, and how much explanation you should include in your diagram.
+
+# Some of my Considerations for Diagramming 
+1. When I design a diagram, I try not to simply repeat what is already written in the text. Instead, I aim to provide an intuitive visual explanation to help readers understand the method more quickly than they would from the written description alone.
+
+2. I would try to make the contribution extremely obvious in the diagram. Ideally, I hope that the reader would be able to explain the high-level idea of what the contribution is after looking at the diagram.
+
+3. I believe it is important to pay attention to whether the flow of information is easy to follow. All entities (e.g. boxes, arrows, losses, prediction results) should be labelled clearly.
+
+4. I would avoid using too much diagram space explaining standard components (e.g. softmax, binary cross-entropy) unless they are important to the story. This is because the reviewers are experienced and will generally be familiar with such standard components.
+
+5. I would intentionally use visual language. For example, your can use green to denote positive model behaviour and red for undesirable model behaviour.
+
+# Some examples of good and bad diagrams
