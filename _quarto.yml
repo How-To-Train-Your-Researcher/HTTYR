@@ -1,10 +1,12 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - CNAME
 
 website:
   title: "How To Train Your Researcher"
-  site-url: https://how-to-train-your-researcher.github.io/HTTYR
+  site-url: https://httyr.com
   description: "Open-source advice for entering AI research."
   navbar:
     left:
