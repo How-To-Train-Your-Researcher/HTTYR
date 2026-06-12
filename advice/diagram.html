@@ -126,7 +126,11 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
   <li><a href="#some-of-my-considerations-for-diagramming" id="toc-some-of-my-considerations-for-diagramming" class="nav-link" data-scroll-target="#some-of-my-considerations-for-diagramming">Some of my Considerations for Diagramming</a></li>
-  <li><a href="#some-examples-of-good-and-bad-diagrams" id="toc-some-examples-of-good-and-bad-diagrams" class="nav-link" data-scroll-target="#some-examples-of-good-and-bad-diagrams">Some examples of good and bad diagrams</a></li>
+  <li><a href="#example-of-a-good-vs-bad-diagram" id="toc-example-of-a-good-vs-bad-diagram" class="nav-link" data-scroll-target="#example-of-a-good-vs-bad-diagram">Example of a Good vs Bad diagram</a>
+  <ul class="collapse">
+  <li><a href="#why-the-bad-diagram-is-bad-based-on-real-feedback-from-my-supervisor" id="toc-why-the-bad-diagram-is-bad-based-on-real-feedback-from-my-supervisor" class="nav-link" data-scroll-target="#why-the-bad-diagram-is-bad-based-on-real-feedback-from-my-supervisor">Why the Bad Diagram is Bad (based on real feedback from my supervisor)</a></li>
+  <li><a href="#why-the-good-diagram-is-good" id="toc-why-the-good-diagram-is-good" class="nav-link" data-scroll-target="#why-the-good-diagram-is-good">Why the Good Diagram is Good</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/How-To-Train-Your-Researcher/HTTYR/edit/main/advice/diagram.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/How-To-Train-Your-Researcher/HTTYR/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -166,12 +170,24 @@ ul.task-list li input[type="checkbox"] {
 <li><p>I believe it is important to pay attention to whether the flow of information is easy to follow. All entities (e.g.&nbsp;boxes, arrows, losses, prediction results) should be labelled clearly.</p></li>
 <li><p>I would avoid using too much diagram space explaining standard components (e.g.&nbsp;softmax, binary cross-entropy) unless they are important to the story. This is because the reviewers are experienced and will generally be familiar with such standard components.</p></li>
 <li><p>I would intentionally use visual language. For example, your can use green to denote positive model behaviour and red for undesirable model behaviour.</p></li>
+<li><p>Arrows should flow from left to right, instead of being disorganised which makes it difficult for readers to follow.</p></li>
 </ol>
 </section>
-<section id="some-examples-of-good-and-bad-diagrams" class="level1">
-<h1>Some examples of good and bad diagrams</h1>
+<section id="example-of-a-good-vs-bad-diagram" class="level1">
+<h1>Example of a Good vs Bad diagram</h1>
+<p>The diagrams below show two iterations of a method figure that I prepared for a recent conference submission.</p>
+<p><img src="good.png" class="img-fluid" alt="Good sample diagram"> <img src="bad.png" class="img-fluid" alt="Bad sample diagram"></p>
+<section id="why-the-bad-diagram-is-bad-based-on-real-feedback-from-my-supervisor" class="level2">
+<h2 class="anchored" data-anchor-id="why-the-bad-diagram-is-bad-based-on-real-feedback-from-my-supervisor">Why the Bad Diagram is Bad (based on real feedback from my supervisor)</h2>
+<p>The Bad Diagram is overly complicated. Even though it is technically correct, it shows too many low-level operations of the standard Attention mechanism that reviewers already know and does not add much value. Details such as the projection matrices, intermediate query/key/value vectors, attention maps, and multiplication arrows do not add much explanatory value. Instead, they make the reader spend too much time decoding the mechanics of attention rather than understanding the main idea of the module.</p>
+<p>In addition, the bottom half of the diagram that shows an operation introduces too many subsections (this diagram represents 1/3 modules of the original diagram) which makes the figure feel fragmented and distracts the reader from the 3 main modules.</p>
+</section>
+<section id="why-the-good-diagram-is-good" class="level2">
+<h2 class="anchored" data-anchor-id="why-the-good-diagram-is-good">Why the Good Diagram is Good</h2>
+<p>Unlike the Bad Diagram, it abstracts away standard attention details that reviewers are already familiar with, such as projection matrices, query/key/value vectors, attention maps, and matrix multiplications. This keeps the figure clean and allows the reader to immediately understand the purpose of the module. In addition, the two subsections have been cleanly merged into one coherent diagram. Instead of forcing the reader to switch between separate parts, the Good Diagram presents the full module as a single visual story with a clear information flow.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
