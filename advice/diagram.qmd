@@ -1,6 +1,7 @@
 ---
-title: "?"
+title: "Diagramming Advice"
 subtitle: " Advice for diagramming"
+author: "Nicole Oo"
 ---
 
 # Introduction
