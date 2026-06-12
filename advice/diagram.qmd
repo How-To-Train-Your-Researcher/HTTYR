@@ -20,4 +20,18 @@ Diagramming style heavily depends on the venue that you try to publish at. For e
 
 5. I would intentionally use visual language. For example, your can use green to denote positive model behaviour and red for undesirable model behaviour.
 
-# Some examples of good and bad diagrams
+6. Arrows should flow from left to right, instead of being disorganised which makes it difficult for readers to follow.
+
+# Example of a Good vs Bad diagram
+The diagrams below show two iterations of a method figure that I prepared for a recent conference submission.
+
+![Good sample diagram](good.png)
+![Bad sample diagram](bad.png)
+
+## Why the Bad Diagram is Bad (based on real feedback from my supervisor)
+The Bad Diagram is overly complicated. Even though it is technically correct, it shows too many low-level operations of the standard Attention mechanism that reviewers already know and does not add much value. Details such as the projection matrices, intermediate query/key/value vectors, attention maps, and multiplication arrows do not add much explanatory value. Instead, they make the reader spend too much time decoding the mechanics of attention rather than understanding the main idea of the module.
+
+In addition, the bottom half of the diagram that shows an operation introduces too many subsections (this diagram represents 1/3 modules of the original diagram) which makes the figure feel fragmented and distracts the reader from the 3 main modules.
+
+## Why the Good Diagram is Good
+Unlike the Bad Diagram, it abstracts away standard attention details that reviewers are already familiar with, such as projection matrices, query/key/value vectors, attention maps, and matrix multiplications. This keeps the figure clean and allows the reader to immediately understand the purpose of the module. In addition, the two subsections have been cleanly merged into one coherent diagram. Instead of forcing the reader to switch between separate parts, the Good Diagram presents the full module as a single visual story with a clear information flow.
