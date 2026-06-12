@@ -49,39 +49,6 @@
     "text": "Starting Points\nPart of my research journey was figuring out which conferences are considered “reputable” and/or “impactful”. While this list is non-exhaustive, I listed some of them here to help you (hopefully an aspiring AI researcher) find a starting point.\n\n\n\n\n\n\n\n\nConference\nFull Name\nPrimary Focus & Specializations\n\n\n\n\nNeurIPS\nNeural Information Processing Systems\nMachine learning: deep learning architectures; reinforcement learning; theoretical foundations.\n\n\nICML\nInternational Conference on Machine Learning\nAlgorithmic machine learning: optimization techniques; statistical learning theory; generative modeling.\n\n\nICLR\nInternational Conference on Learning Representations\nRepresentation learning: deep neural network optimization; self-supervised learning; geometric structures.\n\n\nCVPR\nConference on Computer Vision and Pattern Recognition\nComputer vision: image recognition and synthesis; video analysis; multimodal vision-language models.\n\n\nACL\nAssociation for Computational Linguistics\nNatural language processing: computational linguistics; large language model alignment; text generation.\n\n\nKDD\nKnowledge Discovery and Data Mining\nData mining: large-scale knowledge discovery; graph neural networks; industrial applications.\n\n\nSIGIR\nSpecial Interest Group on Information Retrieval\nInformation retrieval: search mechanics; recommendation systems; web text mining.\n\n\nAAAI\nAssociation for the Advancement of Artificial Intelligence\nGeneral artificial intelligence: knowledge representation; multi-agent systems; heuristic search.\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nAI is often cross disciplinary! If you are working on such projects, please do your homework to find out which other venues — both conferences and journals — are considered strong/impactful for your field."
   },
   {
-    "objectID": "EROP/mentoring-strategy.html",
-    "href": "EROP/mentoring-strategy.html",
-    "title": "EROP Mentoring Strategy",
-    "section": "",
-    "text": "One key outcome we hope to see from this site is to help budding AI researchers become more independent in their work. While we provide materials (for writing or reading academic papers) to help them get started, we also try to incorporate a form of knowledge distillation in the EROP from more experienced researchers (grad students). Much of academia rely on mentorships — either from more senior PhD students in a research group, or directly from professors (PIs). In documenting the mentoring strategy, we hope that the mentors too could benefit from this program!",
-    "crumbs": [
-      "EROP",
-      "EROP Mentoring Strategy"
-    ]
-  },
-  {
-    "objectID": "EROP/mentoring-strategy.html#overview",
-    "href": "EROP/mentoring-strategy.html#overview",
-    "title": "EROP Mentoring Strategy",
-    "section": "Overview",
-    "text": "Overview\n\n\n\nOverview of the teaching model. Image from: https://www.structural-learning.com/post/i-do-we-do-you-do\n\n\n\nI Do — The mentors demonstrate\nThe mentor demonstrates the skill or process while thinking aloud. Students observe and note down questions that they might have.\nExample: &gt; The mentor reads an AI research paper aloud, narrating the decisions they make &gt; as they skim the abstract, identify the key contribution, and assess &gt; experimental validity.\nThe main objective here is to elucidate the mentor’s thought process in the activity (e.g., reading papers, drawing diagrams, and drafting the proposal). After the initial demonstration, we encourage mentees to ask questions regarding why the mentor did xyz in that activity. The goal is to understand the approach, not to imitate.\n\n\nWe Do — Both mentors and mentees practice together\nThe mentor and student work through a task together. The student takes the lead; the mentor provides real-time prompts and feedback.\nExample: &gt; The student reads a new paper while the mentor asks guiding questions: &gt; “What problem is this solving?”, “What baseline did they compare against?”, &gt; “Would this method work in a different domain?”\n\n\nYou Do — The mentees practice independently\nThe student completes the task independently and presents their work. The mentor reviews and gives structured feedback afterward.\nExample: &gt; The student independently reads and summarises three papers from a reading list, &gt; then presents a brief synthesis to the mentor in the next meeting.",
-    "crumbs": [
-      "EROP",
-      "EROP Mentoring Strategy"
-    ]
-  },
-  {
-    "objectID": "EROP/mentoring-strategy.html#resources",
-    "href": "EROP/mentoring-strategy.html#resources",
-    "title": "EROP Mentoring Strategy",
-    "section": "Resources",
-    "text": "Resources\n\nReading Advice — advice on reading research papers\nWriting Advice — advice on academic writing",
-    "crumbs": [
-      "EROP",
-      "EROP Mentoring Strategy"
-    ]
-  },
-  {
     "objectID": "EROP/index.html",
     "href": "EROP/index.html",
     "title": "EROP 2026 (June)",
@@ -90,6 +57,114 @@
     "crumbs": [
       "EROP",
       "EROP 2026 (June)"
+    ]
+  },
+  {
+    "objectID": "EROP/day-3.html",
+    "href": "EROP/day-3.html",
+    "title": "Day 3 — Verify and Evaluate Information",
+    "section": "",
+    "text": "Day 3 is where we verify the sources we gathered on Day 2 and read the most important ones closely — separating what’s genuinely supported by the literature from what an AI tool merely asserted. I’ll keep going with the illustrative health misinformation brief.",
+    "crumbs": [
+      "EROP",
+      "Daily Plan",
+      "Day 3 --- Verify and Evaluate Information"
+    ]
+  },
+  {
+    "objectID": "EROP/day-3.html#daily-recap",
+    "href": "EROP/day-3.html#daily-recap",
+    "title": "Day 3 — Verify and Evaluate Information",
+    "section": "Daily Recap",
+    "text": "Daily Recap\nNot every source from Day 2 deserves the same scrutiny. We decide together which ones warrant real verification and close reading, and I prioritise using two questions: how central is this source to our argument? and how much are we taking its claims on trust? A paper I plan to lean on as a main baseline gets verified and read carefully; a source mentioned once in passing I’ll check more lightly.\nRough categorization of papers:\n\n\n\n\n\n\n\n\nPriority\nSource type\nAction\n\n\n\n\nHigh\nPapers central to the problem / candidate baselines\nVerify and read critically today\n\n\nMedium\nSupporting evidence for a specific claim\nVerify existence and check the specific claim\n\n\nLow\nBackground / context only\nConfirm it exists; park for later\n\n\n\nI also like to set a concrete reading goal before diving in — something like “verify all six shortlisted sources and read the two most central in full.”",
+    "crumbs": [
+      "EROP",
+      "Daily Plan",
+      "Day 3 --- Verify and Evaluate Information"
+    ]
+  },
+  {
+    "objectID": "EROP/day-3.html#verifying-information",
+    "href": "EROP/day-3.html#verifying-information",
+    "title": "Day 3 — Verify and Evaluate Information",
+    "section": "Verifying Information",
+    "text": "Verifying Information\nBefore any source informs your proposal, I would confirm two things: that it exists as described, and that the claims attributed to it are actually true.\n\nObtaining BibTex\nI search the exact title in Google Scholar and check that the authors, venue, and year line up with what the tool told me. If it doesn’t show up, I’ll try a distinctive phrase from the title in quotes. A source I can’t locate doesn’t make it into my bibliography — no exceptions.\nOnce I’ve found it, I grab a clean citation via Cite → BibTeX and paste it into my .bib file in Overleaf:\n\n\n\n\n\n\nTipExample — BibTeX from Google Scholar\n\n\n\n@inproceedings{author2023misinfo,\n  title     = {Explainable Detection of Health Misinformation in Short Text},\n  author    = {Author, A. and Author, B.},\n  booktitle = {Proceedings of EMNLP},\n  year      = {2023}\n}\nScholar often lists a published paper’s venue as arXiv preprint even after it appeared at a conference. However, that best practice is to look for the original source/venue (e.g., ICML) that the article is published at!\n\n\n\n\nValidating the claims\nThere are many patterns of AI hallucination and misattribution! Below are some oft he few I keep an eye out for:\n\nIncorrect venues — these hallucinations happen most frequently when you specify which venue (e.g., ICML) you want the AI to search from .\nInvented papers — a plausible title paired with real authors who never wrote it.\nMisattribution — a real finding credited to the wrong paper, or two papers’ results merged into one.\nOverstated claims — “this method solves X” when the paper reports a modest improvement under specific conditions.\nDropped caveats — the dataset, language, or setting a result depends on gets quietly omitted (e.g., an English-only result reported as if it were general).\nFabricated numbers — precise-sounding statistics that don’t actually appear in the source.\n\n\n\n\n\n\n\nTipExample — catching a misattribution\n\n\n\nAn AI survey claims: “Tan et al. (2022) show that multilingual transformers achieve 92% F1 on code-mixed health misinformation.” Upon checking, Tan et al. evaluate on monolingual English misinformation and never touch code-mixed text; the 92% is on a different task entirely.\n\n\n\n\n\n\n\n\nCautionYou Do — Verify your shortlist\n\n\n\nFor each source on your team’s Day 2 shortlist: (1) find it on Google Scholar and confirm authors/venue/year, (2) export and tidy up its BibTeX entry (or better yet, find the original source), and (3) write 2-3 points about it in your own words and compare them against the AI summary. Drop any source you can’t verify, and flag any claim that doesn’t hold up.",
+    "crumbs": [
+      "EROP",
+      "Daily Plan",
+      "Day 3 --- Verify and Evaluate Information"
+    ]
+  },
+  {
+    "objectID": "EROP/day-3.html#bringing-it-together",
+    "href": "EROP/day-3.html#bringing-it-together",
+    "title": "Day 3 — Verify and Evaluate Information",
+    "section": "Bringing it together",
+    "text": "Bringing it together\nIn the last section, we went through how to verify information. In this one, we’ll work through one or two key papers together to extract relevant information more deeply from more papers. We will be doing this manually.\nA structured way in is the three-pass method on the Reading Advice page: a quick bird’s-eye pass, a pass to understand the contribution, and a deep pass only for the papers that earn it. For each key paper, I want to be able to extract three things:\n\nContribution — what the paper actually adds. What can we do now that we couldn’t before?\nLimitations — where it falls short: assumptions, narrow evaluation, settings it doesn’t cover.\nGaps — what it leaves unaddressed. A gap that overlaps my problem is an opening for my own contribution.\n\n\n\n\n\n\n\nTipExample — contributions, limitations, gaps\n\n\n\nReading a paper on explainable misinformation detection:\n\nContribution: a token-attribution method that lets a moderator see which words drove a “misinformation” flag, with a user study showing moderators trust it more than a black-box score. This is often found at the end of the Introduction section.\nLimitations: evaluated only on English Twitter data; the user study had 12 participants; no code-mixed text. This is often found at the Discussion section.\nGaps (our opening): nobody has tested whether token attributions stay meaningful for code-mixed Singlish, where the model may attend to the “wrong” language’s tokens. That’s exactly where our project can contribute.\n\n\n\n\n\n\n\n\n\nCautionYou Do — Read one paper closely\n\n\n\nAs a team, pick the single most central paper from your verified shortlist and read it without AI assistance. Write down its contribution, its limitations, and at least one gap. Then try phrasing that gap as a one-sentence opening for your own research.",
+    "crumbs": [
+      "EROP",
+      "Daily Plan",
+      "Day 3 --- Verify and Evaluate Information"
+    ]
+  },
+  {
+    "objectID": "EROP/day-3.html#team-review",
+    "href": "EROP/day-3.html#team-review",
+    "title": "Day 3 — Verify and Evaluate Information",
+    "section": "Team Review",
+    "text": "Team Review\nEach team shares its most important or surprising finding with the room, and then we converge on the research idea with the highest potential for impact. The framing I aim for: “Prior work does X but not Y; Y is our opening.”\n\n\n\n\n\n\nNoteArtifact — Verified shortlist\n\n\n\nA verified shortlist of sources, each annotated with its contribution and limitations, and a short note on the gap the team intends to address. This carries into tomorrow’s (Day 4) proposal design.",
+    "crumbs": [
+      "EROP",
+      "Daily Plan",
+      "Day 3 --- Verify and Evaluate Information"
+    ]
+  },
+  {
+    "objectID": "EROP/day-2.html",
+    "href": "EROP/day-2.html",
+    "title": "Day 2 — Literature Review",
+    "section": "",
+    "text": "Day 2 is where we map the research landscape around the problem statement: what’s already been done, what the open problems are, and which papers are worth reading closely. I’ll keep going with the illustrative health misinformation brief from Day 1.",
+    "crumbs": [
+      "EROP",
+      "Daily Plan",
+      "Day 2 --- Literature Review"
+    ]
+  },
+  {
+    "objectID": "EROP/day-2.html#daily-recap",
+    "href": "EROP/day-2.html#daily-recap",
+    "title": "Day 2 — Literature Review",
+    "section": "Daily Recap",
+    "text": "Daily Recap\nBefore we start searching, we revisit yesterday’s problem statement and split the literature hunt across sub-areas. I’ve learned that without this, three of us end up finding the same survey paper while a whole sub-area goes untouched.\nFor the Singlish health misinformation angle, here’s how I might split it:\n\n\n\n\n\n\n\nSub-area\nWhy it matters to the problem\n\n\n\n\nMisinformation / fake-news detection\nThe core task — what methods exist, what they achieve\n\n\nCode-mixed and low-resource NLP\nDirectly addresses the Singlish constraint\n\n\nExplainability in text classification\nAddresses the explainability requirement from the brief\n\n\n\nEach of us takes a sub-area, and we agree up front to come back with a handful of strong sources rather than a giant undifferentiated list.",
+    "crumbs": [
+      "EROP",
+      "Daily Plan",
+      "Day 2 --- Literature Review"
+    ]
+  },
+  {
+    "objectID": "EROP/day-2.html#gathering-information",
+    "href": "EROP/day-2.html#gathering-information",
+    "title": "Day 2 — Literature Review",
+    "section": "Gathering Information",
+    "text": "Gathering Information\nDeep Research features (in ChatGPT, Claude, Gemini, and similar tools) are great for getting a fast first map of a field. I treat them as a starting point, never a substitute for actually reading. Two failure modes have bitten me enough that I always watch for them:\n\nHallucinated or mis-attributed citations. A tool may invent a plausible-sounding paper, or pin a real finding on the wrong authors or venue. I verify every source independently before it goes anywhere near my bibliography.\nConfident but shallow synthesis. The summary can smooth over real disagreements in the literature, or miss the most important recent work. I read it as a set of leads to chase, not settled conclusions.\n\n\nDeep Research with LLMs\nMost AI tools these days have some “deep research” feature, so this section is about getting more productive use out of it. A vague prompt (“tell me about misinformation detection”) gets me a vague survey back. What I’ve found works better is a prompt that encodes my problem statement, my constraints, and exactly what I want returned.\n\n\n\n\n\n\nTipExample — Deep Research prompt\n\n\n\nI am researching the detection of health misinformation in code-mixed English–Singlish short text (social media posts). I want to understand the existing research landscape.\nPlease find and summarise:\n\nKey approaches to health misinformation / fake-news detection in short text, with a focus on explainable methods.\nWork on code-mixed or low-resource NLP, especially for English mixed with Southeast Asian languages.\nFor each work: the venue, the year, the core method, and its main limitation.\n\nPrioritise peer-reviewed papers from reputable venues (e.g., ACL, EMNLP, NAACL, ICML, ICLR). Include links or DOIs so I can verify each source. Flag where the evidence is thin or where you are uncertain.\n\n\nNotice what that prompt is doing: it states the problem precisely, names the constraints (code-mixed, explainable, short text), asks for verifiable metadata (venue, year, link), and openly invites the tool to flag its own uncertainty.\n\nDon’t trust the models (for now)\nBelow is an example of a hallucinated reference produced by Deep Research (02/Jun/2026).\n\n\n\nA deep research on Meme Understanding from CVPR within the last two years. The highlighted ExplainHM is a published paper, but not in CVPR — it actually went to WWW 2025!\n\n\nBe very, very careful with the papers it lists. The model can not only hallucinate a paper that doesn’t exist, but also get where it was published wrong! In other cases the paper might just be sitting on arXiv, not actually published yet. To feel confident in our sources, we go and verify them ourselves.\n\n\n\n\nTriaging the output\nSay the tool hands me eight sources. The real skill is deciding what to read first and what to set aside — and being able to explain why. Here’s roughly how I triage:\n\nRead first — a paper from a top venue (e.g., ACL/EMNLP), recent (last 2–3 years), directly on code-mixed misinformation. High relevance, high credibility: this is the closest prior work.\nRead soon — a well-cited survey of explainable text classification. Not specific to my domain, but it frames the explainability landscape and its references are a map to follow.\nSkim / park — a paper on misinformation detection from a strong venue but English-only and not explainable. Useful as a baseline method, but it misses two of my core constraints.\nFilter out — a source with no identifiable venue, no link, or one I can’t locate when I search for it. If I can’t confirm it exists, it doesn’t enter the bibliography.\n\nThe reason I make myself say the why out loud is that it forces my criteria into the open: relevance to the problem statement, credibility of the venue, recency, and whether the work actually addresses my specific constraints.\n\n\n\n\n\n\nCautionYou Do — Survey your own problem\n\n\n\nUsing your EROP problem statement, write a Deep Research prompt in the spirit of the one above. Run it, then triage the results into “read first / read soon / skim / filter out.” For each source you flag for the team, jot one sentence on why it earned that ranking.",
+    "crumbs": [
+      "EROP",
+      "Daily Plan",
+      "Day 2 --- Literature Review"
+    ]
+  },
+  {
+    "objectID": "EROP/day-2.html#google-scholar",
+    "href": "EROP/day-2.html#google-scholar",
+    "title": "Day 2 — Literature Review",
+    "section": "Google Scholar",
+    "text": "Google Scholar\nDeep Research gives me leads; Google Scholar is where I check them and follow the citation trail myself. My first move with any AI-suggested source is always the same: find the real paper. I search the exact title in Google Scholar and confirm the authors, venue, and year match what the tool claimed.\n\n\n\nExample entry in Google Scholar\n\n\n\nPractical Tips!\n\n“Cited by N” — every result lists how many later papers cite it. Clicking through shows me forward citations: newer work that built on this paper. It’s the single most useful way I know to get from a foundational paper to the current state of the art.\n“Related articles” — surfaces papers Scholar judges topically similar; handy for widening a sub-area. Connected Papers is another tool I reach for here.\nCite → BibTeX — exports a clean citation for the bibliography (I still sanity-check the venue and year).\nFilter by year (left sidebar) — I restrict to recent work to see where a field is now, or sort differently to surface the seminal older papers.\nThe right-hand link — often a [PDF] from the publisher, arXiv, or an author’s page, which gets me to the full text.\n\n\n\n\n\n\n\nCaution\n\n\n\nI treat citation count as a signal of influence, but it’s biased toward older papers — a strong 2024 paper won’t have many citations yet. So I weigh the venue (is it a recognised peer-reviewed conference or journal?), the recency, and above all the fit to my problem. A modestly-cited paper that hits my exact sub-problem is often worth more to me than a famous paper that’s only loosely related.\n\n\n\n\nSynthesizing findings\nWhat I want at the end of this session isn’t a pile of PDFs — it’s a small set of synthesised points that connect back to the problem statement. Three kinds I find useful:\n\nExisting work — “Approach X is the standard method for short-text misinformation detection, achieving Y on benchmark Z.”\nA limitation or gap — “These models are trained and evaluated almost entirely on monolingual English; code-mixed performance is largely unstudied.”\nA convention of the subfield — “Explainability here is usually evaluated by attention-weight visualisation or token-attribution methods, which have known reliability caveats.”\n\nI make sure each point traces back to a specific source, so the claim can be checked.\n\n\nBibliographies\nThe artifact for the day is an annotated bibliography. The annotations I find most useful are short, but they capture relevance and judgement, not just a summary:\n\n\n\n\n\n\nTipExample — Annotated bibliography entry\n\n\n\nAuthor(s) (Year). Title. Venue. [link/DOI]\n\nWhat it does: proposes a transformer-based classifier for short-text misinformation with token-level attribution for explainability.\nWhy it’s relevant: hits two of our constraints (short text + explainability); a strong candidate baseline.\nLimitation for us: English-only; no evaluation on code-mixed text, which is exactly our gap.\nFollow-ups (via “Cited by”): two 2024 papers extend this to multilingual settings — worth reading next.\n\n\n\n\n\n\n\n\n\nCautionYou Do — Locate and annotate\n\n\n\nTake one source you flagged from your Deep Research survey. Find it on Google Scholar, confirm its venue and year, and click “Cited by” to find a more recent paper that builds on it. Write an annotated bibliography entry for each, in the spirit of the one above. Then, as a team, pool everyone’s entries and pick out the three synthesised points most relevant to your problem statement.",
+    "crumbs": [
+      "EROP",
+      "Daily Plan",
+      "Day 2 --- Literature Review"
     ]
   },
   {
@@ -159,6 +234,39 @@
     ]
   },
   {
+    "objectID": "EROP/mentoring-strategy.html",
+    "href": "EROP/mentoring-strategy.html",
+    "title": "EROP Mentoring Strategy",
+    "section": "",
+    "text": "One key outcome we hope to see from this site is to help budding AI researchers become more independent in their work. While we provide materials (for writing or reading academic papers) to help them get started, we also try to incorporate a form of knowledge distillation in the EROP from more experienced researchers (grad students). Much of academia rely on mentorships — either from more senior PhD students in a research group, or directly from professors (PIs). In documenting the mentoring strategy, we hope that the mentors too could benefit from this program!",
+    "crumbs": [
+      "EROP",
+      "EROP Mentoring Strategy"
+    ]
+  },
+  {
+    "objectID": "EROP/mentoring-strategy.html#overview",
+    "href": "EROP/mentoring-strategy.html#overview",
+    "title": "EROP Mentoring Strategy",
+    "section": "Overview",
+    "text": "Overview\n\n\n\nOverview of the teaching model. Image from: https://www.structural-learning.com/post/i-do-we-do-you-do\n\n\n\nI Do — The mentors demonstrate\nThe mentor demonstrates the skill or process while thinking aloud. Students observe and note down questions that they might have.\nExample: &gt; The mentor reads an AI research paper aloud, narrating the decisions they make &gt; as they skim the abstract, identify the key contribution, and assess &gt; experimental validity.\nThe main objective here is to elucidate the mentor’s thought process in the activity (e.g., reading papers, drawing diagrams, and drafting the proposal). After the initial demonstration, we encourage mentees to ask questions regarding why the mentor did xyz in that activity. The goal is to understand the approach, not to imitate.\n\n\nWe Do — Both mentors and mentees practice together\nThe mentor and student work through a task together. The student takes the lead; the mentor provides real-time prompts and feedback.\nExample: &gt; The student reads a new paper while the mentor asks guiding questions: &gt; “What problem is this solving?”, “What baseline did they compare against?”, &gt; “Would this method work in a different domain?”\n\n\nYou Do — The mentees practice independently\nThe student completes the task independently and presents their work. The mentor reviews and gives structured feedback afterward.\nExample: &gt; The student independently reads and summarises three papers from a reading list, &gt; then presents a brief synthesis to the mentor in the next meeting.",
+    "crumbs": [
+      "EROP",
+      "EROP Mentoring Strategy"
+    ]
+  },
+  {
+    "objectID": "EROP/mentoring-strategy.html#resources",
+    "href": "EROP/mentoring-strategy.html#resources",
+    "title": "EROP Mentoring Strategy",
+    "section": "Resources",
+    "text": "Resources\n\nReading Advice — advice on reading research papers\nWriting Advice — advice on academic writing",
+    "crumbs": [
+      "EROP",
+      "EROP Mentoring Strategy"
+    ]
+  },
+  {
     "objectID": "EROP/day-4.html",
     "href": "EROP/day-4.html",
     "title": "Day 4 — Proposal Drafts",
@@ -216,102 +324,6 @@
       "EROP",
       "Daily Plan",
       "Day 4 --- Proposal Drafts"
-    ]
-  },
-  {
-    "objectID": "EROP/day-1.html",
-    "href": "EROP/day-1.html",
-    "title": "Day 1 — Introduction",
-    "section": "",
-    "text": "Day 1 is about getting your bearings: making sense of the research brief and shaping a first problem statement together. The examples below walk through an illustrative brief on health misinformation — a different domain from your actual EROP brief, on purpose — so you can see how I’d think through each step before trying it on your own.",
-    "crumbs": [
-      "EROP",
-      "Daily Plan",
-      "Day 1 --- Introduction"
-    ]
-  },
-  {
-    "objectID": "EROP/day-1.html#pre-survey",
-    "href": "EROP/day-1.html#pre-survey",
-    "title": "Day 1 — Introduction",
-    "section": "Pre-Survey",
-    "text": "Pre-Survey\nBefore the program begins, both mentees and mentors fill in a short self-assessment so we have a baseline to look back on at the end. The link will be shared by the program coordinators on the day.\nWhat is this for?: We use these self-assessments as a signal for how much the program actually helped you. Thank you for taking the time to fill it up 🙇🏻\n\nPre-Programme Self-Assessment Form (link to be added by coordinators)",
-    "crumbs": [
-      "EROP",
-      "Daily Plan",
-      "Day 1 --- Introduction"
-    ]
-  },
-  {
-    "objectID": "EROP/day-1.html#reading-the-research-brief",
-    "href": "EROP/day-1.html#reading-the-research-brief",
-    "title": "Day 1 — Introduction",
-    "section": "Reading the Research Brief",
-    "text": "Reading the Research Brief\nWhen my team gets a new brief, the first thing we do is read it together and try to pull apart two kinds of constraints: the explicit ones the brief states outright, and the implicit ones it only hints at.\n\n\n\n\n\n\nNote\n\n\n\nThe EROP research brief is on the Research Brief page. Read through it before working through the examples below.\n\n\nThe worked example below uses a separate illustrative brief on health misinformation — a different domain, chosen on purpose so you can practice the skill before turning to your own brief.\n\n\n\n\n\n\nNoteIllustrative Brief — AI-Assisted Detection of Health Misinformation\n\n\n\nBrief: AI-Assisted Detection of Health Misinformation in Online Communities\nBackground: Health misinformation spreads rapidly on social media platforms and online forums. Singaporean health authorities are interested in scalable tools that can assist human moderators in identifying potentially misleading health claims in English and Singlish user-generated content.\nTask: Develop or evaluate an AI-based approach to detect health misinformation in short-form text (e.g., forum posts and social media comments up to 280 characters). The solution must be explainable — moderators must understand why a piece of content was flagged.\nResources: The team has access to publicly available English health misinformation datasets. Any approach using local Singapore data must comply with PDPA. The solution must be evaluable within a 5-week research sprint.\n\n\n\nIdentifying Constraints\n\n\n\n\n\n\nNoteMy Thought Process\n\n\n\nI not only look for specific details that the research brief is trying to suggest, but also whether the resulting proposal will be sensible. For instance, if the brief didn’t suggest a budget, I still wouldn’t come up with a proposal asking for $1M dollars to finetune one model. It’s just not very realistic/sensible to a grant/resource provider.\n\n\nThe first thing I do is separate what is stated from what is implied.\nStep 1 — Extract explicit constraints\nI go through the brief almost sentence by sentence, pulling out anything that directly limits what I can do.\n\n\n\n\n\n\n\nExamples\nSource in the brief\n\n\n\n\nShort-form text only (≤ 280 chars)\n“short-form text … up to 280 characters”\n\n\nExplainability is required\n“The solution must be explainable”\n\n\nEnglish and Singlish text\n“English and Singlish user-generated content”\n\n\n5-week timeline\n“5-week research sprint”\n\n\nPDPA compliance for any local data\n“must comply with PDPA”\n\n\nOnly publicly available datasets (unless PDPA-compliant)\n“access to publicly available English … datasets”\n\n\n\nStep 2 — Infer implicit constraints\nThese take more thought. For each explicit constraint, I ask myself: what does this actually mean in practice?\n\nSinglish adds NLP complexity. Most pre-trained language models are trained on standard English. Singlish — a local creole mixing English with Malay, Hokkien, and Tamil — is underrepresented in standard NLP benchmarks, so I wouldn’t assume an off-the-shelf model transfers well.\nThe health domain probably needs a high precision bar. The brief doesn’t say this outright, but flagging a correct health claim as misinformation (a false positive) could erode public trust — so I’d want to be conservative about what gets flagged.\n“Evaluable in 5 weeks” rules out training from scratch. There likely isn’t time to collect new data and pre-train a model, so fine-tuning or prompting an existing one feels more realistic.\n“Assist human moderators” implies a human in the loop. The system isn’t meant to be fully autonomous — it’s a triage support tool. That relaxes some accuracy requirements, but it raises a new question I find more interesting: what does the moderator actually need to make a decision?\n\nStep 3 — Note what to emphasise in a problem statement\nComing out of this, here are the points I’d want to foreground:\n\nThe Singlish challenge is distinctive and under-studied — it’s a non-obvious constraint that motivates why existing work might not apply.\nThe explainability requirement creates a genuine research tension (the most accurate models are often the least interpretable).\nThe human-in-the-loop framing should shape how we even define “success” — accuracy alone isn’t the whole story.\n\n\n\n\n\n\n\nCautionYou Do — Now try it with the EROP brief\n\n\n\nNow it’s your turn. Take the actual research brief on the Research Brief page and, as a team, see if you can produce:\n\nA table of explicit constraints with their source in the brief.\nA list of implicit constraints, each with a short justification.\nTwo or three points you’d want to foreground in a problem statement, and why.",
-    "crumbs": [
-      "EROP",
-      "Daily Plan",
-      "Day 1 --- Introduction"
-    ]
-  },
-  {
-    "objectID": "EROP/day-1.html#problem-statements",
-    "href": "EROP/day-1.html#problem-statements",
-    "title": "Day 1 — Introduction",
-    "section": "Problem Statements",
-    "text": "Problem Statements\n\nWhat is a problem statement in AI research?\nThe problem statement helps you to justify the why in your research. The way I think about it, it should ideally answer three questions in a paragraph or two:\n\nWhat gap exists? — the open problem or underexplored area.\nWhy does it matter? — the real-world or scientific motivation.\nWhat direction are you taking? — a high-level sense of your research approach.\n\n\n\n\n\n\n\nImportant\n\n\n\nA problem statement is not a solution statement. It doesn’t say “we will build X.” It says “Y is a challenge because of Z, and addressing Z matters because of W.”\n\n\n\n\nWhat are research questions in AI research?\nResearch questions (RQ) specifies what you would be experimenting/working on (e.g., modifying objective functions) to address the problem statement. Starting from the brief above, we form two research questions as an example to get the discussion going:\nRQ 1 — Singlish-aware misinformation detection\n\nHealth misinformation classifiers are typically fine-tuned on standard-English corpora, so Singlish — with its code-switching, borrowed lexicon (Malay/Hokkien/Tamil), discourse particles (lah/leh/sia), and non-standard orthography — presents a token-level distribution shift the model never saw in training. How large is the performance gap (macro-F1, and the false-positive rate in particular) between English and Singlish inputs, and can cross-lingual transfer or parameter-efficient fine-tuning (e.g., LoRA/adapters) close it under a limited labelled-data and single-GPU budget?\n\nRQ 2 — Explainability for health moderators\n\nAn accurate classifier is unhelpful if a moderator can’t tell why a post was flagged — and post-hoc attribution methods (LIME, SHAP, attention weights) are not guaranteed to be faithful to the model’s actual decision. Which explanation format — token-level highlights, retrieved counter-evidence, or a short natural-language rationale — most improves a moderator’s decision accuracy and review time, and how faithfully does each reflect the classifier’s true reasoning?\n\nAgain, these are just examples. I’d encourage the mentees to ask whether the RQs are genuinely distinct, and which one feels more tractable given the constraints we found earlier.\n\n\nDrafting a Problem Statement\nHere’s how I might draft a problem statement for Angle 1. Have a read first, then I’ll walk through the choices I made.\n\n\n\n\n\n\nTipExample — Draft Problem Statement (Angle 1)\n\n\n\nOnline health misinformation poses a growing public health challenge in Singapore, where online communities frequently mix standard English with Singlish — a local creole not well-represented in existing NLP benchmarks. Most health misinformation detection models are trained on English-only corpora and may not generalise reliably to this code-mixed context, leaving human moderators without dependable AI support on Singapore-facing platforms. This project investigates the extent to which pre-trained language models can be adapted for Singlish health misinformation detection under constrained data and compute budgets, using cross-lingual transfer and lightweight fine-tuning as candidate approaches.\n\n\nA few things I was paying attention to as I wrote this:\n\nI tried to name a specific gap. Not “misinformation is a problem” (too broad), but that existing models don’t cover Singlish specifically (concrete).\nI kept it from committing to a solution. It “investigates … using X as candidate approaches” — if those approaches turn out not to work, that’s still a perfectly valid research outcome.\nI connected the technical gap to the human motivation. Singlish underrepresentation is a technical fact; “leaving moderators without dependable AI support” is the human consequence. To me, both belong in a problem statement.\nI kept the scope honest. “Constrained data and compute budgets” is just the 5-week timeline showing up again.\n\n\n\n\n\n\n\nCautionYou Do — Now try it with the EROP brief\n\n\n\nUsing the constraints you pulled from the EROP brief, generate two distinct problem angles as a team. For each, write a sentence or two framing the core research question. Then pick one angle together and draft a 100–150 word problem statement in the spirit of the one above.",
-    "crumbs": [
-      "EROP",
-      "Daily Plan",
-      "Day 1 --- Introduction"
-    ]
-  },
-  {
-    "objectID": "EROP/day-2.html",
-    "href": "EROP/day-2.html",
-    "title": "Day 2 — Literature Review",
-    "section": "",
-    "text": "Day 2 is where we map the research landscape around the problem statement: what’s already been done, what the open problems are, and which papers are worth reading closely. I’ll keep going with the illustrative health misinformation brief from Day 1.",
-    "crumbs": [
-      "EROP",
-      "Daily Plan",
-      "Day 2 --- Literature Review"
-    ]
-  },
-  {
-    "objectID": "EROP/day-2.html#daily-recap",
-    "href": "EROP/day-2.html#daily-recap",
-    "title": "Day 2 — Literature Review",
-    "section": "Daily Recap",
-    "text": "Daily Recap\nBefore we start searching, we revisit yesterday’s problem statement and split the literature hunt across sub-areas. I’ve learned that without this, three of us end up finding the same survey paper while a whole sub-area goes untouched.\nFor the Singlish health misinformation angle, here’s how I might split it:\n\n\n\n\n\n\n\nSub-area\nWhy it matters to the problem\n\n\n\n\nMisinformation / fake-news detection\nThe core task — what methods exist, what they achieve\n\n\nCode-mixed and low-resource NLP\nDirectly addresses the Singlish constraint\n\n\nExplainability in text classification\nAddresses the explainability requirement from the brief\n\n\n\nEach of us takes a sub-area, and we agree up front to come back with a handful of strong sources rather than a giant undifferentiated list.",
-    "crumbs": [
-      "EROP",
-      "Daily Plan",
-      "Day 2 --- Literature Review"
-    ]
-  },
-  {
-    "objectID": "EROP/day-2.html#gathering-information",
-    "href": "EROP/day-2.html#gathering-information",
-    "title": "Day 2 — Literature Review",
-    "section": "Gathering Information",
-    "text": "Gathering Information\nDeep Research features (in ChatGPT, Claude, Gemini, and similar tools) are great for getting a fast first map of a field. I treat them as a starting point, never a substitute for actually reading. Two failure modes have bitten me enough that I always watch for them:\n\nHallucinated or mis-attributed citations. A tool may invent a plausible-sounding paper, or pin a real finding on the wrong authors or venue. I verify every source independently before it goes anywhere near my bibliography.\nConfident but shallow synthesis. The summary can smooth over real disagreements in the literature, or miss the most important recent work. I read it as a set of leads to chase, not settled conclusions.\n\n\nDeep Research with LLMs\nMost AI tools these days have some “deep research” feature, so this section is about getting more productive use out of it. A vague prompt (“tell me about misinformation detection”) gets me a vague survey back. What I’ve found works better is a prompt that encodes my problem statement, my constraints, and exactly what I want returned.\n\n\n\n\n\n\nTipExample — Deep Research prompt\n\n\n\nI am researching the detection of health misinformation in code-mixed English–Singlish short text (social media posts). I want to understand the existing research landscape.\nPlease find and summarise:\n\nKey approaches to health misinformation / fake-news detection in short text, with a focus on explainable methods.\nWork on code-mixed or low-resource NLP, especially for English mixed with Southeast Asian languages.\nFor each work: the venue, the year, the core method, and its main limitation.\n\nPrioritise peer-reviewed papers from reputable venues (e.g., ACL, EMNLP, NAACL, ICML, ICLR). Include links or DOIs so I can verify each source. Flag where the evidence is thin or where you are uncertain.\n\n\nNotice what that prompt is doing: it states the problem precisely, names the constraints (code-mixed, explainable, short text), asks for verifiable metadata (venue, year, link), and openly invites the tool to flag its own uncertainty.\n\nDon’t trust the models (for now)\nBelow is an example of a hallucinated reference produced by Deep Research (02/Jun/2026).\n\n\n\nA deep research on Meme Understanding from CVPR within the last two years. The highlighted ExplainHM is a published paper, but not in CVPR — it actually went to WWW 2025!\n\n\nBe very, very careful with the papers it lists. The model can not only hallucinate a paper that doesn’t exist, but also get where it was published wrong! In other cases the paper might just be sitting on arXiv, not actually published yet. To feel confident in our sources, we go and verify them ourselves.\n\n\n\n\nTriaging the output\nSay the tool hands me eight sources. The real skill is deciding what to read first and what to set aside — and being able to explain why. Here’s roughly how I triage:\n\nRead first — a paper from a top venue (e.g., ACL/EMNLP), recent (last 2–3 years), directly on code-mixed misinformation. High relevance, high credibility: this is the closest prior work.\nRead soon — a well-cited survey of explainable text classification. Not specific to my domain, but it frames the explainability landscape and its references are a map to follow.\nSkim / park — a paper on misinformation detection from a strong venue but English-only and not explainable. Useful as a baseline method, but it misses two of my core constraints.\nFilter out — a source with no identifiable venue, no link, or one I can’t locate when I search for it. If I can’t confirm it exists, it doesn’t enter the bibliography.\n\nThe reason I make myself say the why out loud is that it forces my criteria into the open: relevance to the problem statement, credibility of the venue, recency, and whether the work actually addresses my specific constraints.\n\n\n\n\n\n\nCautionYou Do — Survey your own problem\n\n\n\nUsing your EROP problem statement, write a Deep Research prompt in the spirit of the one above. Run it, then triage the results into “read first / read soon / skim / filter out.” For each source you flag for the team, jot one sentence on why it earned that ranking.",
-    "crumbs": [
-      "EROP",
-      "Daily Plan",
-      "Day 2 --- Literature Review"
-    ]
-  },
-  {
-    "objectID": "EROP/day-2.html#google-scholar",
-    "href": "EROP/day-2.html#google-scholar",
-    "title": "Day 2 — Literature Review",
-    "section": "Google Scholar",
-    "text": "Google Scholar\nDeep Research gives me leads; Google Scholar is where I check them and follow the citation trail myself. My first move with any AI-suggested source is always the same: find the real paper. I search the exact title in Google Scholar and confirm the authors, venue, and year match what the tool claimed.\n\n\n\nExample entry in Google Scholar\n\n\n\nPractical Tips!\n\n“Cited by N” — every result lists how many later papers cite it. Clicking through shows me forward citations: newer work that built on this paper. It’s the single most useful way I know to get from a foundational paper to the current state of the art.\n“Related articles” — surfaces papers Scholar judges topically similar; handy for widening a sub-area. Connected Papers is another tool I reach for here.\nCite → BibTeX — exports a clean citation for the bibliography (I still sanity-check the venue and year).\nFilter by year (left sidebar) — I restrict to recent work to see where a field is now, or sort differently to surface the seminal older papers.\nThe right-hand link — often a [PDF] from the publisher, arXiv, or an author’s page, which gets me to the full text.\n\n\n\n\n\n\n\nCaution\n\n\n\nI treat citation count as a signal of influence, but it’s biased toward older papers — a strong 2024 paper won’t have many citations yet. So I weigh the venue (is it a recognised peer-reviewed conference or journal?), the recency, and above all the fit to my problem. A modestly-cited paper that hits my exact sub-problem is often worth more to me than a famous paper that’s only loosely related.\n\n\n\n\nSynthesizing findings\nWhat I want at the end of this session isn’t a pile of PDFs — it’s a small set of synthesised points that connect back to the problem statement. Three kinds I find useful:\n\nExisting work — “Approach X is the standard method for short-text misinformation detection, achieving Y on benchmark Z.”\nA limitation or gap — “These models are trained and evaluated almost entirely on monolingual English; code-mixed performance is largely unstudied.”\nA convention of the subfield — “Explainability here is usually evaluated by attention-weight visualisation or token-attribution methods, which have known reliability caveats.”\n\nI make sure each point traces back to a specific source, so the claim can be checked.\n\n\nBibliographies\nThe artifact for the day is an annotated bibliography. The annotations I find most useful are short, but they capture relevance and judgement, not just a summary:\n\n\n\n\n\n\nTipExample — Annotated bibliography entry\n\n\n\nAuthor(s) (Year). Title. Venue. [link/DOI]\n\nWhat it does: proposes a transformer-based classifier for short-text misinformation with token-level attribution for explainability.\nWhy it’s relevant: hits two of our constraints (short text + explainability); a strong candidate baseline.\nLimitation for us: English-only; no evaluation on code-mixed text, which is exactly our gap.\nFollow-ups (via “Cited by”): two 2024 papers extend this to multilingual settings — worth reading next.\n\n\n\n\n\n\n\n\n\nCautionYou Do — Locate and annotate\n\n\n\nTake one source you flagged from your Deep Research survey. Find it on Google Scholar, confirm its venue and year, and click “Cited by” to find a more recent paper that builds on it. Write an annotated bibliography entry for each, in the spirit of the one above. Then, as a team, pool everyone’s entries and pick out the three synthesised points most relevant to your problem statement.",
-    "crumbs": [
-      "EROP",
-      "Daily Plan",
-      "Day 2 --- Literature Review"
     ]
   },
   {
@@ -387,64 +399,108 @@
     ]
   },
   {
-    "objectID": "EROP/day-3.html",
-    "href": "EROP/day-3.html",
-    "title": "Day 3 — Verify and Evaluate Information",
+    "objectID": "EROP/day-1.html",
+    "href": "EROP/day-1.html",
+    "title": "Day 1 — Introduction",
     "section": "",
-    "text": "Day 3 is where we verify the sources we gathered on Day 2 and read the most important ones closely — separating what’s genuinely supported by the literature from what an AI tool merely asserted. I’ll keep going with the illustrative health misinformation brief.",
+    "text": "Day 1 is about getting your bearings: making sense of the research brief and shaping a first problem statement together. The examples below walk through an illustrative brief on health misinformation — a different domain from your actual EROP brief, on purpose — so you can see how I’d think through each step before trying it on your own.",
     "crumbs": [
       "EROP",
       "Daily Plan",
-      "Day 3 --- Verify and Evaluate Information"
+      "Day 1 --- Introduction"
     ]
   },
   {
-    "objectID": "EROP/day-3.html#daily-recap",
-    "href": "EROP/day-3.html#daily-recap",
-    "title": "Day 3 — Verify and Evaluate Information",
-    "section": "Daily Recap",
-    "text": "Daily Recap\nNot every source from Day 2 deserves the same scrutiny. We decide together which ones warrant real verification and close reading, and I prioritise using two questions: how central is this source to our argument? and how much are we taking its claims on trust? A paper I plan to lean on as a main baseline gets verified and read carefully; a source mentioned once in passing I’ll check more lightly.\nRough categorization of papers:\n\n\n\n\n\n\n\n\nPriority\nSource type\nAction\n\n\n\n\nHigh\nPapers central to the problem / candidate baselines\nVerify and read critically today\n\n\nMedium\nSupporting evidence for a specific claim\nVerify existence and check the specific claim\n\n\nLow\nBackground / context only\nConfirm it exists; park for later\n\n\n\nI also like to set a concrete reading goal before diving in — something like “verify all six shortlisted sources and read the two most central in full.”",
+    "objectID": "EROP/day-1.html#pre-survey",
+    "href": "EROP/day-1.html#pre-survey",
+    "title": "Day 1 — Introduction",
+    "section": "Pre-Survey",
+    "text": "Pre-Survey\nBefore the program begins, both mentees and mentors fill in a short self-assessment so we have a baseline to look back on at the end. The link will be shared by the program coordinators on the day.\nWhat is this for?: We use these self-assessments as a signal for how much the program actually helped you. Thank you for taking the time to fill it up 🙇🏻\n\nPre-Programme Self-Assessment Form (link to be added by coordinators)",
     "crumbs": [
       "EROP",
       "Daily Plan",
-      "Day 3 --- Verify and Evaluate Information"
+      "Day 1 --- Introduction"
     ]
   },
   {
-    "objectID": "EROP/day-3.html#verifying-information",
-    "href": "EROP/day-3.html#verifying-information",
-    "title": "Day 3 — Verify and Evaluate Information",
-    "section": "Verifying Information",
-    "text": "Verifying Information\nBefore any source informs your proposal, I would confirm two things: that it exists as described, and that the claims attributed to it are actually true.\n\nObtaining BibTex\nI search the exact title in Google Scholar and check that the authors, venue, and year line up with what the tool told me. If it doesn’t show up, I’ll try a distinctive phrase from the title in quotes. A source I can’t locate doesn’t make it into my bibliography — no exceptions.\nOnce I’ve found it, I grab a clean citation via Cite → BibTeX and paste it into my .bib file in Overleaf:\n\n\n\n\n\n\nTipExample — BibTeX from Google Scholar\n\n\n\n@inproceedings{author2023misinfo,\n  title     = {Explainable Detection of Health Misinformation in Short Text},\n  author    = {Author, A. and Author, B.},\n  booktitle = {Proceedings of EMNLP},\n  year      = {2023}\n}\nScholar often lists a published paper’s venue as arXiv preprint even after it appeared at a conference. However, that best practice is to look for the original source/venue (e.g., ICML) that the article is published at!\n\n\n\n\nValidating the claims\nThere are many patterns of AI hallucination and misattribution! Below are some oft he few I keep an eye out for:\n\nIncorrect venues — these hallucinations happen most frequently when you specify which venue (e.g., ICML) you want the AI to search from .\nInvented papers — a plausible title paired with real authors who never wrote it.\nMisattribution — a real finding credited to the wrong paper, or two papers’ results merged into one.\nOverstated claims — “this method solves X” when the paper reports a modest improvement under specific conditions.\nDropped caveats — the dataset, language, or setting a result depends on gets quietly omitted (e.g., an English-only result reported as if it were general).\nFabricated numbers — precise-sounding statistics that don’t actually appear in the source.\n\n\n\n\n\n\n\nTipExample — catching a misattribution\n\n\n\nAn AI survey claims: “Tan et al. (2022) show that multilingual transformers achieve 92% F1 on code-mixed health misinformation.” Upon checking, Tan et al. evaluate on monolingual English misinformation and never touch code-mixed text; the 92% is on a different task entirely.\n\n\n\n\n\n\n\n\nCautionYou Do — Verify your shortlist\n\n\n\nFor each source on your team’s Day 2 shortlist: (1) find it on Google Scholar and confirm authors/venue/year, (2) export and tidy up its BibTeX entry (or better yet, find the original source), and (3) write 2-3 points about it in your own words and compare them against the AI summary. Drop any source you can’t verify, and flag any claim that doesn’t hold up.",
+    "objectID": "EROP/day-1.html#reading-the-research-brief",
+    "href": "EROP/day-1.html#reading-the-research-brief",
+    "title": "Day 1 — Introduction",
+    "section": "Reading the Research Brief",
+    "text": "Reading the Research Brief\nWhen my team gets a new brief, the first thing we do is read it together and try to pull apart two kinds of constraints: the explicit ones the brief states outright, and the implicit ones it only hints at.\n\n\n\n\n\n\nNote\n\n\n\nThe EROP research brief is on the Research Brief page. Read through it before working through the examples below.\n\n\nThe worked example below uses a separate illustrative brief on health misinformation — a different domain, chosen on purpose so you can practice the skill before turning to your own brief.\n\n\n\n\n\n\nNoteIllustrative Brief — AI-Assisted Detection of Health Misinformation\n\n\n\nBrief: AI-Assisted Detection of Health Misinformation in Online Communities\nBackground: Health misinformation spreads rapidly on social media platforms and online forums. Singaporean health authorities are interested in scalable tools that can assist human moderators in identifying potentially misleading health claims in English and Singlish user-generated content.\nTask: Develop or evaluate an AI-based approach to detect health misinformation in short-form text (e.g., forum posts and social media comments up to 280 characters). The solution must be explainable — moderators must understand why a piece of content was flagged.\nResources: The team has access to publicly available English health misinformation datasets. Any approach using local Singapore data must comply with PDPA. The solution must be evaluable within a 5-week research sprint.\n\n\n\nIdentifying Constraints\n\n\n\n\n\n\nNoteMy Thought Process\n\n\n\nI not only look for specific details that the research brief is trying to suggest, but also whether the resulting proposal will be sensible. For instance, if the brief didn’t suggest a budget, I still wouldn’t come up with a proposal asking for $1M dollars to finetune one model. It’s just not very realistic/sensible to a grant/resource provider.\n\n\nThe first thing I do is separate what is stated from what is implied.\nStep 1 — Extract explicit constraints\nI go through the brief almost sentence by sentence, pulling out anything that directly limits what I can do.\n\n\n\n\n\n\n\nExamples\nSource in the brief\n\n\n\n\nShort-form text only (≤ 280 chars)\n“short-form text … up to 280 characters”\n\n\nExplainability is required\n“The solution must be explainable”\n\n\nEnglish and Singlish text\n“English and Singlish user-generated content”\n\n\n5-week timeline\n“5-week research sprint”\n\n\nPDPA compliance for any local data\n“must comply with PDPA”\n\n\nOnly publicly available datasets (unless PDPA-compliant)\n“access to publicly available English … datasets”\n\n\n\nStep 2 — Infer implicit constraints\nThese take more thought. For each explicit constraint, I ask myself: what does this actually mean in practice?\n\nSinglish adds NLP complexity. Most pre-trained language models are trained on standard English. Singlish — a local creole mixing English with Malay, Hokkien, and Tamil — is underrepresented in standard NLP benchmarks, so I wouldn’t assume an off-the-shelf model transfers well.\nThe health domain probably needs a high precision bar. The brief doesn’t say this outright, but flagging a correct health claim as misinformation (a false positive) could erode public trust — so I’d want to be conservative about what gets flagged.\n“Evaluable in 5 weeks” rules out training from scratch. There likely isn’t time to collect new data and pre-train a model, so fine-tuning or prompting an existing one feels more realistic.\n“Assist human moderators” implies a human in the loop. The system isn’t meant to be fully autonomous — it’s a triage support tool. That relaxes some accuracy requirements, but it raises a new question I find more interesting: what does the moderator actually need to make a decision?\n\nStep 3 — Note what to emphasise in a problem statement\nComing out of this, here are the points I’d want to foreground:\n\nThe Singlish challenge is distinctive and under-studied — it’s a non-obvious constraint that motivates why existing work might not apply.\nThe explainability requirement creates a genuine research tension (the most accurate models are often the least interpretable).\nThe human-in-the-loop framing should shape how we even define “success” — accuracy alone isn’t the whole story.\n\n\n\n\n\n\n\nCautionYou Do — Now try it with the EROP brief\n\n\n\nNow it’s your turn. Take the actual research brief on the Research Brief page and, as a team, see if you can produce:\n\nA table of explicit constraints with their source in the brief.\nA list of implicit constraints, each with a short justification.\nTwo or three points you’d want to foreground in a problem statement, and why.",
     "crumbs": [
       "EROP",
       "Daily Plan",
-      "Day 3 --- Verify and Evaluate Information"
+      "Day 1 --- Introduction"
     ]
   },
   {
-    "objectID": "EROP/day-3.html#bringing-it-together",
-    "href": "EROP/day-3.html#bringing-it-together",
-    "title": "Day 3 — Verify and Evaluate Information",
-    "section": "Bringing it together",
-    "text": "Bringing it together\nIn the last section, we went through how to verify information. In this one, we’ll work through one or two key papers together to extract relevant information more deeply from more papers. We will be doing this manually.\nA structured way in is the three-pass method on the Reading Advice page: a quick bird’s-eye pass, a pass to understand the contribution, and a deep pass only for the papers that earn it. For each key paper, I want to be able to extract three things:\n\nContribution — what the paper actually adds. What can we do now that we couldn’t before?\nLimitations — where it falls short: assumptions, narrow evaluation, settings it doesn’t cover.\nGaps — what it leaves unaddressed. A gap that overlaps my problem is an opening for my own contribution.\n\n\n\n\n\n\n\nTipExample — contributions, limitations, gaps\n\n\n\nReading a paper on explainable misinformation detection:\n\nContribution: a token-attribution method that lets a moderator see which words drove a “misinformation” flag, with a user study showing moderators trust it more than a black-box score. This is often found at the end of the Introduction section.\nLimitations: evaluated only on English Twitter data; the user study had 12 participants; no code-mixed text. This is often found at the Discussion section.\nGaps (our opening): nobody has tested whether token attributions stay meaningful for code-mixed Singlish, where the model may attend to the “wrong” language’s tokens. That’s exactly where our project can contribute.\n\n\n\n\n\n\n\n\n\nCautionYou Do — Read one paper closely\n\n\n\nAs a team, pick the single most central paper from your verified shortlist and read it without AI assistance. Write down its contribution, its limitations, and at least one gap. Then try phrasing that gap as a one-sentence opening for your own research.",
+    "objectID": "EROP/day-1.html#problem-statements",
+    "href": "EROP/day-1.html#problem-statements",
+    "title": "Day 1 — Introduction",
+    "section": "Problem Statements",
+    "text": "Problem Statements\n\nWhat is a problem statement in AI research?\nThe problem statement helps you to justify the why in your research. The way I think about it, it should ideally answer three questions in a paragraph or two:\n\nWhat gap exists? — the open problem or underexplored area.\nWhy does it matter? — the real-world or scientific motivation.\nWhat direction are you taking? — a high-level sense of your research approach.\n\n\n\n\n\n\n\nImportant\n\n\n\nA problem statement is not a solution statement. It doesn’t say “we will build X.” It says “Y is a challenge because of Z, and addressing Z matters because of W.”\n\n\n\n\nWhat are research questions in AI research?\nResearch questions (RQ) specifies what you would be experimenting/working on (e.g., modifying objective functions) to address the problem statement. Starting from the brief above, we form two research questions as an example to get the discussion going:\nRQ 1 — Singlish-aware misinformation detection\n\nHealth misinformation classifiers are typically fine-tuned on standard-English corpora, so Singlish — with its code-switching, borrowed lexicon (Malay/Hokkien/Tamil), discourse particles (lah/leh/sia), and non-standard orthography — presents a token-level distribution shift the model never saw in training. How large is the performance gap (macro-F1, and the false-positive rate in particular) between English and Singlish inputs, and can cross-lingual transfer or parameter-efficient fine-tuning (e.g., LoRA/adapters) close it under a limited labelled-data and single-GPU budget?\n\nRQ 2 — Explainability for health moderators\n\nAn accurate classifier is unhelpful if a moderator can’t tell why a post was flagged — and post-hoc attribution methods (LIME, SHAP, attention weights) are not guaranteed to be faithful to the model’s actual decision. Which explanation format — token-level highlights, retrieved counter-evidence, or a short natural-language rationale — most improves a moderator’s decision accuracy and review time, and how faithfully does each reflect the classifier’s true reasoning?\n\nAgain, these are just examples. I’d encourage the mentees to ask whether the RQs are genuinely distinct, and which one feels more tractable given the constraints we found earlier.\n\n\nDrafting a Problem Statement\nHere’s how I might draft a problem statement for Angle 1. Have a read first, then I’ll walk through the choices I made.\n\n\n\n\n\n\nTipExample — Draft Problem Statement (Angle 1)\n\n\n\nOnline health misinformation poses a growing public health challenge in Singapore, where online communities frequently mix standard English with Singlish — a local creole not well-represented in existing NLP benchmarks. Most health misinformation detection models are trained on English-only corpora and may not generalise reliably to this code-mixed context, leaving human moderators without dependable AI support on Singapore-facing platforms. This project investigates the extent to which pre-trained language models can be adapted for Singlish health misinformation detection under constrained data and compute budgets, using cross-lingual transfer and lightweight fine-tuning as candidate approaches.\n\n\nA few things I was paying attention to as I wrote this:\n\nI tried to name a specific gap. Not “misinformation is a problem” (too broad), but that existing models don’t cover Singlish specifically (concrete).\nI kept it from committing to a solution. It “investigates … using X as candidate approaches” — if those approaches turn out not to work, that’s still a perfectly valid research outcome.\nI connected the technical gap to the human motivation. Singlish underrepresentation is a technical fact; “leaving moderators without dependable AI support” is the human consequence. To me, both belong in a problem statement.\nI kept the scope honest. “Constrained data and compute budgets” is just the 5-week timeline showing up again.\n\n\n\n\n\n\n\nCautionYou Do — Now try it with the EROP brief\n\n\n\nUsing the constraints you pulled from the EROP brief, generate two distinct problem angles as a team. For each, write a sentence or two framing the core research question. Then pick one angle together and draft a 100–150 word problem statement in the spirit of the one above.",
     "crumbs": [
       "EROP",
       "Daily Plan",
-      "Day 3 --- Verify and Evaluate Information"
+      "Day 1 --- Introduction"
     ]
   },
   {
-    "objectID": "EROP/day-3.html#team-review",
-    "href": "EROP/day-3.html#team-review",
-    "title": "Day 3 — Verify and Evaluate Information",
-    "section": "Team Review",
-    "text": "Team Review\nEach team shares its most important or surprising finding with the room, and then we converge on the research idea with the highest potential for impact. The framing I aim for: “Prior work does X but not Y; Y is our opening.”\n\n\n\n\n\n\nNoteArtifact — Verified shortlist\n\n\n\nA verified shortlist of sources, each annotated with its contribution and limitations, and a short note on the gap the team intends to address. This carries into tomorrow’s (Day 4) proposal design.",
-    "crumbs": [
-      "EROP",
-      "Daily Plan",
-      "Day 3 --- Verify and Evaluate Information"
-    ]
+    "objectID": "advice/lone_ranger.html",
+    "href": "advice/lone_ranger.html",
+    "title": "The Lone Ranger",
+    "section": "",
+    "text": "Research can feel as if you are a lonely cowboy in the vast dry dessert. You have nothing but what you know to survive. There is a particular kind of loneliness that comes with research. It is not simply the loneliness of being physically alone, sitting at a desk with papers, notes, and half-written proofs. It is the loneliness of carrying a question that no one else seems to care about yet. This loneliness is especially sharp when the topic does not fit neatly into an existing box. If the work lies between game theory, optimisation, probability, algorithms, or some other mixture of fields, it may be hard to find someone who immediately understands the whole picture. One person understands the modelling but not the proof. Another understands the proof technique but not the motivation. Another likes the application but not the abstraction. The researcher begins to feel that the project exists only in their own mind."
+  },
+  {
+    "objectID": "advice/lone_ranger.html#introduction",
+    "href": "advice/lone_ranger.html#introduction",
+    "title": "The Lone Ranger",
+    "section": "",
+    "text": "Research can feel as if you are a lonely cowboy in the vast dry dessert. You have nothing but what you know to survive. There is a particular kind of loneliness that comes with research. It is not simply the loneliness of being physically alone, sitting at a desk with papers, notes, and half-written proofs. It is the loneliness of carrying a question that no one else seems to care about yet. This loneliness is especially sharp when the topic does not fit neatly into an existing box. If the work lies between game theory, optimisation, probability, algorithms, or some other mixture of fields, it may be hard to find someone who immediately understands the whole picture. One person understands the modelling but not the proof. Another understands the proof technique but not the motivation. Another likes the application but not the abstraction. The researcher begins to feel that the project exists only in their own mind."
+  },
+  {
+    "objectID": "advice/lone_ranger.html#when-the-topic-has-no-home",
+    "href": "advice/lone_ranger.html#when-the-topic-has-no-home",
+    "title": "The Lone Ranger",
+    "section": "When the topic has no home",
+    "text": "When the topic has no home\nThis loneliness is sharper when the topic does not fit neatly into an existing field. If the work lies between game theory, optimisation, probability, algorithms, or another mixture of areas, it may be hard to find someone who understands the whole picture.\nOne person understands the modelling but not the proof. Another understands the proof technique but not the motivation. Another likes the application but not the abstraction. Slowly, the researcher may begin to feel that the project exists only in their own mind.\nBut this is not necessarily a sign that the topic is bad. It may only mean that the topic is still pre-language. Before a research idea becomes clear to others, it is often unclear even to the person studying it."
+  },
+  {
+    "objectID": "advice/lone_ranger.html#the-need-for-partial-witnesses",
+    "href": "advice/lone_ranger.html#the-need-for-partial-witnesses",
+    "title": "The Lone Ranger",
+    "section": "The Need for Partial Witnesses",
+    "text": "The Need for Partial Witnesses\nA common mistake is to think that you need one perfect person who understands everything. Usually, you do not.\nWhat you need is a collection of partial witnesses.\nOne person can help check whether the model makes sense. Another can listen to a toy example. Another can challenge a proof. Another can recommend a paper. Another can simply ask, “Why does this matter?”\nThese fragments of conversation may not feel like a full research community, but together they reduce the burden of thinking alone. Research does not always become less lonely because one person fully understands you. Sometimes it becomes less lonely because several people understand small pieces."
+  },
+  {
+    "objectID": "advice/lone_ranger.html#turn-fog-into-artifacts",
+    "href": "advice/lone_ranger.html#turn-fog-into-artifacts",
+    "title": "The Lone Ranger",
+    "section": "Turn Fog into Artifacts",
+    "text": "Turn Fog into Artifacts\nPrivate confusion is hard to share. A vague research direction is difficult for others to engage with. But a small artifact gives people something to hold.\nA one-page note, a diagram, a lemma, a counterexample, or a simple toy model can make the topic easier to discuss. Instead of saying, “I am working on a complicated problem,” it is often better to say, “Here is a small version of the question. Does this formulation make sense?”\nThis is one of the practical ways to fight research loneliness: turn the fog in your head into objects that can be seen, questioned, and improved."
+  },
+  {
+    "objectID": "advice/lone_ranger.html#writing-as-a-companionship",
+    "href": "advice/lone_ranger.html#writing-as-a-companionship",
+    "title": "The Lone Ranger",
+    "section": "Writing as a Companionship",
+    "text": "Writing as a Companionship\nA research log, even one no one reads, can serve as an imaginary collaborator. Write down what you tried, why it failed, what changed, and what still feels unclear. This prevents the project from becoming a shapeless mass of anxiety.\nIt also records progress that memory tends to erase. Many research days feel unproductive because no theorem was proved. But a log may reveal that definitions became sharper, examples became cleaner, and false paths were eliminated. That is progress too."
+  },
+  {
+    "objectID": "advice/lone_ranger.html#find-adjacent-communities",
+    "href": "advice/lone_ranger.html#find-adjacent-communities",
+    "title": "The Lone Ranger",
+    "section": "Find Adjacent Communities",
+    "text": "Find Adjacent Communities\nThe person who helps you may not work on your exact problem. They may come from stochastic control, economics, algorithms, operations research, topology, or statistics. They may only understand one layer of the project.\nThat is still valuable.\nMany research topics grow by borrowing language from nearby areas before they become their own thing. Instead of searching only for people who already understand the entire project, look for people who understand neighbouring pieces.\nSometimes the right community is not found fully formed. It is assembled gradually."
+  },
+  {
+    "objectID": "advice/lone_ranger.html#a-quiet-skill",
+    "href": "advice/lone_ranger.html#a-quiet-skill",
+    "title": "The Lone Ranger",
+    "section": "A Quiet Skill",
+    "text": "A Quiet Skill\nThe loneliness of research does not disappear completely. In some sense, every original question has a lonely beginning. Before others can believe in the topic, someone has to sit with it while it is still vague and fragile.\nBut the goal is not to avoid loneliness entirely. The goal is to make it livable.\nBe alone with the problem, but not alone as a person.\nThat may be one of the quiet skills of becoming a researcher: learning how to protect the small flame of an idea before it has a community, while still allowing enough people near it that you do not burn out carrying it by yourself."
   },
   {
     "objectID": "advice/writing_advice.html",
