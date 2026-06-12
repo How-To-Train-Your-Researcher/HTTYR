@@ -23,21 +23,21 @@
   {
     "objectID": "advice/diagram.html",
     "href": "advice/diagram.html",
-    "title": "?",
+    "title": "Diagramming Advice",
     "section": "",
     "text": "Diagrams are really important. A good diagram quickly conveys the high-level idea of your approach to readers before they dig deep into the methodology of the paper. When people read your paper, they will usually look at your abstract, introduction, tables, and your main diagram before they dig deeper into the details of your methodology.\nDiagramming style heavily depends on the venue that you try to publish at. For example, in clinical venues, the diagram should emphasise how the model architecture design is tailored for domain-specific reasoning. You should always look at the diagrams of previous successful papers published at your target venue to understand aspects like how detailed your diagram should be, what visual style reviewers like, and how much explanation you should include in your diagram."
   },
   {
     "objectID": "advice/diagram.html#why-the-bad-diagram-is-bad-based-on-real-feedback-from-my-supervisor",
     "href": "advice/diagram.html#why-the-bad-diagram-is-bad-based-on-real-feedback-from-my-supervisor",
-    "title": "?",
+    "title": "Diagramming Advice",
     "section": "Why the Bad Diagram is Bad (based on real feedback from my supervisor)",
     "text": "Why the Bad Diagram is Bad (based on real feedback from my supervisor)\nThe Bad Diagram is overly complicated. Even though it is technically correct, it shows too many low-level operations of the standard Attention mechanism that reviewers already know and does not add much value. Details such as the projection matrices, intermediate query/key/value vectors, attention maps, and multiplication arrows do not add much explanatory value. Instead, they make the reader spend too much time decoding the mechanics of attention rather than understanding the main idea of the module.\nIn addition, the bottom half of the diagram that shows an operation introduces too many subsections (this diagram represents 1/3 modules of the original diagram) which makes the figure feel fragmented and distracts the reader from the 3 main modules."
   },
   {
     "objectID": "advice/diagram.html#why-the-good-diagram-is-good",
     "href": "advice/diagram.html#why-the-good-diagram-is-good",
-    "title": "?",
+    "title": "Diagramming Advice",
     "section": "Why the Good Diagram is Good",
     "text": "Why the Good Diagram is Good\nUnlike the Bad Diagram, it abstracts away standard attention details that reviewers are already familiar with, such as projection matrices, query/key/value vectors, attention maps, and matrix multiplications. This keeps the figure clean and allows the reader to immediately understand the purpose of the module. In addition, the two subsections have been cleanly merged into one coherent diagram. Instead of forcing the reader to switch between separate parts, the Good Diagram presents the full module as a single visual story with a clear information flow."
   },
