@@ -14,6 +14,8 @@ website:
         text: Reading Advice
       - href: advice/writing_advice.qmd
         text: Writing Advice
+      - href: advice/lone_ranger.qmd
+        text: The Lone Ranger
   sidebar:
     - title: "EROP 2026 (June)"
       style: docked
