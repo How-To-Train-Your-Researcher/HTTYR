@@ -1,5 +1,5 @@
 ---
-title: "The Lone Ranger"
+title: "Perspectives Advice"
 subtitle: " Advice for when you are the only subject matter expert"
 author: "Russell Tan"
 date: last-modified
@@ -7,7 +7,10 @@ date: last-modified
 
 ## Introduction
 
-Research can feel as if you are a lonely cowboy in the vast dry desert. You have nothing but what you know to survive. There is a particular kind of loneliness that comes with research. It is not simply the loneliness of being physically alone, sitting at a desk with papers, notes, and half-written proofs. It is the loneliness of carrying a question that no one else seems to care about yet.
+
+Research can feel as if you are a lonely cowboy in the vast dry desert. You have nothing but what you know to survive. As such, this page is both a partial reminder that **research is difficult** + some guidance on how we might shift our perspectives towards a more positive one.
+
+There is a particular kind of loneliness that comes with research. It is not simply the loneliness of being physically alone, sitting at a desk with papers, notes, and half-written proofs. It is the loneliness of carrying a question that no one else seems to care about **yet**.
 
 ## When the topic has no home
 
