@@ -4,7 +4,7 @@ subtitle: "EROP Research Brief"
 date: last-modified
 ---
 
-The AI safety challenges facing us today are not about bombs or missiles. They are about something quieter and, in some ways, more difficult to recover from: the systematic disruption of the structures through which we learn, work, own, and choose. Each of these has been changed --- quickly and quietly --- by the mass deployment of generative AI systems. This brief invites research into these disruptions, not to resist AI adoption, but to understand what it is actually doing to us and how we can mitigate these risks.
+The safety challenges facing us today are not about bombs or missiles. They are about something quieter and, in some ways, more difficult to recover from: the systematic disruption of the structures through which we learn, work, own, and choose. Each of these has been changed --- quickly and quietly --- by the mass deployment of generative AI systems. This brief invites research into these disruptions, not to resist AI adoption, but to understand what it is actually doing to us and how we can mitigate these risks.
 
 ---
 

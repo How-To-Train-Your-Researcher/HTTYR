@@ -71,10 +71,6 @@ Sketch a one-page experimental plan for your main RQ (data, method, measure, exp
 
 ---
 
-## Team Review
+## Checkpoint Deliverable: Day 4
 
-Each team gives a brief walkthrough of its proposal outline and gathers peer feedback to refine before drafting.
-
-::: {.callout-note title="Artifact --- Proposal outline"}
-A proposal outline containing the research question(s), paired hypotheses, and an experimental plan --- structured along the four-part arc. This is the scaffold you'll write up on Day 5.
-:::
+At the end of Day 4, the mentees should have a **near complete draft** --- minimally containing the problem, introduction, proposed direction, and expected outcomes --- of the research proposal and would have started on the poster for tomorrow's presentation. 

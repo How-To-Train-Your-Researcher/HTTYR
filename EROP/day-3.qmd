@@ -90,10 +90,8 @@ As a team, **pick the single most central paper** from your verified shortlist a
 
 ---
 
-## Team Review
+## Checkpoint Deliverable: Day 3
 
-Each team shares its most important or surprising finding with the room, and then we converge on the research idea with the highest potential for impact. The framing I aim for: *"Prior work does X but not Y; Y is our opening."*
+Similar to the previous day, the mentees should have an even stronger problem statement supported by reputable sources that were verified by them today. The problem statement document should be cited properly and must have valid bibliographies. In addition, the team should ideally have identified a list of works that would be vital to answer the reserach questions.
 
-::: {.callout-note title="Artifact --- Verified shortlist"}
-A verified shortlist of sources, each annotated with its **contribution** and **limitations**, and a short note on the **gap** the team intends to address. This carries into tomorrow's (Day 4) proposal design.
-:::
+The problem statement draft should be ready to be converted into a sound reserach proposal in the next day.

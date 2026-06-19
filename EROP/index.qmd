@@ -14,6 +14,14 @@ Across these pages, we provide examples for the learning objectives in this prog
 Use the sidebar on the left to navigate. The program runs over five days; each day has its own page, and the worked examples build on one another from Day 1 through Day 5.
 :::
 
+# Deliverables
+
+At the end of this program, each team submits:
+- An actionable **written research proposal** (max 3 pages) identifying a specific AI safety concern arising from one of the disruptions described above. 
+- A **poster** (A0/A1 size) to pitch their research proposal. Printing the poster is not required.
+- A **presentation pitch** of the research proposal using the poster.
+
+The proposal should include a clear problem statement scoped to a particular domain based on the team's experiences , a proposed methodology for investigating or addressing it, and a discussion of expected outcomes and limitations. Proposals must engage with prior work.
 
 ---
 
@@ -32,3 +40,5 @@ Use the sidebar on the left to navigate. The program runs over five days; each d
 # Future Iterations
 
 ![If you would like to join future iterations, kindly register your interest here!](/attachments/poster.png)
+
+

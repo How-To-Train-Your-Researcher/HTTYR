@@ -117,3 +117,9 @@ The artifact for the day is an annotated bibliography. The annotations I find mo
 ::: {.callout-caution title="You Do --- Locate and annotate"}
 Take one source you flagged from your Deep Research survey. Find it on Google Scholar, confirm its venue and year, and click "Cited by" to find a more recent paper that builds on it. Write an annotated bibliography entry for each, in the spirit of the one above. Then, as a team, pool everyone's entries and pick out the three synthesised points most relevant to your problem statement.
 :::
+
+---
+
+## Checkpoint Deliverable: Day 2
+
+At the end of Day 2, the mentees should have a stronger problem statement supported by reputable sources from the papers they have read today. The problem statement document should be cited properly and must have valid bibliographies.

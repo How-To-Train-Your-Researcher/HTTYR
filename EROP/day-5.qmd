@@ -45,7 +45,9 @@ I have two examples to show you below:
 
 ![This is the poster designed for this program. It carries a similar structure to academic posters with the central column being the widest and the most important!](/attachments/poster.png)
 
-![This is the poster from my own research work [@ryan2026selfcaptioningmultimodalinteractiontuning].](/attachments/Interaction_Tuning_Poster.png)
+![This is a poster from my own research work [@ryan2026selfcaptioningmultimodalinteractiontuning].](/attachments/Interaction_Tuning_Poster.png)
+
+![This is a poster with my collaborators!](/attachments/Rights_Poster.png)
 
 ---
 

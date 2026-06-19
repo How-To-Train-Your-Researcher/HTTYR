@@ -134,3 +134,9 @@ A few things I was paying attention to as I wrote this:
 ::: {.callout-caution title="You Do --- Now try it with the EROP brief"}
 Using the constraints you pulled from the EROP brief, generate **two distinct problem angles** as a team. For each, write a sentence or two framing the core research question. Then pick one angle together and draft a 100–150 word problem statement in the spirit of the one above.
 :::
+
+---
+
+## Checkpoint Deliverable: Day 1
+
+At the end of Day 1, the mentees should have a **strong problem statement** detailing the motivations, existing issues, and the general direction to address these issues. The team should also have **research questions** prepared for the intial proposed directions.
