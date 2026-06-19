@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "How To Train Your Researcher (HTTYR)",
     "section": "",
-    "text": "Hello! This site was created by a group of graduate students and researchers from Singapore to collate practical (and hopefully helpful) advice to do AI/ML research. This documentation is intended for new researchers or for those interested in starting their AI research journey. The goal is simply to reduce the amount of friction a budding researcher might encounter as they start out on this new venture.\nThis is also the homepage for SYAI Lab: Early Research Opportunity Program (EROP) organized by Singapore Youth AI and supported by AI Singapore.\n\n\n\n\n\n\nNote\n\n\n\nThis page is maintained on a voluntary basis by a group of researchers. If you would like to contribute or raise an issue, kindly do so here!\n\n\n\n\n\n\nReading Advice — advice on reading research papers\nWriting Advice — advice on academic writing\nThe Lone Ranger — advice for when you are the only subject matter expert\nEROP Playbook — the Early Research Opportunity Program curriculum\n\n\n\n\n\nIn no particular order, below lists the humans that that conjured this document into existence:\n\nYuriel Ryan\nNicole Oo\nClyde Lhui\nRussell Tan\nZi-Yu Khoo\n\nAdvisors In no particular order, below lists the advisors that provided helpful guidance/insights for the aformentioned humans:\n\nProf. Roy Lee"
+    "text": "Hello! This site was created by a group of graduate students and researchers from Singapore to collate practical (and hopefully helpful) advice to do AI/ML research. This documentation is intended for new researchers or for those interested in starting their AI research journey. The goal is simply to reduce the amount of friction a budding researcher might encounter as they start out on this new venture.\nThis is also the homepage for SYAI Lab: Early Research Opportunity Program (EROP) organized by Singapore Youth AI and supported by AI Singapore.\n\n\n\n\n\n\nNote\n\n\n\nThis page is maintained on a voluntary basis by a group of researchers. If you would like to contribute or raise an issue, kindly do so here!\n\n\n\n\n\n\nReading Advice — advice on reading research papers\nWriting Advice — advice on academic writing\nThe Lone Ranger — advice for when you are the only subject matter expert\nEROP Playbook — the Early Research Opportunity Program curriculum\n\n\n\n\n\nThis page was made possible from the contributions of the people below. In no particular order, the humans that made direct contributions:\n\nYuriel Ryan\nNicole Oo\nClyde Lhui\nRussell Tan\nZi-Yu Khoo\n\nAdvisors In no particular order, the advisors that provided helpful guidance/insights for the aformentioned humans:\n\nProf. Roy Lee\nProf. Min Hun Lee"
   },
   {
     "objectID": "index.html#resources",
@@ -18,7 +18,7 @@
     "href": "index.html#contributors",
     "title": "How To Train Your Researcher (HTTYR)",
     "section": "",
-    "text": "In no particular order, below lists the humans that that conjured this document into existence:\n\nYuriel Ryan\nNicole Oo\nClyde Lhui\nRussell Tan\nZi-Yu Khoo\n\nAdvisors In no particular order, below lists the advisors that provided helpful guidance/insights for the aformentioned humans:\n\nProf. Roy Lee"
+    "text": "This page was made possible from the contributions of the people below. In no particular order, the humans that made direct contributions:\n\nYuriel Ryan\nNicole Oo\nClyde Lhui\nRussell Tan\nZi-Yu Khoo\n\nAdvisors In no particular order, the advisors that provided helpful guidance/insights for the aformentioned humans:\n\nProf. Roy Lee\nProf. Min Hun Lee"
   },
   {
     "objectID": "advice/diagram.html",
@@ -146,6 +146,18 @@
     ]
   },
   {
+    "objectID": "EROP/day-1.html#checkpoint-deliverable-day-1",
+    "href": "EROP/day-1.html#checkpoint-deliverable-day-1",
+    "title": "Day 1 — Introduction",
+    "section": "Checkpoint Deliverable: Day 1",
+    "text": "Checkpoint Deliverable: Day 1\nAt the end of Day 1, the mentees should have a strong problem statement detailing the motivations, existing issues, and the general direction to address these issues. The team should also have research questions prepared for the intial proposed directions.",
+    "crumbs": [
+      "EROP",
+      "Daily Plan",
+      "Day 1 --- Introduction"
+    ]
+  },
+  {
     "objectID": "EROP/day-5.html",
     "href": "EROP/day-5.html",
     "title": "Day 5 — Presentation",
@@ -186,7 +198,7 @@
     "href": "EROP/day-5.html#slides-and-poster",
     "title": "Day 5 — Presentation",
     "section": "Slides and Poster",
-    "text": "Slides and Poster\nThe poster is the visual pitch. We will build it in Canva at 91 cm (H) × 150 cm (W) and lean hard toward narrative clarity over cramming in content — someone walking past should grasp the problem, the idea, and the contribution in under a minute.\nTry to include: a one-line problem statement, the gap, the research question, a simple figure of the approach, and the expected contribution. It’s usually not a good idea to copy and paste the entire proposal in the poster — it is there to support a conversation (like a notecard), not the entire one.\n\n\n\n\n\n\nCautionYou Do — Build the poster\n\n\n\nDraft a poster layout that tells your research story in five blocks: Problem → Gap → Research Question → Approach (with a figure) → Expected Contribution. Keep the text minimal and let one central figure carry the method.\n\n\nThere are a few good resources to look at. here are a couple: from NYU and this really nice blog.\nI have two examples to show you below:\n\n\n\nThis is the poster designed for this program. It carries a similar structure to academic posters with the central column being the widest and the most important!\n\n\n\n\n\nThis is the poster from my own research work [1].",
+    "text": "Slides and Poster\nThe poster is the visual pitch. We will build it in Canva at 91 cm (H) × 150 cm (W) and lean hard toward narrative clarity over cramming in content — someone walking past should grasp the problem, the idea, and the contribution in under a minute.\nTry to include: a one-line problem statement, the gap, the research question, a simple figure of the approach, and the expected contribution. It’s usually not a good idea to copy and paste the entire proposal in the poster — it is there to support a conversation (like a notecard), not the entire one.\n\n\n\n\n\n\nCautionYou Do — Build the poster\n\n\n\nDraft a poster layout that tells your research story in five blocks: Problem → Gap → Research Question → Approach (with a figure) → Expected Contribution. Keep the text minimal and let one central figure carry the method.\n\n\nThere are a few good resources to look at. here are a couple: from NYU and this really nice blog.\nI have two examples to show you below:\n\n\n\nThis is the poster designed for this program. It carries a similar structure to academic posters with the central column being the widest and the most important!\n\n\n\n\n\nThis is a poster from my own research work [1].\n\n\n\n\n\nThis is a poster with my collaborators!",
     "crumbs": [
       "EROP",
       "Daily Plan",
@@ -266,11 +278,11 @@
     ]
   },
   {
-    "objectID": "EROP/day-4.html#team-review",
-    "href": "EROP/day-4.html#team-review",
+    "objectID": "EROP/day-4.html#checkpoint-deliverable-day-4",
+    "href": "EROP/day-4.html#checkpoint-deliverable-day-4",
     "title": "Day 4 — Proposal Drafts",
-    "section": "Team Review",
-    "text": "Team Review\nEach team gives a brief walkthrough of its proposal outline and gathers peer feedback to refine before drafting.\n\n\n\n\n\n\nNoteArtifact — Proposal outline\n\n\n\nA proposal outline containing the research question(s), paired hypotheses, and an experimental plan — structured along the four-part arc. This is the scaffold you’ll write up on Day 5.",
+    "section": "Checkpoint Deliverable: Day 4",
+    "text": "Checkpoint Deliverable: Day 4\nAt the end of Day 4, the mentees should have a near complete draft — minimally containing the problem, introduction, proposed direction, and expected outcomes — of the research proposal and would have started on the poster for tomorrow’s presentation.",
     "crumbs": [
       "EROP",
       "Daily Plan",
@@ -315,7 +327,7 @@
     "href": "EROP/research-brief.html",
     "title": "Research Brief",
     "section": "",
-    "text": "The AI safety challenges facing us today are not about bombs or missiles. They are about something quieter and, in some ways, more difficult to recover from: the systematic disruption of the structures through which we learn, work, own, and choose. Each of these has been changed — quickly and quietly — by the mass deployment of generative AI systems. This brief invites research into these disruptions, not to resist AI adoption, but to understand what it is actually doing to us and how we can mitigate these risks.",
+    "text": "The safety challenges facing us today are not about bombs or missiles. They are about something quieter and, in some ways, more difficult to recover from: the systematic disruption of the structures through which we learn, work, own, and choose. Each of these has been changed — quickly and quietly — by the mass deployment of generative AI systems. This brief invites research into these disruptions, not to resist AI adoption, but to understand what it is actually doing to us and how we can mitigate these risks.",
     "crumbs": [
       "EROP",
       "Research Brief"
@@ -425,6 +437,18 @@
     ]
   },
   {
+    "objectID": "EROP/day-2.html#checkpoint-deliverable-day-2",
+    "href": "EROP/day-2.html#checkpoint-deliverable-day-2",
+    "title": "Day 2 — Literature Review",
+    "section": "Checkpoint Deliverable: Day 2",
+    "text": "Checkpoint Deliverable: Day 2\nAt the end of Day 2, the mentees should have a stronger problem statement supported by reputable sources from the papers they have read today. The problem statement document should be cited properly and must have valid bibliographies.",
+    "crumbs": [
+      "EROP",
+      "Daily Plan",
+      "Day 2 --- Literature Review"
+    ]
+  },
+  {
     "objectID": "EROP/day-3.html",
     "href": "EROP/day-3.html",
     "title": "Day 3 — Verify and Evaluate Information",
@@ -473,11 +497,11 @@
     ]
   },
   {
-    "objectID": "EROP/day-3.html#team-review",
-    "href": "EROP/day-3.html#team-review",
+    "objectID": "EROP/day-3.html#checkpoint-deliverable-day-3",
+    "href": "EROP/day-3.html#checkpoint-deliverable-day-3",
     "title": "Day 3 — Verify and Evaluate Information",
-    "section": "Team Review",
-    "text": "Team Review\nEach team shares its most important or surprising finding with the room, and then we converge on the research idea with the highest potential for impact. The framing I aim for: “Prior work does X but not Y; Y is our opening.”\n\n\n\n\n\n\nNoteArtifact — Verified shortlist\n\n\n\nA verified shortlist of sources, each annotated with its contribution and limitations, and a short note on the gap the team intends to address. This carries into tomorrow’s (Day 4) proposal design.",
+    "section": "Checkpoint Deliverable: Day 3",
+    "text": "Checkpoint Deliverable: Day 3\nSimilar to the previous day, the mentees should have an even stronger problem statement supported by reputable sources that were verified by them today. The problem statement document should be cited properly and must have valid bibliographies. In addition, the team should ideally have identified a list of works that would be vital to answer the reserach questions.\nThe problem statement draft should be ready to be converted into a sound reserach proposal in the next day.",
     "crumbs": [
       "EROP",
       "Daily Plan",
@@ -489,7 +513,7 @@
     "href": "EROP/index.html",
     "title": "EROP 2026 (June)",
     "section": "",
-    "text": "Introduction\nWelcome to SYAI Labs. This is the official curriculum of the Early Research Opportunity Program (EROP) organized by the Singapore Youth AI, supported by AI Singapore.\nAcross these pages, we provide examples for the learning objectives in this program (see the provided lesson plan). There will be positive and negative examples, as well as specific instances accompanying the “I do, We do, You do” paradigm (to distill knowledge from the mentors). If there are any points/ideas that you are unsure about, do approach your assigned mentors during the program!\n\n\n\n\n\n\nTip\n\n\n\nUse the sidebar on the left to navigate. The program runs over five days; each day has its own page, and the worked examples build on one another from Day 1 through Day 5.\n\n\n\n\n\nWhat’s here\n\nResearch Brief — Weapons of Mass Disruptions — the open problem your team will work on.\nDay 1 — Kickoff and Problem Framing\nDay 2 — Literature Review\nDay 3 — Verify and Evaluate Information\nDay 4 — Proposal Design\nDay 5 — Proposal Write-ups and Presentation\nEROP Mentoring Strategy — the “I Do, We Do, You Do” model for mentors.\n\n\n\n\nFuture Iterations\n\n\n\nIf you would like to join future iterations, kindly register your interest here!",
+    "text": "Introduction\nWelcome to SYAI Labs. This is the official curriculum of the Early Research Opportunity Program (EROP) organized by the Singapore Youth AI, supported by AI Singapore.\nAcross these pages, we provide examples for the learning objectives in this program (see the provided lesson plan). There will be positive and negative examples, as well as specific instances accompanying the “I do, We do, You do” paradigm (to distill knowledge from the mentors). If there are any points/ideas that you are unsure about, do approach your assigned mentors during the program!\n\n\n\n\n\n\nTip\n\n\n\nUse the sidebar on the left to navigate. The program runs over five days; each day has its own page, and the worked examples build on one another from Day 1 through Day 5.\n\n\n\n\nDeliverables\nAt the end of this program, each team submits: - An actionable written research proposal (max 3 pages) identifying a specific AI safety concern arising from one of the disruptions described above. - A poster (A0/A1 size) to pitch their research proposal. Printing the poster is not required. - A presentation pitch of the research proposal using the poster.\nThe proposal should include a clear problem statement scoped to a particular domain based on the team’s experiences , a proposed methodology for investigating or addressing it, and a discussion of expected outcomes and limitations. Proposals must engage with prior work.\n\n\n\nWhat’s here\n\nResearch Brief — Weapons of Mass Disruptions — the open problem your team will work on.\nDay 1 — Kickoff and Problem Framing\nDay 2 — Literature Review\nDay 3 — Verify and Evaluate Information\nDay 4 — Proposal Design\nDay 5 — Proposal Write-ups and Presentation\nEROP Mentoring Strategy — the “I Do, We Do, You Do” model for mentors.\n\n\n\n\nFuture Iterations\n\n\n\nIf you would like to join future iterations, kindly register your interest here!",
     "crumbs": [
       "EROP",
       "EROP 2026 (June)"
