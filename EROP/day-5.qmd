@@ -59,8 +59,9 @@ Each team gives a short presentation of its proposal and poster to the room. The
 
 ## Post-Survey and Closing
 
-To wrap up the programme, mentees and mentors complete the post-programme self-assessment and the mirrored inter-rating surveys --- the counterpart to the Day 1 pre-survey. We use them to reflect on how much you've grown and to support certification decisions.
+To wrap up the programme, mentees and mentors complete the post-programme self-assessment and the mirrored inter-rating surveys --- the counterpart to the Day 1 pre-survey. We use them to reflect on how this program could be improved!
 
 ::: {.callout-note}
-**Post-Programme Self-Assessment & Inter-Rating Survey** *(links to be added by coordinators)*
+**[Post-Programme Self-Assessment](https://forms.gle/9Xi5ZEdEvBDZrWVZ6)**
+**[Feedback to Mentors](https://forms.gle/NzEGbimxk6XacGUz6)**
 :::
