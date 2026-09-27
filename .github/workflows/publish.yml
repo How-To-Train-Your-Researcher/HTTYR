@@ -14,10 +14,41 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Check maintenance mode
+        id: mode
+        run: |
+          if [ -f MAINTENANCE ]; then
+            echo "maintenance=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "maintenance=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Maintenance mode: serve one static page for every URL.
+      - name: Build maintenance page
+        if: steps.mode.outputs.maintenance == 'true'
+        run: |
+          mkdir -p _maint_site
+          cp _maintenance/index.html _maint_site/index.html
+          cp _maintenance/index.html _maint_site/404.html
+          cp CNAME _maint_site/CNAME
+          touch _maint_site/.nojekyll
+
+      - name: Publish maintenance page
+        if: steps.mode.outputs.maintenance == 'true'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./_maint_site
+          commit_message: "Deploy maintenance page"
+
+      # Normal mode: render and publish the Quarto site.
       - name: Set up Quarto
+        if: steps.mode.outputs.maintenance != 'true'
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render and publish
+        if: steps.mode.outputs.maintenance != 'true'
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages

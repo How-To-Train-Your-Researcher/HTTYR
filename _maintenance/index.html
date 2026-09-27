@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>How To Train Your Researcher · Back soon</title>
+  <meta name="description" content="HTTYR is being redesigned. We'll be back soon.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f6f3ee;
+      --ink: #1d1b19;
+      --muted: #6b655d;
+      --accent: #c2572b;
+      --line: #e2dcd2;
+      --card: #fffdf9;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #141311;
+        --ink: #f1ece4;
+        --muted: #a39b90;
+        --accent: #e9875a;
+        --line: #2c2925;
+        --card: #1b1a17;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; }
+    html, body { height: 100%; }
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      display: grid;
+      place-items: center;
+      padding: 24px 16px;
+      overflow-x: hidden;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      inset: -20%;
+      background:
+        radial-gradient(40% 35% at 20% 25%, color-mix(in srgb, var(--accent) 14%, transparent), transparent 70%),
+        radial-gradient(35% 30% at 80% 75%, color-mix(in srgb, var(--accent) 9%, transparent), transparent 70%);
+      animation: drift 18s ease-in-out infinite alternate;
+      z-index: -1;
+    }
+    @keyframes drift { to { transform: translate(3%, -2%) scale(1.05); } }
+    @media (prefers-reduced-motion: reduce) { body::before { animation: none; } }
+
+    main {
+      width: 100%;
+      max-width: 560px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: clamp(28px, 6vw, 48px);
+      box-shadow: 0 1px 2px rgb(0 0 0 / .04), 0 12px 40px -12px rgb(0 0 0 / .12);
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+    .dot {
+      width: 8px; height: 8px; border-radius: 50%;
+      background: var(--accent);
+      animation: pulse 1.8s ease-in-out infinite;
+    }
+    @keyframes pulse { 50% { opacity: .3; } }
+    h1 {
+      font-family: "Fraunces", Georgia, serif;
+      font-weight: 600;
+      font-size: clamp(30px, 6vw, 42px);
+      line-height: 1.15;
+      letter-spacing: -.01em;
+      margin: 16px 0 12px;
+    }
+    p { color: var(--muted); font-size: 16px; }
+    p + p { margin-top: 12px; }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 28px 0 20px; }
+    .links { display: flex; flex-wrap: wrap; gap: 10px; }
+    a.btn {
+      display: inline-block;
+      padding: 9px 16px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      color: var(--ink);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      transition: border-color .15s, color .15s;
+    }
+    a.btn:hover, a.btn:focus-visible { border-color: var(--accent); color: var(--accent); }
+    a.btn.primary { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+    a.btn.primary:hover, a.btn.primary:focus-visible { background: var(--accent); border-color: var(--accent); color: #fff; }
+    footer { margin-top: 24px; font-size: 13px; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main>
+    <span class="eyebrow"><span class="dot" aria-hidden="true"></span>Under maintenance</span>
+    <h1>How To Train Your Researcher is getting a fresh coat of paint.</h1>
+    <p>We're redesigning the site to make our advice on reading, writing and doing AI research easier to find and nicer to read.</p>
+    <p>We'll be back soon. In the meantime, all the content lives on GitHub.</p>
+    <hr>
+    <div class="links">
+      <a class="btn primary" href="https://github.com/How-To-Train-Your-Researcher/HTTYR">View on GitHub</a>
+      <a class="btn" href="https://sgyouthai.org/">Singapore Youth AI</a>
+    </div>
+    <footer>Maintained by volunteer researchers in Singapore.</footer>
+  </main>
+</body>
+</html>
