@@ -1,125 +1,199 @@
 ---
-title: "Day 2 --- Literature Review"
+title: "Day 2 --- Writing a Proposal"
 date: last-modified
 ---
 
-Day 2 is where we map the research landscape around the problem statement: what's already been done, what the open problems are, and which papers are worth reading closely. I'll keep going with the illustrative health misinformation brief from Day 1.
+Day 2 is about writing: what goes into a research proposal, how citations work under the hood in LaTeX, and a short hands-on session in Overleaf. In the afternoon, each team works with its mentor to turn yesterday's solution outline into research questions with hypotheses and a first experimental plan. I'll keep using the illustrative health misinformation brief from Day 1.
+
+## Schedule
+
+All sessions are at NUS Innovation 4.0.
+
+| Slot | Activity | Location |
+|---|---|---|
+| 20 min | Writing tutorial: how to make a research proposal | Lecture hall |
+| 15 min | Writing tutorial: reading a BibTeX entry | Lecture hall |
+| 20 min | Writing exercise in Overleaf | Lecture hall |
+| --- | Break | --- |
+| 2 hr | Research project: mentor consultation | Tutorial room |
+
+**Deliverable:** continue to refine the solution and idea.
+
+---
 
 ## Daily Recap
 
-Before we start searching, we revisit yesterday's problem statement and split the literature hunt across sub-areas. I've learned that without this, three of us end up finding the same survey paper while a whole sub-area goes untouched.
-
-For the Singlish health misinformation angle, here's how I might split it:
-
-| Sub-area | Why it matters to the problem |
-|---|---|
-| Misinformation / fake-news detection | The core task — what methods exist, what they achieve |
-| Code-mixed and low-resource NLP | Directly addresses the Singlish constraint |
-| Explainability in text classification | Addresses the explainability requirement from the brief |
-
-Each of us takes a sub-area, and we agree up front to come back with a handful of strong sources rather than a giant undifferentiated list.
+We start by revisiting the problem selection and solution outline from Day 1: the problem statement, the one or two research questions, and the rough idea of the approach. Today we turn that outline into the skeleton of a proposal, so by the end of the afternoon every part of the proposal has at least a placeholder.
 
 ---
 
-## Gathering Information
+## Writing Tutorial
 
-Deep Research features (in ChatGPT, Claude, Gemini, and similar tools) are great for getting a fast first map of a field. I treat them as a *starting point*, never a substitute for actually reading. Two failure modes have bitten me enough that I always watch for them:
+### How to Make a Research Proposal
 
-- **Hallucinated or mis-attributed citations.** A tool may invent a plausible-sounding paper, or pin a real finding on the wrong authors or venue. I verify every source independently before it goes anywhere near my bibliography.
-- **Confident but shallow synthesis.** The summary can smooth over real disagreements in the literature, or miss the most important recent work. I read it as a set of leads to chase, not settled conclusions.
+Recall that a research question (RQ) says what we want to find out to address the problem statement. A hypothesis says what we expect the answer to be, in a form that can be tested empirically. Strong RQs are **specific**, **grounded in a gap** from the literature, and **answerable within the project's constraints**.
 
-### Deep Research with LLMs
-
-Most AI tools these days have some "deep research" feature, so this section is about getting more productive use out of it. A vague prompt ("tell me about misinformation detection") gets me a vague survey back. What I've found works better is a prompt that encodes my problem statement, my constraints, and exactly what I want returned.
-
-::: {.callout-tip title="Example --- Deep Research prompt"}
-I am researching the detection of health misinformation in **code-mixed English–Singlish** short text (social media posts). I want to understand the existing research landscape.
-
-Please find and summarise:
-
-1. Key approaches to health misinformation / fake-news detection in short text, with a focus on **explainable** methods.
-2. Work on code-mixed or low-resource NLP, especially for English mixed with Southeast Asian languages.
-3. For each work: the venue, the year, the core method, and its main limitation.
-
-Prioritise peer-reviewed papers from reputable venues (e.g., ACL, EMNLP, NAACL, ICML, ICLR). Include links or DOIs so I can verify each source. Flag where the evidence is thin or where you are uncertain.
+::: {.callout-note}
+This is only one way to form RQs and hypotheses. In other kinds of work, such as proving theoretical bounds, the process can be different. Work with your mentors or advisors to find the method that suits your kind of research.
 :::
 
-Notice what that prompt is doing: it states the problem precisely, names the constraints (code-mixed, explainable, short text), asks for verifiable metadata (venue, year, link), and openly invites the tool to flag its own uncertainty.
+| | Weak | Strong |
+|---|---|---|
+| RQ | "How can AI detect misinformation?" | "Do token-attribution explanations remain faithful when health-misinformation classifiers are applied to code-mixed English–Singlish text?" |
+| Why | Too broad, not answerable, no gap | Specific, tied to a documented gap, testable in 5 weeks |
 
-#### Don't trust the models (for now)
+Each RQ is then paired with a testable hypothesis:
 
-Below is an example of a hallucinated reference produced by Deep Research (02/Jun/2026).
+::: {.callout-tip title="Example --- RQ and hypothesis"}
+**RQ:** Do token-attribution explanations remain faithful for code-mixed Singlish input?
 
-![A deep research on Meme Understanding from CVPR within the last two years. The highlighted ExplainHM is a published paper, but **not in CVPR** --- it actually went to WWW 2025!](/attachments/hallucination.jpg)
+**Hypothesis:** Explanation faithfulness (measured by attribution–accuracy agreement under token deletion) is significantly *lower* for code-mixed inputs than for monolingual English inputs, because the model attends disproportionately to English tokens.
 
-Be very, very careful with the papers it lists. The model can not only hallucinate a paper that doesn't exist, but also get **where** it was published wrong! In other cases the paper might just be sitting on arXiv, not actually published yet. To feel confident in our sources, we go and [verify](day-3.qmd#verifying-information) them ourselves.
+What makes this testable: it names a metric, a comparison, and a directional prediction with a stated mechanism.
+:::
+
+A good experimental plan in a proposal shows *how* each RQ will be answered and is honest about feasibility. In a short sprint, prefer plans that reuse existing datasets and models over plans that need new data collection or training from scratch.
+
+::: {.callout-tip title="Example --- experimental plan sketch"}
+- **Data:** an existing English health-misinformation dataset + a small set of code-mixed examples (translated/adapted, or sourced from public Singlish corpora within PDPA limits).
+- **Models:** two off-the-shelf pre-trained classifiers with attribution methods (no training from scratch).
+- **Measure:** faithfulness via token-deletion agreement, compared across English vs. code-mixed inputs.
+- **Expected outcome:** a quantified faithfulness gap, plus qualitative examples of where attributions break down.
+- **Limitations:** small code-mixed sample; results indicative rather than definitive.
+- **Budget:** last but certainly not the least, would be to keep a rough estimate of the costs for this project (e.g., API costs, GPU hours, compute wall-clock etc.)
+:::
+
+The proposal should contain at least these points:
+
+1. **Problem** --- the gap and why it matters (from Day 1, refined).
+2. **Literature / Introduction** --- what exists and what it leaves open (from the Day 1 reading and the Day 3 literature search).
+3. **Proposed direction** --- the RQs, hypotheses, and experimental plan.
+4. **Expected outcomes** --- what a meaningful result looks like, and the limitations.
+
+The proposal is at most 3 pages, so every paragraph or diagram should add something to it. A rough page budget is half a page on problem and motivation, half to one page on literature and gap, half to one page on the proposed direction and plan, and half to one page on expected outcomes and constraints.
+
+We collected more writing advice on [this](../advice/writing_advice.qmd) page. Check it if you need references or help.
+
+### Reading a BibTeX Entry
+
+A proposal cites its sources, and in LaTeX the citations come from a `.bib` file. When you find a paper on Google Scholar, copy its citation from **Cite → BibTeX** and paste it into the `.bib` file of your [Overleaf](https://www.overleaf.com/project) project:
+
+::: {.callout-tip title="Example --- BibTeX from Google Scholar"}
+```bibtex
+@inproceedings{author2023misinfo,
+  title     = {Explainable Detection of Health Misinformation in Short Text},
+  author    = {Author, A. and Author, B.},
+  booktitle = {Proceedings of EMNLP},
+  year      = {2023}
+}
+```
+
+Scholar often lists a published paper's venue as `arXiv preprint` even after it appeared at a conference. The best practice is to look for the original source/venue (e.g., ICML) that the article is published at!
+:::
+
+Each entry has three parts:
+
+- **The entry type**, after the `@`. It says what kind of work this is: `@inproceedings` for a conference paper, `@article` for a journal paper, `@misc` for anything else, which is where arXiv preprints often end up.
+- **The citation key**, the first thing inside the braces (`author2023misinfo` above). It is the name used to cite the paper in the document, and it only has to be unique within the `.bib` file.
+- **The fields**, one `name = {value}` per line: `title`, `author` (names joined with `and`), `booktitle` for a conference or `journal` for a journal, `year`, and optionally `pages` and a `url` or `doi`.
+
+A `.bib` file is a small database. It does nothing on its own; the LaTeX document cites from it with `\cite{author2023misinfo}`, and only the cited entries appear in the reference list. The bibliography style set in the document decides how each entry renders (author-year or numbered, abbreviated names or full ones), so nothing in the `.bib` file needs to be formatted by hand.
+
+The entry type and venue fields are where exports most often go wrong. Google Scholar and arXiv often export an `@misc` or arXiv entry for a paper that later appeared at a conference. If the paper was published, cite the published venue: it is the peer-reviewed version, and it tells the reader where the work was checked.
+
+### Writing Exercise
+
+For the exercise, each person clones the NeurIPS paper template into [Overleaf](https://www.overleaf.com/). The coordinators share the template link on the day. Open the project, check that it compiles, and find the `.bib` file (create one called `references.bib` if the template has none).
+
+**Exercise 1 --- clean up a bad BibTeX entry.** Below is the kind of entry you get when you export "Attention Is All You Need" from its arXiv page. The paper was published at NeurIPS 2017 [@vaswani2017attention], so the entry should say so.
+
+```bibtex
+@misc{vaswani2017attention,
+  title         = {Attention Is All You Need},
+  author        = {Ashish Vaswani and Noam Shazeer and Niki Parmar and Jakob Uszkoreit
+                   and Llion Jones and Aidan N. Gomez and Lukasz Kaiser and Illia Polosukhin},
+  year          = {2017},
+  eprint        = {1706.03762},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/1706.03762},
+  abstract      = {The dominant sequence transduction models are based on complex
+                   recurrent or convolutional neural networks that include an encoder
+                   and a decoder. ...}
+}
+```
+
+The cleaned entry:
+
+```bibtex
+@inproceedings{vaswani2017attention,
+  title     = {Attention Is All You Need},
+  author    = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob
+               and Jones, Llion and Gomez, Aidan N and Kaiser, {\L}ukasz and Polosukhin, Illia},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume    = {30},
+  year      = {2017}
+}
+```
+
+What changed:
+
+- The entry type went from `@misc` to `@inproceedings`, because the paper is a conference paper, and the new `booktitle` and `volume` fields name the venue.
+- `eprint`, `archivePrefix` and `primaryClass` were removed. They point to the arXiv preprint, and once we cite the published version they only add clutter (some styles print them as an extra arXiv line).
+- `url` was removed because it pointed to the preprint rather than the published paper.
+- `abstract` was removed. The style never prints it, and it makes the `.bib` file long and hard to read.
+- The key stayed the same, so any `\cite{vaswani2017attention}` already in the document still works.
+
+**Exercise 2 --- change the citation in the template.** Add the cleaned entry to the project's `.bib` file. Find the example citation in the template and replace it with `\cite{vaswani2017attention}`. If the template's reference list is typed out by hand, replace it with a `\bibliography{references}` line and a bibliography style. Recompile, then check that the reference list shows the paper with its NeurIPS venue and no arXiv line.
+
+```latex
+Transformers rely entirely on attention \cite{vaswani2017attention}.
+```
+
+**Exercise 3 --- fix a broken maths equation.** Paste the source below into the template and compile it. It has three mistakes: `\top` used outside maths mode, `\sqrt d_k` without braces, and a `\right` with no closing delimiter.
+
+```latex
+We compute attention as
+\begin{equation}
+  \mathrm{Attention}(Q, K, V) = \mathrm{softmax}\left(\frac{QK^\top}{\sqrt d_k}\right V
+\end{equation}
+where K^\top is the transpose of the key matrix.
+```
+
+The fixed source:
+
+```latex
+We compute attention as
+\begin{equation}
+  \mathrm{Attention}(Q, K, V) = \mathrm{softmax}\left(\frac{QK^\top}{\sqrt{d_k}}\right)V
+\end{equation}
+where $K^\top$ is the transpose of the key matrix.
+```
+
+It renders as:
+
+$$
+\mathrm{Attention}(Q, K, V) = \mathrm{softmax}\left(\frac{QK^\top}{\sqrt{d_k}}\right)V
+$$
+
+Two of the mistakes stop compilation: `\top` and `^` outside maths mode give a "Missing $ inserted" error, and `\right` without a delimiter gives a "Missing delimiter" error. The third one compiles without complaint: `\sqrt d_k` takes the square root of `d` alone and leaves `_k` outside the root, so always compare the rendered equation against what you meant.
 
 ---
 
-### Triaging the output
+## Research Project: Refining the Idea
 
-Say the tool hands me eight sources. The real skill is deciding what to read first and what to set aside --- and being able to explain *why*. Here's roughly how I triage:
+In the two-hour session with your mentor, the team turns its Day 1 outline into research questions with hypotheses and a skeleton experimental plan. The team also sets up its own Overleaf project with its own `.bib` file, so there is a place for the citations collected from here on.
 
-- **Read first** — a paper from a top venue (e.g., ACL/EMNLP), recent (last 2–3 years), directly on code-mixed misinformation. High relevance, high credibility: this is the closest prior work.
-- **Read soon** — a well-cited survey of explainable text classification. Not specific to my domain, but it frames the explainability landscape and its references are a map to follow.
-- **Skim / park** — a paper on misinformation detection from a strong venue but English-only and not explainable. Useful as a baseline method, but it misses two of my core constraints.
-- **Filter out** — a source with no identifiable venue, no link, or one I can't locate when I search for it. If I can't confirm it exists, it doesn't enter the bibliography.
-
-The reason I make myself say the *why* out loud is that it forces my criteria into the open: relevance to the problem statement, credibility of the venue, recency, and whether the work actually addresses my specific constraints.
-
-::: {.callout-caution title="You Do --- Survey your own problem"}
-Using your EROP problem statement, write a Deep Research prompt in the spirit of the one above. Run it, then triage the results into "read first / read soon / skim / filter out." For each source you flag for the team, jot one sentence on *why* it earned that ranking.
+::: {.callout-caution title="You Do --- Formulate your RQs"}
+As a team, draft 1--3 research questions for your problem. For each, write a testable hypothesis that names *what* you'd measure and *what* you expect. Then poke holes in each other's formulations: is it specific? grounded in a gap? answerable in the time you have?
 :::
 
----
-
-## Google Scholar
-
-Deep Research gives me leads; Google Scholar is where I check them and follow the citation trail myself. My first move with any AI-suggested source is always the same: *find the real paper.* I search the exact title in [Google Scholar](https://scholar.google.com) and confirm the authors, venue, and year match what the tool claimed.
-
-![Example entry in Google Scholar](/attachments/cite_by.jpg)
-
-### Practical Tips!
-
-- **"Cited by N"** — every result lists how many later papers cite it. Clicking through shows me *forward* citations: newer work that built on this paper. It's the single most useful way I know to get from a foundational paper to the current state of the art.
-- **"Related articles"** — surfaces papers Scholar judges topically similar; handy for widening a sub-area. [Connected Papers](https://www.connectedpapers.com/) is another tool I reach for here.
-- **Cite → BibTeX** — exports a clean citation for the bibliography (I still sanity-check the venue and year).
-- **Filter by year** (left sidebar) — I restrict to recent work to see where a field is now, or sort differently to surface the seminal older papers.
-- **The right-hand link** — often a `[PDF]` from the publisher, arXiv, or an author's page, which gets me to the full text.
-
-::: {.callout-caution}
-I treat citation count as a signal of influence, but it's biased toward older papers --- a strong 2024 paper won't have many citations yet. So I weigh the venue (is it a recognised peer-reviewed conference or journal?), the recency, and above all the fit to my problem. A modestly-cited paper that hits my exact sub-problem is often worth more to me than a famous paper that's only loosely related.
-:::
-
-### Synthesizing findings
-
-What I want at the end of this session isn't a pile of PDFs --- it's a small set of synthesised points that connect back to the problem statement. Three kinds I find useful:
-
-1. **Existing work** — "Approach X is the standard method for short-text misinformation detection, achieving Y on benchmark Z."
-2. **A limitation or gap** — "These models are trained and evaluated almost entirely on monolingual English; code-mixed performance is largely unstudied."
-3. **A convention of the subfield** — "Explainability here is usually evaluated by attention-weight visualisation or token-attribution methods, which have known reliability caveats."
-
-I make sure each point traces back to a specific source, so the claim can be checked.
-
-### Bibliographies
-
-The artifact for the day is an annotated bibliography. The annotations I find most useful are short, but they capture relevance and judgement, not just a summary:
-
-::: {.callout-tip title="Example --- Annotated bibliography entry"}
-**Author(s) (Year). _Title._ Venue.** [link/DOI]
-
-- **What it does:** proposes a transformer-based classifier for short-text misinformation with token-level attribution for explainability.
-- **Why it's relevant:** hits two of our constraints (short text + explainability); a strong candidate baseline.
-- **Limitation for us:** English-only; no evaluation on code-mixed text, which is exactly our gap.
-- **Follow-ups (via "Cited by"):** two 2024 papers extend this to multilingual settings — worth reading next.
-:::
-
-::: {.callout-caution title="You Do --- Locate and annotate"}
-Take one source you flagged from your Deep Research survey. Find it on Google Scholar, confirm its venue and year, and click "Cited by" to find a more recent paper that builds on it. Write an annotated bibliography entry for each, in the spirit of the one above. Then, as a team, pool everyone's entries and pick out the three synthesised points most relevant to your problem statement.
+::: {.callout-caution title="You Do --- Outline the proposal"}
+Sketch a one-page experimental plan for your main RQ (data, method, measure, expected outcome, limitations), then arrange your material into the four-part arc above. Keep it skeletal for now. The full prose is written on Day 4.
 :::
 
 ---
 
 ## Checkpoint Deliverable: Day 2
 
-At the end of Day 2, the mentees should have a stronger problem statement supported by reputable sources from the papers they have read today. The problem statement document should be cited properly and must have valid bibliographies.
+At the end of Day 2, the team should have a refined idea: research questions with hypotheses and a skeleton experimental plan, written in an Overleaf project that compiles with at least one correctly formatted citation.

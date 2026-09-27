@@ -1,5 +1,5 @@
 ---
-title: "EROP 2026 (June)"
+title: "EROP 2026 (December)"
 authors: "Yuriel Ryan"
 date: last-modified
 ---
@@ -11,14 +11,14 @@ Welcome to SYAI Labs. This is the official curriculum of the Early Research Oppo
 Across these pages, we provide examples for the learning objectives in this program (see the provided lesson plan). There will be positive and negative examples, as well as specific instances accompanying the ["I do, We do, You do"](mentoring-strategy.qmd) paradigm (to *distill knowledge* from the mentors). If there are any points/ideas that you are unsure about, do approach your assigned mentors during the program!
 
 ::: {.callout-tip}
-Use the sidebar on the left to navigate. The program runs over five days; each day has its own page, and the worked examples build on one another from Day 1 through Day 5.
+Use the sidebar (the menu button on phones) to navigate. The program runs over five days; each day has its own page, and the worked examples build on one another from Day 1 through Day 5.
 :::
 
 # Deliverables
 
 At the end of this program, each team submits:
 
-- An actionable **written research proposal** (max 3 pages) identifying a specific AI safety concern arising from one of the disruptions described above. 
+- An actionable **written research proposal** (max 3 pages) identifying a specific AI safety concern arising from one of the disruptions described in the research brief. 
 - A **poster** (A0/A1 size) to pitch their research proposal. Printing the poster is not required.
 - A **presentation pitch** of the research proposal using the poster.
 
@@ -29,11 +29,11 @@ The proposal should include a clear problem statement scoped to a particular dom
 # What's here
 
 - [Research Brief --- Weapons of Mass Disruptions](research-brief.qmd) --- the open problem your team will work on.
-- [Day 1 --- Kickoff and Problem Framing](day-1.qmd)
-- [Day 2 --- Literature Review](day-2.qmd)
-- [Day 3 --- Verify and Evaluate Information](day-3.qmd)
-- [Day 4 --- Proposal Design](day-4.qmd)
-- [Day 5 --- Proposal Write-ups and Presentation](day-5.qmd)
+- [Day 1 --- Introduction and Reading](day-1.qmd)
+- [Day 2 --- Writing a Proposal](day-2.qmd)
+- [Day 3 --- Literature Tools](day-3.qmd)
+- [Day 4 --- Writing Day](day-4.qmd)
+- [Day 5 --- Presentation](day-5.qmd)
 - [EROP Mentoring Strategy](mentoring-strategy.qmd) --- the "I Do, We Do, You Do" model for mentors.
 
 ---

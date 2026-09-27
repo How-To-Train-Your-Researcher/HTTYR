@@ -3,63 +3,55 @@ title: "Day 5 --- Presentation"
 date: last-modified
 ---
 
-Day 5 is where it all comes together into the two deliverables: the **3-page research proposal** and the **poster (91 cm H × 150 cm W)**. This is writing and communication under time pressure, and "rough-edged but complete" is exactly the right target.
+On Day 5, each team presents the two deliverables it has built during the week: the **3-page research proposal** and the **poster (91 cm H × 150 cm W)**. After the presentations, we talk about what to do next if you want to keep doing research, and close with the surveys.
 
-## Final Day Planning
+## Schedule
 
-Before we start writing, we sort out who's doing what: who drafts which section, who builds the poster, who reviews for consistency. Agreeing on what "done" looks like up front has saved me from more than one last-minute scramble.
+All sessions are at NUS Innovation 4.0.
 
-| Role | Responsibility |
-|---|---|
-| Section leads | Each owns one part of the proposal (problem / literature / direction / outcomes) |
-| Poster lead | Builds the Canva poster from the proposal as sections firm up |
-| Reviewer | Reads for coherence, checks citations against the verified bibliography |
+| Slot | Activity | Location |
+|---|---|---|
+| 2 hr | Final presentations | Lecture hall |
+| End of day | Outro: what comes next | Lecture hall |
+| End of day | Post-survey and closing | Lecture hall |
 
----
-
-## Proposal Drafting
-
-The proposal (max 3 pages) pulls together everything from the week: the brief context, the verified literature, the research questions, and the experimental plan. With only three pages, every paragraph or diagram should have some value to the proposal. The rough budget I'd aim for: half a page on problem and motivation, half-one page on literature and gap, half-one page on the proposed direction and plan, and half-one page on expected outcomes and constraints.
-
-We compiled a bunch of advice on [this](../advice/writing_advice.qmd) page. If you need some references or help, do check it out.
-
-::: {.callout-caution title="You Do --- Draft the proposal"}
-Following your Day 4 outline and the page budget above, draft the full proposal. Have your reviewer check that every literature claim maps to a verified source, and that each paragraph opens with its point.
-:::
-
----
-
-## Slides and Poster
-
-The poster is the visual pitch. We will build it in Canva at **91 cm (H) × 150 cm (W)** and lean hard toward narrative clarity over cramming in content --- someone walking past should grasp the problem, the idea, and the contribution in under a minute.
-
-Try to include: a one-line problem statement, the gap, the research question, a simple figure of the approach, and the expected contribution. It's usually not a good idea to copy and paste the entire proposal in the poster --- it is there to support a conversation (like a notecard), not the entire one.
-
-::: {.callout-caution title="You Do --- Build the poster"}
-Draft a poster layout that tells your research story in five blocks: **Problem → Gap → Research Question → Approach (with a figure) → Expected Contribution.** Keep the text minimal and let one central figure carry the method.
-:::
-
-There are a few good resources to look at. here are a couple: from [NYU](https://guides.nyu.edu/posters) and this really nice [blog](https://colinpurrington.com/tips/poster-design/).
-
-I have two examples to show you below:
-
-![This is the poster designed for this program. It carries a similar structure to academic posters with the central column being the widest and the most important!](/attachments/poster.png)
-
-![This is a poster from my own research work [@ryan2026selfcaptioningmultimodalinteractiontuning].](/attachments/Interaction_Tuning_Poster.png)
-
-![This is a poster with my collaborators!](/attachments/Rights_Poster.png)
+**Deliverable:** the presentation of the proposal and poster.
 
 ---
 
 ## Final Presentation
 
-Each team gives a short presentation of its proposal and poster to the room. The proposal will be evaluated by AI Singapore staff against a provided rubric, and they'll probe how sound it is --- so it's worth being ready to field clarifying questions about your assumptions and plan. A complete, clearly-told story counts for more than polish.
+Each team gives a short presentation of its proposal and poster to the room. AI Singapore staff evaluate the proposal against a provided rubric, and they will ask questions to check how sound it is. Be ready to answer clarifying questions about your assumptions and plan. A complete and clearly told story counts for more than polish.
+
+Use the poster as your notes for the pitch, and walk the audience through it in the same order as its blocks. A good pitch covers:
+
+- **Problem:** what goes wrong today, and for whom.
+- **Gap:** what the existing literature has not answered.
+- **Research question:** the specific question the proposal asks.
+- **Approach:** how you would answer it, and how you would know if you were right.
+- **Expected contribution:** what the field would know or have afterwards.
+
+Expect questions about feasibility: whether the data exists, whether the plan fits the constraints, and what happens if the hypothesis turns out to be wrong. Agree beforehand on one person who is ready to answer those, so the team does not talk over itself.
+
+---
+
+## Outro: What Comes Next
+
+The programme ends today, but the proposal you wrote can be a starting point. Some ways to keep a research interest going:
+
+- **Email a professor whose lab fits your idea.** Read two or three of the lab's recent papers first. Then write a short email with a specific ask (a research assistant position, a UROP project, a meeting to discuss the idea), and attach your proposal to show that you have already thought through a problem.
+- **Apply for structured research programmes.** UROP, final-year projects and research assistant positions are the usual ways in as an undergraduate. Your proposal and poster are concrete things to show when you apply.
+- **Keep the reading habit.** Follow the venues listed in the [reading advice](../advice/reading_advice.qmd#starting-points), and keep your Zotero library alive by adding papers as you read them.
+- **Join a community.** Reading groups and communities such as [Singapore Youth AI](https://sgyouthai.org/) are a good way to keep reading with other people and to hear about new opportunities.
+- **Turn the proposal into a real project.** If your team is still interested in its idea, ask your mentor whether they would supervise a small version of the experimental plan.
+
+If you would like to join future iterations of this programme, register your interest [here](https://forms.gle/UUSr3jHW22bXkf9S7).
 
 ---
 
 ## Post-Survey and Closing
 
-To wrap up the programme, mentees and mentors complete the post-programme self-assessment and the mirrored inter-rating surveys --- the counterpart to the Day 1 pre-survey. We use them to reflect on how this program could be improved!
+To wrap up the programme, mentees and mentors complete the post-programme self-assessment and the mirrored inter-rating surveys. These are the counterpart to the Day 1 pre-survey. We use them to see how the programme can be improved.
 
 ::: {.callout-note}
 - [Post-Programme Self-Assessment](https://forms.gle/9Xi5ZEdEvBDZrWVZ6)

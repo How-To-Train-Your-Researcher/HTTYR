@@ -1,9 +1,26 @@
 ---
-title: "Day 1 --- Introduction"
+title: "Day 1 --- Introduction and Reading"
 date: last-modified
 ---
 
-Day 1 is about getting your bearings: making sense of the research brief and shaping a first problem statement together. The examples below walk through an illustrative brief on health misinformation --- a different domain from your actual EROP brief, on purpose --- so you can see how I'd think through each step before trying it on your own.
+Day 1 is mostly introductory: **what** research is and **why** it is worth doing; how to read the research brief and research papers; and, choosing the problem to work on for the rest of the week. The examples below walk through an illustrative brief on health misinformation, so you can see each step done once before trying it on the EROP brief.
+
+## Schedule
+
+All sessions are at NUS Innovation 4.0.
+
+| Slot | Activity | Location |
+|---|---|---|
+| 15 min | Introduction | Lecture hall |
+| 30 min | Research brief | Lecture hall |
+| 15 min | Break | --- |
+| 45 min | Reading advice | Lecture hall |
+| 15 min | Break | --- |
+| 2 hr | Research project with mentors | Tutorial room |
+
+**Deliverable:** Outlined a problem to work on with general directions for a proposal.
+
+---
 
 ## Pre-Survey
 
@@ -11,19 +28,41 @@ Before the program begins, both mentees and mentors fill in a short self-assessm
 
 *What is this for?*: We use these self-assessments as a signal for how much the program actually helped you. Thank you for taking the time to fill it up 🙇🏻
 
-> **[Pre-Programme Self-Assessment Form](https://forms.gle/7fWn5c3iWpoMvZXr8)**
+- [Pre-Programme Self-Assessment Form](https://forms.gle/7fWn5c3iWpoMvZXr8)
 
 ---
 
-## Reading the Research Brief
+## Introduction
 
-When my team gets a new brief, the first thing we do is read it together and try to pull apart two kinds of constraints: the **explicit** ones the brief states outright, and the **implicit** ones it only hints at.
+Research is the process of producing new **insights**, and showing it carefully enough that other people can check it and build on it. In AI, this might be a new method, a new way to evaluate models, or new evidence for or against a popular assumption.
 
-::: {.callout-note}
-The EROP research brief is on the [Research Brief](research-brief.qmd) page. Read through it before working through the examples below.
-:::
+**Why** do research? I like to consider each research project as an **adventure** where you have the freedom to explore problems that **you** are interested in under fewer constraints than a traditional group-based project work. Equally important, it also trains **transferable skills**: reading critically and efficiently, asking precise questions, and helping you to frame (potentially unbounded) problems to solve them.
 
-The worked example below uses a separate illustrative brief on health misinformation --- a different domain, chosen on purpose so you can practice the skill before turning to your own brief.
+**Research is a viable career**. In Singapore and overseas, people do research at universities, industry research labs, or at other (public) research institutes with very attractive compensations (yes, even more than a software engineer). The catch is that a number of these jobs **require** a PhD degree. Part of the motivation of EROP was to provide an early exposure to AI research for you to assess your interest. So, suppose you might be interested in these jobs, how do you work towards a PhD program? Get more research experience.
+
+**Building research experience:** As an undergraduate, you can participate in UROP programmes, final-year projects, or simply emailing a professor (for a research assistant position) whose work you have specific interests in. We designed EROP to specifically **prepare you** for these opportunities.
+
+For this week, we want you to experience the initial start of research: coming up with an idea, turning it into a proposal, and finally presenting it to a group of judges.
+
+### What is a Research Paper?
+
+A research paper is the written record of a piece of research: the problem, what was done, the evidence, and what it means. Papers are published at conferences or in journals. In both cases, other researchers review the paper before it is accepted (peer review), and in AI the top conferences are where most new work first appears. Papers are how academics validate, archive and share discoveries with the scientific community. The [Starting Points](../advice/reading_advice.qmd#starting-points) table in the reading advice lists some of the main AI venues.
+
+---
+
+## Research Brief
+
+EROP gives every team the same general research brief. The brief describes an area and its constraints, but it does not fix the problem. Each team reads the brief and comes up with its own problem statement from it. The brief may come from a supporting industry partner (to be confirmed), and it is on the [Research Brief](research-brief.qmd) page. Read it before working through the examples below.
+
+### Breaking down the brief
+
+When reading the research brief, it can contain two kinds of constraints. **Explicit** constraints (stated in the brief) and **Implicit** constraints that are not directly written down. In this week, we would try to identify the implicit constraints to make your proposed project tractable while fulfilling the explicit ones! 
+
+The worked example below uses a separate illustrative brief on health misinformation. It is in a different domain from the EROP brief, so you can practice the skill before turning to your own brief.
+
+
+
+## Example: Identifying Constraints
 
 ::: {.callout-note title="Illustrative Brief --- AI-Assisted Detection of Health Misinformation"}
 **Brief: AI-Assisted Detection of Health Misinformation in Online Communities**
@@ -35,19 +74,13 @@ The worked example below uses a separate illustrative brief on health misinforma
 *Resources:* The team has access to publicly available English health misinformation datasets. Any approach using local Singapore data must comply with PDPA. The solution must be evaluable within a 5-week research sprint.
 :::
 
-### Identifying Constraints
-
-::: {.callout-note title="My Thought Process"}
-I not only look for specific details that the research brief is trying to suggest, but also whether the resulting proposal will be **sensible**. For instance, if the brief didn't suggest a budget, I still wouldn't come up with a proposal asking for $1M dollars to finetune one model. It's just not very realistic/sensible to a grant/resource provider.
+::: {.callout-note title="Thought Process"}
+Besides the details the brief states, check whether the resulting proposal is **sensible**. For instance, a brief that gives no budget does not imply that we can propose a project asking for $1M to finetune a model. This would not be realistic, and the proposal itself would not be strong.
 :::
-
-
-
-The first thing I do is separate what is *stated* from what is *implied*.
 
 **Step 1 --- Extract explicit constraints**
 
-I go through the brief almost sentence by sentence, pulling out anything that directly limits what I can do.
+Go through the brief sentence by sentence and pull out anything that directly limits what the project can do.
 
 | Examples | Source in the brief |
 |---|---|
@@ -60,51 +93,115 @@ I go through the brief almost sentence by sentence, pulling out anything that di
 
 **Step 2 --- Infer implicit constraints**
 
-These take more thought. For each explicit constraint, I ask myself: *what does this actually mean in practice?*
+For each explicit constraint, ask what it means in practice.
 
-1. **Singlish adds NLP complexity.** Most pre-trained language models are trained on standard English. Singlish --- a local creole mixing English with Malay, Hokkien, and Tamil --- is underrepresented in standard NLP benchmarks, so I wouldn't assume an off-the-shelf model transfers well.
+1. **Singlish adds NLP complexity.** Most pre-trained language models are trained on standard English. Singlish mixes English with Malay, Hokkien and Tamil, and it is underrepresented in standard NLP benchmarks. An off-the-shelf model may not transfer well to it.
 
-2. **The health domain probably needs a high precision bar.** The brief doesn't say this outright, but flagging a *correct* health claim as misinformation (a false positive) could erode public trust --- so I'd want to be conservative about what gets flagged.
+2. **The health domain probably needs high precision.** The brief does not say this, but flagging a *correct* health claim as misinformation (a false positive) could erode public trust. The system should be conservative about what it flags.
 
-3. **"Evaluable in 5 weeks" rules out training from scratch.** There likely isn't time to collect new data and pre-train a model, so fine-tuning or prompting an existing one feels more realistic.
+3. **"Evaluable in 5 weeks" rules out training from scratch.** There is not enough time to collect new data and pre-train a model, so fine-tuning or prompting an existing model is more realistic.
 
-4. **"Assist human moderators" implies a human in the loop.** The system isn't meant to be fully autonomous --- it's a triage support tool. That relaxes some accuracy requirements, but it raises a new question I find more interesting: what does the moderator actually need to make a decision?
+4. **"Assist human moderators" implies a human in the loop.** The system is a triage tool, not a fully autonomous one. This relaxes some accuracy requirements and raises a new question: what does the moderator need to make a decision?
 
 **Step 3 --- Note what to emphasise in a problem statement**
 
-Coming out of this, here are the points I'd want to foreground:
+From these constraints, three points stand out for a problem statement:
 
-- The Singlish challenge is distinctive and under-studied --- it's a non-obvious constraint that motivates *why* existing work might not apply.
-- The explainability requirement creates a genuine research tension (the most accurate models are often the least interpretable).
-- The human-in-the-loop framing should shape how we even define "success" --- accuracy alone isn't the whole story.
+- The Singlish challenge is distinctive and under-studied. It explains *why* existing work might not apply.
+- The explainability requirement creates a research tension, since the most accurate models are often the least interpretable.
+- The human-in-the-loop framing changes how "success" is defined. Accuracy alone does not capture it.
 
 ::: {.callout-caution title="You Do --- Now try it with the EROP brief"}
-Now it's your turn. Take the actual research brief on the [Research Brief](research-brief.qmd) page and, as a team, see if you can produce:
+Take the brief on the [Research Brief](research-brief.qmd) page and, as a team, produce:
 
 1. A table of explicit constraints with their source in the brief.
 2. A list of implicit constraints, each with a short justification.
-3. Two or three points you'd want to foreground in a problem statement, and why.
+3. Two or three points to foreground in a problem statement, and why.
 :::
 
 ---
 
-## Problem Statements
+## Reading Advice
 
-### What is a problem statement in AI research?
+Once a team has a problem in mind, most of its time goes into reading what others have already done about it. This hour covers how to **efficiently** read a research paper: deciding if it makes sense to read a paper, how to do so effectively, and what to take away from each one.
 
-**The problem statement helps you to justify the why in your research**. The way I think about it, it should ideally answer three questions in a paragraph or two:
+### Components of a Paper
+
+Most AI papers follow a similar layout:
+
+- **Abstract** --- the whole paper in one paragraph: problem, approach, main result.
+- **Introduction** --- the problem, why it matters, and what the paper contributes. The contribution is usually stated at the end of the introduction, often as a short list.
+- **Related work** --- how the paper positions itself against earlier work.
+- **Method** --- what the authors propose, in enough detail to reproduce it.
+- **Experiments** --- the setup, datasets, baselines and results, usually as tables and figures.
+- **Discussion and limitations** --- what the results mean and where they fall short. Limitations are usually found here.
+- **Conclusion** --- a short restatement of the contribution and future work.
+- **References and appendix** --- the works cited, and extra details, proofs and results that did not fit in the main text.
+
+<!-- ### Triaging Papers
+
+A search, a mentor or a survey often returns more papers than there is time to read. Triaging means deciding what to read first and what to set aside, with a reason for each. For the illustrative brief, eight candidate papers might sort like this:
+
+- **Read first** --- a paper from a top venue (e.g., ACL/EMNLP), recent (last 2--3 years), directly on code-mixed misinformation. It is highly relevant and credible, and it is the closest prior work.
+- **Read soon** --- a well-cited survey of explainable text classification. It is not specific to the domain, but it frames the explainability literature and its references are a map to follow.
+- **Skim / park** --- a paper on misinformation detection from a strong venue, but English-only and not explainable. It is useful as a baseline method but misses two of the core constraints.
+- **Filter out** --- a source with no identifiable venue, no link, or one that cannot be found by searching. If a source cannot be confirmed to exist, it does not enter the bibliography.
+
+Stating the reason for each decision makes the criteria explicit: relevance to the problem statement, credibility of the venue, recency, and whether the work addresses the project's constraints. -->
+
+### The Three-Pass Method
+
+The three-pass method one efficient way to read a research article. It follows the following three steps (passes):
+
+1. **Pass 1 --- Overview.** Consider and read the **title**, *abstract*, **section headings**, and **conclusion**. From here, we can already decide if we want to read further for this paper.
+2. **Pass 2 --- Method .** Read the **method** and **experiments** carefully, skipping proofs and implementation details, but pay attention to the **core ideas** and the **figures** in these sections. If this paper's method addresses your problem statement or is similar to your current ideas, proceed to Pass 3.
+3. **Pass 3 --- Details.** If we reach this stage, this paper can be considered as a "baseline" (aka a potential competing method). In this case, read what is their **specific contributions** and **claims** --- are they tested well? are their experiments sound? can we do better (implementation-wise)? Answering these questions can be the starting point of how you frame your own proposal.
+
+Most papers stop after the first pass. For detailed tips, refer to the [Reading Advice](../advice/reading_advice.qmd#the-three-pass-method) page.
+
+### Contribution, Evidence and Gap
+
+Each key paper should give you four things:
+
+- **Contribution** --- what the paper adds. What can be done now that could not be done before?
+- **Main evidence** --- the table, figure or result that supports the contribution. A claim without evidence you can point to is not yet trustworthy.
+- **Limitations** --- where it falls short: assumptions, narrow evaluation, settings it does not cover.
+- **Gaps** --- what it leaves unaddressed. A gap that overlaps your problem is an opening for your own contribution.
+
+::: {.callout-tip title="Example --- contributions, limitations, gaps"}
+Reading a paper on explainable misinformation detection:
+
+- **Contribution:** a token-attribution method that lets a moderator see which words drove a "misinformation" flag. This is **often found at the end of the Introduction** section.
+- **Main evidence:** a user study showing moderators trust it more than a black-box score. This is **usually a table or figure in the Experiments** section.
+- **Limitations:** evaluated only on English Twitter data; the user study had 12 participants; no code-mixed text. This is **often found at the Discussion** section.
+- **Gaps (the opening):** no one has tested whether token attributions stay meaningful for **code-mixed Singlish**, where the model may attend to tokens from the "wrong" language. A project on the illustrative brief could contribute here.
+:::
+
+::: {.callout-caution title="You Do --- Read one paper closely"}
+As a team, **pick the single most central paper** to your chosen problem (ask your mentor if you are unsure) and read it without AI assistance. Write down its contribution, its main evidence, its limitations, and at least one gap. Then phrase that gap as a one-sentence opening for your own research.
+:::
+
+---
+
+## Research Project: Problem Selection
+
+For the last two hours, each team works with its mentor to choose the problem it will take on for the week and to draft a rough outline of a solution. The rest of this section covers what that discussion needs.
+
+### Problem Statements
+
+**The problem statement justifies why the research is worth doing.** In a paragraph or two, it answers three questions:
 
 1. **What gap exists?** --- the open problem or underexplored area.
 2. **Why does it matter?** --- the real-world or scientific motivation.
-3. **What direction are you taking?** --- a high-level sense of your research approach.
+3. **What direction are you taking?** --- a high-level sense of the research approach.
 
 ::: {.callout-important}
 A problem statement is **not** a solution statement. It doesn't say "we will build X." It says "Y is a challenge because of Z, and addressing Z matters because of W."
 :::
 
-### What are research questions in AI research?
+### Research Questions
 
-Research questions (RQ) specifies what you would be experimenting/working on (e.g., modifying objective functions) to address the problem statement. Starting from the brief above, we form two research questions as an example to get the discussion going:
+Research questions (RQs) specify what the project will experiment on (e.g., modifying objective functions) to address the problem statement. The two RQs below come from the illustrative brief.
 
 **RQ 1 --- Singlish-aware misinformation detection**
 
@@ -114,29 +211,27 @@ Research questions (RQ) specifies what you would be experimenting/working on (e.
 
 > An accurate classifier is unhelpful if a moderator can't tell *why* a post was flagged --- and post-hoc attribution methods (LIME, SHAP, attention weights) are not guaranteed to be faithful to the model's actual decision. *Which explanation format --- token-level highlights, retrieved counter-evidence, or a short natural-language rationale --- most improves a moderator's decision accuracy and review time, and how faithfully does each reflect the classifier's true reasoning?*
 
-Again, these are just examples. I'd encourage the mentees to ask whether the RQs are genuinely distinct, and which one feels more tractable given the constraints we found earlier.
+When comparing RQs, check whether they are distinct from each other, and which one is more tractable under the constraints found earlier.
 
-### Drafting a Problem Statement
+### Drafting a strong Problem Statement
 
-Here's how I might draft a problem statement for Angle 1. Have a read first, then I'll walk through the choices I made.
+The draft below is a problem statement for RQ 1. The notes after it explain the choices in it.
 
-::: {.callout-tip title="Example --- Draft Problem Statement (Angle 1)"}
+::: {.callout-tip title="Example --- Draft Problem Statement (RQ 1)"}
 Online health misinformation poses a growing public health challenge in Singapore, where online communities frequently mix standard English with Singlish --- a local creole not well-represented in existing NLP benchmarks. Most health misinformation detection models are trained on English-only corpora and may not generalise reliably to this code-mixed context, leaving human moderators without dependable AI support on Singapore-facing platforms. This project investigates the extent to which pre-trained language models can be adapted for Singlish health misinformation detection under constrained data and compute budgets, using cross-lingual transfer and lightweight fine-tuning as candidate approaches.
 :::
 
-A few things I was paying attention to as I wrote this:
-
-- **I tried to name a specific gap.** Not "misinformation is a problem" (too broad), but that existing models don't cover Singlish specifically (concrete).
-- **I kept it from committing to a solution.** It "investigates … using X as *candidate* approaches" --- if those approaches turn out not to work, that's still a perfectly valid research outcome.
-- **I connected the technical gap to the human motivation.** Singlish underrepresentation is a technical fact; "leaving moderators without dependable AI support" is the human consequence. To me, both belong in a problem statement.
-- **I kept the scope honest.** "Constrained data and compute budgets" is just the 5-week timeline showing up again.
+- **It names a specific gap.** "Misinformation is a problem" is too broad. "Existing models do not cover Singlish" is concrete.
+- **It does not commit to a solution.** It "investigates … using X as *candidate* approaches". If those approaches do not work, that is still a valid research outcome.
+- **It connects the technical gap to the human motivation.** Singlish underrepresentation is the technical fact, and "leaving moderators without dependable AI support" is the human consequence. A problem statement needs both.
+- **It keeps the scope realistic.** "Constrained data and compute budgets" reflects the 5-week timeline.
 
 ::: {.callout-caution title="You Do --- Now try it with the EROP brief"}
-Using the constraints you pulled from the EROP brief, generate **two distinct problem angles** as a team. For each, write a sentence or two framing the core research question. Then pick one angle together and draft a 100–150 word problem statement in the spirit of the one above.
+Using the constraints you pulled from the EROP brief, write **two distinct research questions** as a team. For each, write a sentence or two framing the core question. Then pick one, draft a 100--150 word problem statement like the one above, and sketch a rough outline of the approach with your mentor.
 :::
 
 ---
 
 ## Checkpoint Deliverable: Day 1
 
-At the end of Day 1, the mentees should have a **strong problem statement** detailing the motivations, existing issues, and the general direction to address these issues. The team should also have **research questions** prepared for the intial proposed directions.
+At the end of Day 1, the team has chosen its problem from the research brief and has a draft solution outline: a problem statement covering the motivation, the gap and the general direction; one or two research questions; and a rough idea of the approach.

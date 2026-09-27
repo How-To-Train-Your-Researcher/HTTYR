@@ -5,6 +5,7 @@ project:
     - "*.qmd"
     - "**/*.qmd"
     - "!tmp/"
+    - "!advice/lone_ranger.qmd"
   resources:
     - CNAME
 
@@ -29,10 +30,8 @@ website:
         text: Reading Advice
       - href: advice/writing_advice.qmd
         text: Writing Advice
-      - href: advice/lone_ranger.qmd
-        text: Perspectives Advice
   sidebar:
-    - title: "EROP 2026 (June)"
+    - title: "EROP 2026 (December)"
       style: docked
       contents:
         - EROP/index.qmd

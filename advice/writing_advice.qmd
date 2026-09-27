@@ -30,7 +30,7 @@ Read your sentence aloud and exaggerate the pauses. For me, I found the followin
 
 A colon (**:**) signals that what follows fulfils the promise of the sentence before it --- use it when you are setting something up.
 
-::: {.callout-note title="My Thought Process"}
+::: {.callout-note title="Thought Process"}
 I use a colon when the first part of my sentence "promises" something and the second part delivers it. Something like "The results revealed one key finding: the proposed method consistently outperformed the baseline" — the first half sets up the expectation, the second half lands it. If the sentence already feels complete and the colon material feels like a bonus, I reconsider whether a colon is actually needed.
 :::
 
@@ -46,7 +46,7 @@ I use a colon when the first part of my sentence "promises" something and the se
 
 Combining means joining two related ideas into one sentence. The main tools here are pairing commas (*,*) with conjunctions (for, and, nor, but, or, yet, so — the FANBOYS) and subordinating words like "because," "although," and "while."
 
-::: {.callout-note title="My Thought Process"}
+::: {.callout-note title="Thought Process"}
 I first ask: are both parts complete sentences on their own? If yes, I need a comma before the conjunction — "Method A is fast, **but** Method B is more accurate." If one part depends on or explains the other (like "because" or "although"), it usually reads more naturally without a comma — "The model underperforms because the training data is noisy." **The key thing I'm trying to feel is whether the two ideas are equals, or whether one is serving the other**.
 :::
 
@@ -62,7 +62,7 @@ I first ask: are both parts complete sentences on their own? If yes, I need a co
 
 Separating means deciding where one idea ends and another begins — the main choice being between a period (*.*) and a semicolon (*;*).
 
-::: {.callout-note title="My Thought Process"}
+::: {.callout-note title="Thought Process"}
 I ask: are these two ideas closely related enough to live in the same breath? If they feel like two distinct thoughts, I use a period and move on. If separating them feels too abrupt — like they really belong together — a semicolon keeps them connected without fusing them. I think of the semicolon as saying "these two ideas are siblings, not strangers." Words like *however*, *thus*, and *nevertheless* can follow the semicolon to make the relationship even more explicit.
 :::
 
@@ -87,7 +87,7 @@ Interrupting means inserting extra information into the middle of a sentence —
 
 In the category of dashes, there are Hyphens (-), En Dashes (--), and Em Dashes (---). These have their own specific use cases which can be found [here](https://www.merriam-webster.com/grammar/em-dash-en-dash-how-to-use).
 
-::: {.callout-note title="My Thought Process"}
+::: {.callout-note title="Thought Process"}
 I ask myself: how much weight does this extra bit of information carry? In order of "significance", I prefer parenthesis > commas > em dashes . In all cases, I check that the main sentence still holds together if I mentally remove the interruption. If removing it breaks the sentence, it's not really an interruption — it belongs in the main clause.
 :::
 
@@ -137,7 +137,7 @@ disappears entirely.
 
 When presenting multiple points, structuring them into two or three segments usually helps in building momentum and rhythm.
 
-::: {.callout-note title="My Thought Process"}
+::: {.callout-note title="Thought Process"}
 I start by asking: are these points contrasting each other, or do they all support the same idea? That distinction shapes the signal words I reach for. Then I think about how many points I have — two points often work well as a contrast, while three give a sense of completeness or progression. Once I have a rough structure, I read the sentence out loud and exaggerate the pauses at each punctuation mark. If it sounds natural, I'm on the right track.
 :::
 

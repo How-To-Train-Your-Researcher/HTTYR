@@ -1,13 +1,26 @@
 ---
-title: "Day 4 --- Proposal Drafts"
+title: "Day 4 --- Writing Day"
 date: last-modified
 ---
 
-Day 4 is where we turn the verified literature into a concrete research plan: sharper research questions, testable hypotheses, and an experimental design that fits the programme's constraints.
+Day 4 is the team's writing day. The morning belongs to the mentees: three hours without mentors in the room to turn the week's outline, literature and plan into a full draft of the proposal and a finished poster. In the afternoon the mentors come back to read what the team has written and help it tighten the story before tomorrow's presentation.
+
+## Schedule
+
+All sessions are at NUS Innovation 4.0.
+
+| Slot | Activity | Location |
+|---|---|---|
+| 3 hr | Mentees write by themselves | Lecture hall |
+| 2 hr | Research project: mentor consultation | Tutorial room |
+
+**Deliverable:** finish the poster.
+
+---
 
 ## Daily Recap
 
-Before we design any experiments, we should check whether our original problem statement still holds up after a week of reading --- the literature might have answered our intial RQs, or present a different direction that could be more exciting! In either case, **thinking about pivoting here is a sign of good research instincts, not failure.** Good researchers update their beliefs as evidence comes in, and getting comfortable doing that is a big part of learning to take risks.
+Before writing anything, check whether the original problem statement still holds up after three days of reading. The literature might have already answered the initial RQs, or it might point to a different direction that is more exciting. In either case, **considering a pivot at this point is a good research instinct and does not mean the project has failed.** Good researchers update their beliefs as evidence comes in, and getting comfortable with that is a big part of learning to take risks.
 
 ::: {.callout-tip title="Example --- a healthy pivot"}
 We started with "can we detect health misinformation in Singlish?" Day 3's reading turned up several strong detection models that already handle code-mixed text --- but *none* of them report whether their explanations stay faithful when the input is code-mixed. So we pivot from **building a detector** to **evaluating explanation faithfulness on code-mixed input**. Narrower, less crowded, and more clearly a contribution.
@@ -15,62 +28,56 @@ We started with "can we detect health misinformation in Singlish?" Day 3's readi
 
 ---
 
-## Designing Experiments
+## Writing by Yourselves
 
-Recall that a research question (RQ) says what I want to find out to address the problem statement; a hypothesis says what I expect the answer to be, in a form I can test empirically. The RQs I'm happiest with are **specific**, **grounded in a gap** from the literature, and **answerable within my constraints**.
+For the first three hours, the mentors are not in the room. This is on purpose. It is the "You Do" part of the week, and the team decides for itself what goes in and what gets cut. Write down any questions you get stuck on and bring them to the afternoon session.
 
-::: {.callout-note}
-Again, this is just one way to form RQs/hypothesis. In other domains of work, proving theoretical bounds for instance, the process of forming these RQs could vary! Work together with your mentors/advisors to find the method most suitable for your flavour of research.
-:::
+### Roles
 
+Before writing, the team decides who does what: who drafts which section, who builds the poster, and who reviews for consistency. Agreeing early on what "done" looks like helps avoid a last-minute scramble.
 
-| | Weak | Strong |
-|---|---|---|
-| RQ | "How can AI detect misinformation?" | "Do token-attribution explanations remain faithful when health-misinformation classifiers are applied to code-mixed English–Singlish text?" |
-| Why | Too broad, not answerable, no gap | Specific, tied to a documented gap, testable in 5 weeks |
+| Role | Responsibility |
+|---|---|
+| Section leads | Each owns one part of the proposal (problem / literature / direction / outcomes) |
+| Poster lead | Builds the Canva poster from the proposal as sections firm up |
+| Reviewer | Reads for coherence, checks citations against the verified bibliography |
 
-Then I pair each RQ with a testable hypothesis:
+### Drafting the Proposal
 
-::: {.callout-tip title="Example --- RQ and hypothesis"}
-**RQ:** Do token-attribution explanations remain faithful for code-mixed Singlish input?
+The proposal (max 3 pages) pulls together everything from the week: the brief context, the verified literature, the research questions, and the experimental plan. With only three pages, every paragraph and diagram should add something to the proposal. The structure and the page budget are on [Day 2](day-2.qmd#how-to-make-a-research-proposal). Keep them open while you write.
 
-**Hypothesis:** Explanation faithfulness (measured by attribution–accuracy agreement under token deletion) is significantly *lower* for code-mixed inputs than for monolingual English inputs, because the model attends disproportionately to English tokens.
+We compiled writing advice on [this](../advice/writing_advice.qmd) page. Check it if you need references or help.
 
-What makes this testable, to me: it names a metric, a comparison, and a directional prediction with a stated mechanism.
-:::
-
-::: {.callout-caution title="You Do --- Formulate your RQs"}
-As a team, draft 1--3 research questions for your (possibly pivoted) problem. For each, write a testable hypothesis that names *what* you'd measure and *what* you expect. Then poke holes in each other's formulations: is it specific? grounded in a gap? answerable in the time you have?
+::: {.callout-caution title="You Do --- Draft the proposal"}
+Following your Day 2 outline and the page budget, draft the full proposal in your Overleaf project. Have your reviewer check that every literature claim maps to a verified source, and that each paragraph opens with its point.
 :::
 
 ---
 
-## Proposal Outlines
+## Finishing the Poster
 
-A good experimental plan in a proposal, to me, shows *how* I'd answer each RQ and stays honest about feasibility. In a short sprint, I lean toward plans that reuse existing datasets and models rather than ones that need new data collection or training from scratch.
+The layout from [Day 3](day-3.qmd#starting-the-poster) gives the poster its five blocks. A finished poster has every block filled, one central figure that carries the method, text a passer-by can read in about a minute, and citations that match the ones in the proposal.
 
-::: {.callout-tip title="Example --- experimental plan sketch"}
-- **Data:** an existing English health-misinformation dataset + a small set of code-mixed examples (translated/adapted, or sourced from public Singlish corpora within PDPA limits).
-- **Models:** two off-the-shelf pre-trained classifiers with attribution methods (no training from scratch).
-- **Measure:** faithfulness via token-deletion agreement, compared across English vs. code-mixed inputs.
-- **Expected outcome:** a quantified faithfulness gap, plus qualitative examples of where attributions break down.
-- **Limitations:** small code-mixed sample; results indicative rather than definitive.
-- **Budget:** last but certainly not the least, would be to keep a rough estimate of the costs for this project (e.g., API costs, GPU hours, compute wall-clock etc.)
+A few finished examples are shown below.
+
+![This is the poster designed for this program. It carries a similar structure to academic posters with the central column being the widest and the most important!](/attachments/poster.png)
+
+![This is a poster from my own research work [@ryan2026selfcaptioningmultimodalinteractiontuning].](/attachments/Interaction_Tuning_Poster.png)
+
+![This is a poster with my collaborators!](/attachments/Rights_Poster.png)
+
+::: {.callout-caution title="You Do --- Finish the poster"}
+Fill in every block of your poster from the current draft of the proposal. Then stand back from the screen and give it the one-minute test: can someone who has never seen your project say what the problem, the gap and the contribution are?
 :::
 
-The proposal should minimally contain these points:
+---
 
-1. **Problem** --- the gap and why it matters (from Day 1, refined).
-2. **Literature / Introduction** --- what exists and what it leaves open (from Days 2–3).
-3. **Proposed direction** --- the RQs, hypotheses, and experimental plan.
-4. **Expected outcomes** --- what a meaningful result looks like, and the limitations.
+## Research Project: Mentor Review
 
-::: {.callout-caution title="You Do --- Outline the proposal"}
-Sketch a one-page experimental plan for your main RQ (data, method, measure, expected outcome, limitations), then arrange your material into the four-part arc above. Keep it skeletal for now --- the full prose is tomorrow's job.
-:::
+In the afternoon, the mentors read the draft and the poster. They check that every literature claim maps to a verified source, that the research questions, the plan and the expected outcomes tell one consistent story, and that the poster says the same thing as the proposal. To close the session, the team rehearses a two-minute pitch once in front of its mentor, using the poster.
 
 ---
 
 ## Checkpoint Deliverable: Day 4
 
-At the end of Day 4, the mentees should have a **near complete draft** --- minimally containing the problem, introduction, proposed direction, and expected outcomes --- of the research proposal and would have started on the poster for tomorrow's presentation. 
+At the end of Day 4, the mentees should have a **finished poster** and a **complete draft** of the research proposal, ready for tomorrow's presentation.
