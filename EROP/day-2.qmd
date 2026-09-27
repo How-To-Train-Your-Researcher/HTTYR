@@ -3,6 +3,8 @@ title: "Day 2 --- Writing a Proposal"
 date: last-modified
 ---
 
+**[to be updated]**
+
 Day 2 is about writing: what goes into a research proposal, how citations work under the hood in LaTeX, and a short hands-on session in Overleaf. In the afternoon, each team works with its mentor to turn yesterday's solution outline into research questions with hypotheses and a first experimental plan. I'll keep using the illustrative health misinformation brief from Day 1.
 
 ## Schedule

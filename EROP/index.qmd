@@ -29,11 +29,11 @@ The proposal should include a clear problem statement scoped to a particular dom
 # What's here
 
 - [Research Brief --- Weapons of Mass Disruptions](research-brief.qmd) --- the open problem your team will work on.
-- [Day 1 --- Introduction and Reading](day-1.qmd)
-- [Day 2 --- Writing a Proposal](day-2.qmd)
-- [Day 3 --- Literature Tools](day-3.qmd)
-- [Day 4 --- Writing Day](day-4.qmd)
-- [Day 5 --- Presentation](day-5.qmd)
+- [Day 1 --- Introduction and Reading](day-1.qmd) **[to be updated]**
+- [Day 2 --- Writing a Proposal](day-2.qmd) **[to be updated]**
+- [Day 3 --- Literature Tools](day-3.qmd) **[to be updated]**
+- [Day 4 --- Writing Day](day-4.qmd) **[to be updated]**
+- [Day 5 --- Presentation](day-5.qmd) **[to be updated]**
 - [EROP Mentoring Strategy](mentoring-strategy.qmd) --- the "I Do, We Do, You Do" model for mentors.
 
 ---

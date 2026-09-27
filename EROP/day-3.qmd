@@ -3,6 +3,8 @@ title: "Day 3 --- Literature Tools"
 date: last-modified
 ---
 
+**[to be updated]**
+
 Day 3 is about the tools that turn a literature search into a bibliography you can trust: Zotero to collect and manage sources, Google Scholar to find and check them, and Deep Research as a fast but unreliable first map. By the end of the day, the team's idea should rest on sources it has verified itself, and the poster should be started. The examples continue with the illustrative health misinformation brief from Day 1.
 
 ## Schedule
