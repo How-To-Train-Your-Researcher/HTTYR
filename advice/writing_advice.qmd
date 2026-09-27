@@ -104,9 +104,11 @@ I ask myself: how much weight does this extra bit of information carry? In order
 Every paragraph should open with a **topic sentence** that states the paragraph's single claim. The rest of the paragraph supports it.
 
 **Weak opening (announces the topic, not a claim):**
+
 > "This section discusses the limitations of our approach."
 
 **Strong opening (makes a claim):**
+
 > "Our approach has three limitations that constrain its applicability to
 > low-resource settings."
 
@@ -189,9 +191,11 @@ Choosing the right one changes the strength of the contrast.
 | `although` / `even though` | varies | softening a concession before asserting the main point |
 
 **Example of a weak contrast:**
+
 > "The model is fast. It is also inaccurate."
 
 **Revised with a contrast signal:**
+
 > "The model is fast; however, it sacrifices accuracy under distribution shift."
 
 
@@ -220,11 +224,13 @@ In creative writing, varied vocabulary keeps prose engaging. In academic writing
 2. **It breaks Ctrl+F.** If a concept appears under three different names, no single search finds all of them.
 
 **Weak (three names for one concept):**
+
 > "The PINN is trained to minimize the PDE residual. This **error** is evaluated at collocation points and added to the data loss. The **discrepancy** encourages the model to satisfy the governing equation."
 
 Here, *residual*, *error*, and *discrepancy* all refer to the same quantity — but the reader cannot be sure, especially since PINNs have three distinct losses (PDE, data, and boundary). The sentence also says this quantity is "added to the data loss," which implies the PDE residual and data loss are separate — but with three names across three sentences, the reader cannot easily tell what is what.
 
 **Revised (one name, consistently applied):**
+
 > "The PINN minimises three losses: a PDE loss computed at collocation points, a data loss, and a boundary loss. The PDE loss penalises violations of the governing equation."
 
 ::: {.callout-tip}
