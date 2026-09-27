@@ -121,16 +121,25 @@ figcaption, .figure-caption { font-size: 0.9375rem; line-height: 1.5; color: var
 
 // Code
 code { font-family: var(--htr-mono); font-size: 0.875em; padding: 0.1em 0.35em; border-radius: 2px; font-variant-ligatures: none; }
+// Quarto wraps the block and its copy button in .code-copy-outer-scaffold, so the
+// margin goes on the wrapper or the button floats above the block.
+.code-copy-outer-scaffold { margin: 1.5rem 0 2rem; }
 div.sourceCode { background: var(--htr-surface); border: 0; border-radius: 2px; margin: 1.5rem 0 2rem; }
+.code-copy-outer-scaffold > div.sourceCode { margin: 0; }
 pre, pre.sourceCode { font-size: 0.875rem; line-height: 1.5; padding: 1rem 1.25rem; margin: 0; tab-size: 2; }
 pre code { font-size: inherit; padding: 0; background: none; }
 .code-copy-button { color: var(--htr-muted); }
 .code-copy-button:hover { color: var(--htr-accent); }
+// Syntax tokens in the palette: names in accent, values in ink, comments muted.
+div.sourceCode code span { color: var(--htr-ink); }
+div.sourceCode code :is(span.va, span.kw, span.cf, span.fu, span.ex, span.dt) { color: var(--htr-accent); }
+div.sourceCode code :is(span.st, span.ss, span.vs, span.dv, span.fl, span.bn) { color: var(--htr-ochre); }
+div.sourceCode code :is(span.co, span.do, span.an, span.cv, span.in, span.op, span.ot) { color: var(--htr-muted); }
 
 // ---- Callouts: bordered box, coloured left rule, mono uppercase title ----
 div.callout.callout {
   border: 1px solid var(--htr-rule);
-  border-left-width: 2px;
+  border-left: 2px solid var(--htr-rule-strong);
   border-radius: 2px;
   background: transparent;
   margin: 1.5rem 0;
@@ -148,8 +157,10 @@ div.callout.callout-style-default > div.callout-header {
 div.callout-note.callout > .callout-header { color: var(--htr-muted); }
 div.callout-tip.callout > .callout-header,
 div.callout-important.callout > .callout-header { color: var(--htr-accent); }
+div.callout-tip.callout.callout, div.callout-important.callout.callout { border-left-color: var(--htr-accent); }
 div.callout-caution.callout > .callout-header,
 div.callout-warning.callout > .callout-header { color: var(--htr-ochre); }
+div.callout-caution.callout.callout, div.callout-warning.callout.callout { border-left-color: var(--htr-ochre); }
 div.callout.callout-style-default .callout-body-container { padding: 0.35rem 1rem 0.85rem; }
 div.callout.callout-style-default .callout-body { font-size: 0.95em; }
 div.callout.callout-style-default:not(.no-icon) div.callout-icon-container { padding-top: 0.15rem; }
@@ -192,10 +203,13 @@ div.callout .callout-icon::before { opacity: 0.75; }
   .navbar .navbar-collapse { padding: 0.5rem 0 0.75rem; }
   .navbar .navbar-nav .nav-link { padding-inline: 0; }
   .navbar .navbar-brand { font-size: 1rem; white-space: normal; line-height: 1.2; text-overflow: clip; }
+  // Let the brand shrink so the toggle and search share its row.
+  .navbar .navbar-container > .navbar-brand-container { flex: 1 1 0; min-width: 0; max-width: none; }
 }
 
 // ---- Title block ----------------------------------------------------------
-#title-block-header { margin-block-end: 2rem; }
+// body.nav-sidebar prefix: Quarto zeroes this margin on sidebar pages.
+#title-block-header, body.nav-sidebar #title-block-header { margin-block-end: 2rem; }
 #title-block-header .title { font-size: 1.875rem; line-height: 1.1; margin: 0; }
 @media (min-width: 768px) { #title-block-header .title { font-size: 2.25rem; } }
 #title-block-header .subtitle, p.subtitle.lead {
@@ -211,7 +225,8 @@ div.callout .callout-icon::before { opacity: 0.75; }
 #title-block-header.quarto-title-block.default .quarto-title-meta-contents {
   font: 400 0.875rem/1.5 var(--htr-mono); color: var(--htr-muted); font-variant-numeric: lining-nums tabular-nums;
 }
-nav.quarto-page-breadcrumbs ol.breadcrumb { font: 400 0.8125rem/1.5 var(--htr-mono); margin: 0 0 0.75rem; padding: 0; }
+nav.quarto-page-breadcrumbs ol.breadcrumb,
+#quarto-document-content nav.quarto-page-breadcrumbs ol.breadcrumb { font: 400 0.8125rem/1.5 var(--htr-mono); margin: 0 0 0.75rem; padding: 0; }
 // #quarto-document-content prefix outranks the content link rule above.
 #quarto-document-content nav.quarto-page-breadcrumbs ol.breadcrumb li.breadcrumb-item a,
 nav.quarto-page-breadcrumbs ol.breadcrumb li.breadcrumb-item a { color: var(--htr-muted); text-decoration: none; }
@@ -255,11 +270,28 @@ nav.quarto-page-breadcrumbs ol.breadcrumb li.breadcrumb-item + li.breadcrumb-ite
 // ---- Page navigation + footer ----------------------------------------------
 .page-navigation { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--htr-rule); }
 .page-navigation .nav-page a { font: 400 0.875rem/1.5 var(--htr-mono); color: var(--htr-muted); text-decoration: none; }
+.page-navigation .nav-page .nav-page-text { font-size: inherit; }
 .page-navigation .nav-page a:hover { color: var(--htr-ink); }
-.nav-footer {
+// Phones: stack the two links, so neither title wraps into a column.
+@media (max-width: 575.98px) {
+  .page-navigation { flex-direction: column; gap: 0.5rem; }
+  .page-navigation .nav-page { padding-bottom: 0; }
+  .page-navigation .nav-page-next a { justify-content: flex-end; }
+}
+// footer.footer prefix outranks Quarto's own padding and font-size rules.
+footer.footer .nav-footer {
   background: var(--htr-bg); border-top: 1px solid var(--htr-rule);
   font: 400 0.8125rem/1.6 var(--htr-mono); color: var(--htr-muted);
   padding: 1.25rem var(--htr-pad);
+}
+footer.footer .nav-footer :is(.nav-footer-left, .nav-footer-center, .nav-footer-right) { font-size: inherit; }
+footer.footer .nav-footer .nav-footer-left { flex: 1 1 auto; }
+footer.footer .nav-footer .nav-footer-center { flex: 0 1 auto; min-height: 0; }
+footer.footer .nav-footer .nav-footer-right { flex: 0 0 auto; }
+@media (max-width: 991.98px) {
+  footer.footer .nav-footer :is(.nav-footer-left, .nav-footer-center, .nav-footer-right) { flex: 0 0 100%; margin-bottom: 0.5rem; }
+  footer.footer .nav-footer .nav-footer-center { margin-top: 0; }
+  footer.footer .nav-footer .toc-actions { padding: 0; }
 }
 .nav-footer a { color: var(--htr-muted); text-decoration: none; }
 .nav-footer a:hover { color: var(--htr-ink); text-decoration: underline; }
@@ -289,4 +321,12 @@ nav.quarto-page-breadcrumbs ol.breadcrumb li.breadcrumb-item + li.breadcrumb-ite
 // ---- Motion ---------------------------------------------------------------
 @media (prefers-reduced-motion: reduce) {
   *, ::before, ::after { transition-duration: 0ms !important; animation: none !important; }
+}
+
+// ---- Search highlight and reference list ----------------------------------
+mark, .mark { background: var(--htr-selection); color: inherit; padding: 0 0.1em; }
+// Quarto pins the appendix heading at 1em !important; treat it as a label.
+#quarto-appendix.default .quarto-appendix-heading {
+  font: 500 0.75rem/1.5 var(--htr-mono) !important; letter-spacing: 0.05em; text-transform: uppercase;
+  color: var(--htr-muted); opacity: 1; margin: 2rem 0 0.75rem;
 }
