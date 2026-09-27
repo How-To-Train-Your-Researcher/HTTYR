@@ -27,6 +27,7 @@ Diagramming style heavily depends on the venue that you try to publish at. For e
 The diagrams below show two iterations of a method figure that I prepared for a recent conference submission.
 
 ![Good sample diagram](good.png)
+
 ![Bad sample diagram](bad.png)
 
 ## Why the Bad Diagram is Bad (based on real feedback from my supervisor)

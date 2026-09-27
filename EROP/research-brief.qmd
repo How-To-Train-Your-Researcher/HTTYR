@@ -12,7 +12,7 @@ The safety challenges facing us today are not about bombs or missiles. They are 
 
 Education has always depended on productive struggle --- the formative experience of not knowing, attempting, failing, and revising. This struggle is not a flaw in the learning process; it is the mechanism through which understanding is built. Generative AI, deployed in academic contexts, short-circuits this mechanism with unusual efficiency. For example, a student who prompts a language model to explain a concept, draft an essay, or solve a problem set receives a polished output that superficially resembles mastery. The gap between receiving a correct answer and developing the capacity to produce one is invisible in the final product, but deeply significant in the learner.
 
-The consequences extend beyond beyond learning a skill: assistance from AI also how affects how we maintain our current skills. When AI handles tasks that are easy for us, we risk eroding those very same skills that made the task easy (e.g., writing code). The effects may not surface for years, until a cohort of workers who delegated their formative learning to AI tools is asked to reason, judge, or create without them.
+The consequences extend beyond learning a skill: assistance from AI also affects how we maintain our current skills. When AI handles tasks that are easy for us, we risk eroding those very same skills that made the task easy (e.g., writing code). The effects may not surface for years, until a cohort of workers who delegated their formative learning to AI tools is asked to reason, judge, or create without them.
 
 ---
 

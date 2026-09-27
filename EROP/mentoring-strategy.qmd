@@ -14,6 +14,7 @@ One key outcome we hope to see from this site is to help budding AI researchers 
 The mentor demonstrates the skill or process while thinking aloud. Students observe and note down questions that they might have.
 
 **Example:**
+
 > *The mentor reads an AI research paper aloud, narrating the decisions they make
 > as they skim the abstract, identify the key contribution, and assess
 > experimental validity.*
@@ -26,6 +27,7 @@ The mentor and student work through a task together.
 The student takes the lead; the mentor provides real-time prompts and feedback.
 
 **Example:**
+
 > *The student reads a new paper while the mentor asks guiding questions:
 > "What problem is this solving?", "What baseline did they compare against?",
 > "Would this method work in a different domain?"*
@@ -36,6 +38,7 @@ The student completes the task independently and presents their work.
 The mentor reviews and gives structured feedback afterward.
 
 **Example:**
+
 > *The student independently reads and summarises three papers from a reading list,
 > then presents a brief synthesis to the mentor in the next meeting.*
 

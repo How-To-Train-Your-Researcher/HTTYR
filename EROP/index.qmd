@@ -17,6 +17,7 @@ Use the sidebar on the left to navigate. The program runs over five days; each d
 # Deliverables
 
 At the end of this program, each team submits:
+
 - An actionable **written research proposal** (max 3 pages) identifying a specific AI safety concern arising from one of the disruptions described above. 
 - A **poster** (A0/A1 size) to pitch their research proposal. Printing the poster is not required.
 - A **presentation pitch** of the research proposal using the poster.
