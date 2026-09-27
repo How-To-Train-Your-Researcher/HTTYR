@@ -1,0 +1,15 @@
+/*-- scss:defaults --*/
+// Light tokens. Same palette as yurielryan.github.io (paper, ink, wine).
+// Contrast vs $body-bg: ink 16.0, ink-muted 6.6, accent 8.2, ochre 6.4.
+$body-bg: #f9f7f2;
+$body-color: #1d1b18;
+$surface: #f1eee6;
+$ink-muted: #5c5850;
+$rule: #dcd7cc;
+$rule-strong: #a49e91;
+$accent: #8a2433;
+$accent-ink: #fbf7f2;
+$selection: #efd0d2;
+$ochre: #7d5312;
+
+@import "map";

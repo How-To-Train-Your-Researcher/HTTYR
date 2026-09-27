@@ -1,0 +1,15 @@
+/*-- scss:defaults --*/
+// Dark tokens. Same palette as yurielryan.github.io; the accent turns rose
+// so it stays in the wine family and keeps 6.9:1 on the dark paper.
+$body-bg: #171614;
+$body-color: #e7e2d9;
+$surface: #201e1b;
+$ink-muted: #a59f94;
+$rule: #302d29;
+$rule-strong: #57524a;
+$accent: #dc8a86;
+$accent-ink: #171614;
+$selection: #4a252c;
+$ochre: #d4a24a;
+
+@import "map";

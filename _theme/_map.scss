@@ -1,0 +1,42 @@
+// Maps the site tokens onto the Bootstrap and Quarto variables. Imported by
+// light.scss and dark.scss after their tokens are set, so both schemes share
+// one mapping.
+$primary: $accent;
+$secondary: $ink-muted;
+$link-color: $body-color;
+$link-hover-color: $accent;
+$text-muted: $ink-muted;
+$body-secondary-color: $ink-muted;
+$border-color: $rule;
+$table-border-color: $rule;
+$hr-color: $rule-strong;
+$hr-opacity: 1;
+
+$navbar-bg: $body-bg;
+$navbar-fg: $body-color;
+$navbar-hl: $accent;
+$sidebar-bg: $body-bg;
+$sidebar-fg: $ink-muted;
+$sidebar-hl: $body-color;
+$toc-color: $body-color;
+$toc-active-border: $accent;
+$toc-inactive-border: $rule;
+$footer-bg: $body-bg;
+$footer-fg: $ink-muted;
+
+$code-bg: $surface;
+$code-color: $body-color;
+$code-block-bg: $surface;
+$code-block-border-left: false;
+
+$callout-color-note: $ink-muted;
+$callout-color-tip: $accent;
+$callout-color-important: $accent;
+$callout-color-caution: $ochre;
+$callout-color-warning: $ochre;
+
+$input-bg: $body-bg;
+$input-border-color: $rule-strong;
+$input-focus-border-color: $accent;
+$input-focus-box-shadow: none;
+$btn-focus-box-shadow: none;

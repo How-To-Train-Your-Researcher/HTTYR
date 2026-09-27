@@ -1,6 +1,10 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - "*.qmd"
+    - "**/*.qmd"
+    - "!tmp/"
   resources:
     - CNAME
 
@@ -8,6 +12,15 @@ website:
   title: "How To Train Your Researcher"
   site-url: https://httyr.com
   description: "Open-source advice for entering AI research."
+  favicon: favicon.svg
+  page-navigation: true
+  page-footer:
+    left: "Advice for entering AI research, maintained by volunteer researchers in Singapore."
+    right:
+      - text: GitHub
+        href: https://github.com/How-To-Train-Your-Researcher/HTTYR
+      - text: Singapore Youth AI
+        href: https://sgyouthai.org/
   navbar:
     left:
       - href: EROP/index.qmd
@@ -45,11 +58,14 @@ csl: https://www.zotero.org/styles/ieee
 
 format:
   html:
-    theme: Cosmo
+    theme:
+      light: [_theme/base.scss, _theme/light.scss]
+      dark: [_theme/base.scss, _theme/dark.scss]
+    respect-user-color-scheme: true
+    include-in-header: _theme/fonts.html
     toc: true
     toc-depth: 3
     code-copy: true
-    css: styles.css
 
 editor:
   render-on-save: true

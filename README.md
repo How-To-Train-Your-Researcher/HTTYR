@@ -2,7 +2,7 @@
 
 A compilation of advice on how to do AI research (e.g., reading academic papers, writing proposals, or scoping for experiments) from researchers in Singapore. The mainpage (HTTYR) is also the official documentation for the Early Research Opportunity Program organized by [Singapore Youth AI](https://sgyouthai.org/).
 
-**Live site:** https://how-to-train-your-researcher.github.io/HTTYR
+**Live site:** https://httyr.com
 
 ---
 
@@ -21,7 +21,7 @@ A compilation of advice on how to do AI research (e.g., reading academic papers,
 │   └── writing_advice.qmd    # Writing Advice — academic writing techniques
 ├── attachments/              # images and screenshots referenced across the site
 ├── references.bib            # shared BibTeX bibliography
-└── styles.css                # custom CSS overrides
+└── _theme/                   # SCSS theme: base.scss (type, rules), light.scss / dark.scss (colour tokens)
 ```
 
 #### What is a `.qmd` file?
